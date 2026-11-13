@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "name": "game-design-ai-practice",
+      "repository": "https://github.com/eremes81/game-design-ai-practice.git",
+      "canonical_url": "https://eremes81.github.io/game-design-ai-practice/",
+      "path": "References/game-design-ai-practice",
+      "commit": "72d58a86a9f467347c16583c4f4570140f1f2453",
+      "commit_date": "2026-10-30T21:35:34+09:00",
+      "reviewed_date": "2026-11-13",
+      "authors": ["이민수 (Minsoo Lee)", "조지희 (Jihee Jo)"],
+      "license": "CC-BY-NC-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "role": "reference-only",
+      "modified": false
+    }
+  ]
+}
