@@ -8,11 +8,11 @@
 
 주력 제작은 [좋은 드롭 장비를 골라 다듬는 경로](Decisions/DEC-0020-drop-equipment-crafting-start.md)다. 희귀 장비는 [일부 옵션과 6개 옵션 구성을 함께 드롭](Decisions/DEC-0021-partial-and-full-affix-drops.md)한다. [기반 고정 특성은 추가 옵션 6칸과 별도로 제공](Decisions/DEC-0022-base-fixed-traits.md)한다. [같은 장비 계열의 기반들은 추가 옵션 후보를 공유](Decisions/DEC-0023-shared-affix-pool-by-equipment-family.md)한다.
 
-제작 잠재력은 [진행 구간별 소수의 장비 등급을 직접 표시](Decisions/DEC-0024-visible-progression-equipment-grades.md)하는 방식으로 구분한다. 다음은 [구간별 장비 등급의 단계 수와 역할](Proposals/Crafting-Endgame.md)을 확인하는 순서를 제안한다.
+제작 잠재력은 [진행 구간별 소수의 장비 등급을 직접 표시](Decisions/DEC-0024-visible-progression-equipment-grades.md)하는 방식으로 구분한다. 단계 수는 [5단계](Decisions/DEC-0025-five-equipment-grades.md)로 확인했다. 다음은 [5단계 장비 등급의 역할 배분](Proposals/Crafting-Endgame.md)을 확인하는 순서를 제안한다.
 
 | 순서 | 논의할 내용 | 확인 후 구체화할 수 있는 내용 |
 | --- | --- | --- |
-| 1 | 구간별 장비 등급과 옵션 구조 | 장비 등급의 단계 수와 역할, 획득 구간과 제작 가능 범위, 장비 계열·기반과 개별 옵션 |
+| 1 | 구간별 장비 등급과 옵션 구조 | 5단계 장비 등급의 역할 배분, 획득 구간과 제작 가능 범위, 장비 계열·기반과 개별 옵션 |
 | 2 | 기본 작업의 세부 규칙 | 무통제 교체의 그룹 관계, 실행 조건과 불가능한 작업의 처리 |
 | 3 | 보존과 손실·특수 제작 | 기존 옵션을 보호할지, 특수 제작을 도입할지와 그 위험 |
 | 4 | 재료와 득템 구조 | 자동 전투의 획득물, 제작 출발점과 완제품 드롭의 관계 |
