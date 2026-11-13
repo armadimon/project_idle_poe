@@ -11,6 +11,7 @@
 - [주력 플랫폼 결정](Decisions/DEC-0003-platform.md)
 - [목표 방향성](Decisions/DEC-0006-light-poe-vision.md)
 - [종결 장비 제작 중심](Decisions/DEC-0007-endgame-crafting.md)
+- [빌드별 조합과 등급·수치 완성을 함께 추구](Decisions/DEC-0010-endgame-definition.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
 - [제작의 PoE 2 기준 결정](Decisions/DEC-0009-poe2-crafting-reference.md)
