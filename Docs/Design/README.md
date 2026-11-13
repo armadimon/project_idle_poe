@@ -17,6 +17,7 @@
 - [무작위 제작에 제한적인 통제 수단 제공](Decisions/DEC-0013-crafting-randomness-control.md)
 - [통제 수단의 접두·접미 선택](Decisions/DEC-0014-prefix-suffix-control.md)
 - [기본 제작의 개별 옵션 추가·제거·교체](Decisions/DEC-0015-basic-crafting-operations.md)
+- [세 기본 작업 모두 접두·접미 통제 허용](Decisions/DEC-0016-control-all-basic-operations.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
 - [제작의 PoE 2 기준 결정](Decisions/DEC-0009-poe2-crafting-reference.md)

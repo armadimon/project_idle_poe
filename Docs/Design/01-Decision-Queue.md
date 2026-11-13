@@ -4,11 +4,11 @@
 
 종결 장비는 [빌드별 조합과 등급·수치 완성의 혼합형](Decisions/DEC-0010-endgame-definition.md), 추가 옵션은 [접두 최대 3개·접미 최대 3개](Decisions/DEC-0011-affix-slots.md)로 확인했다. [희귀 장비가 추가 옵션 제작의 중심이며 고유 장비는 특수 효과 역할](Decisions/DEC-0012-crafting-equipment-scope.md)을 맡는다. 제작은 [무작위 결과에 제한적인 통제 수단을 제공](Decisions/DEC-0013-crafting-randomness-control.md)하며, [접두·접미 중 대상 그룹을 선택](Decisions/DEC-0014-prefix-suffix-control.md)하는 방식이다.
 
-기본 제작은 [옵션 한 개씩 추가·제거·교체하는 세 작업](Decisions/DEC-0015-basic-crafting-operations.md)으로 확인했다. 다음은 [접두·접미 통제를 적용할 작업](Proposals/Crafting-Endgame.md)을 확인하는 순서를 제안한다.
+기본 제작은 [옵션 한 개씩 추가·제거·교체하는 세 작업](Decisions/DEC-0015-basic-crafting-operations.md)으로 확인했다. [세 작업 모두 접두·접미 통제를 허용](Decisions/DEC-0016-control-all-basic-operations.md)하며 통제한 교체는 제거와 추가 모두 같은 그룹 안에서 진행한다. 다음은 [기본 작업 자체의 성공·실패 판정](Proposals/Crafting-Endgame.md)을 먼저 확인하는 순서를 제안한다.
 
 | 순서 | 논의할 내용 | 확인 후 구체화할 수 있는 내용 |
 | --- | --- | --- |
-| 1 | 기본 작업별 통제와 실행 규칙 | 접두·접미 통제를 적용할 작업, 교체의 제거·추가 범위와 실행 조건 |
+| 1 | 기본 작업의 실행과 실패 | 작업 자체의 성공·실패 판정, 실행 조건과 불가능한 작업의 처리 |
 | 2 | 장비와 옵션의 기본 구조 | 기반 장비, 옵션 계열·분류와 등급 |
 | 3 | 보존과 실패 처리 | 투자한 재료와 기존 결과를 잃는 범위 |
 | 4 | 재료와 득템 구조 | 자동 전투의 획득물, 제작 출발점과 완제품 드롭의 관계 |
