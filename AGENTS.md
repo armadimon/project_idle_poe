@@ -19,6 +19,7 @@
 
 - [기획 안내](Docs/Design/README.md)와 [현재 방향](Docs/Design/00-Concept.md)을 먼저 읽는다.
 - 확정 근거는 `Docs/Design/Decisions/`의 `approved` 결정이다. 미정 사항은 [기획 순서](Docs/Design/01-Decision-Queue.md)에서 확인한다.
+- 현재 목표는 라이트한 PoE이며 종결 장비 제작이 핵심이다. 장비·스킬 작동 구조는 PoE 1, 제작은 PoE 2를 참조한다. `superseded` 결정의 이전 우선순위를 현재 사양으로 사용하지 않는다.
 - 문서 변경 뒤 `python3 Tools/validate_design.py`를 실행한다. 형식 검사는 사용자 확인이나 재미 검증을 대신하지 않는다.
 - 현재는 기획 단계다. Unity 프로젝트 초기화와 게임 코드 구현은 구현 범위를 별도로 합의한 뒤 진행한다.
 
