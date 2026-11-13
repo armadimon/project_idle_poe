@@ -13,6 +13,7 @@
 - [종결 장비 제작 중심](Decisions/DEC-0007-endgame-crafting.md)
 - [빌드별 조합과 등급·수치 완성을 함께 추구](Decisions/DEC-0010-endgame-definition.md)
 - [추가 옵션의 접두 3개와 접미 3개](Decisions/DEC-0011-affix-slots.md)
+- [희귀 장비의 추가 옵션 제작과 고유 장비의 특수 효과](Decisions/DEC-0012-crafting-equipment-scope.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
 - [제작의 PoE 2 기준 결정](Decisions/DEC-0009-poe2-crafting-reference.md)
