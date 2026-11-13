@@ -23,6 +23,7 @@
 - [좋은 드롭 장비를 골라 다듬는 주력 제작 경로](Decisions/DEC-0020-drop-equipment-crafting-start.md)
 - [희귀 장비의 일부 옵션과 6개 옵션 구성 드롭](Decisions/DEC-0021-partial-and-full-affix-drops.md)
 - [추가 옵션 6칸과 별도인 기반 고정 특성](Decisions/DEC-0022-base-fixed-traits.md)
+- [장비 계열별 추가 옵션 후보 공유](Decisions/DEC-0023-shared-affix-pool-by-equipment-family.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
 - [제작의 PoE 2 기준 결정](Decisions/DEC-0009-poe2-crafting-reference.md)

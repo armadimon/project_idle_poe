@@ -6,11 +6,11 @@
 
 기본 제작은 [옵션 한 개씩 추가·제거·교체하는 세 작업](Decisions/DEC-0015-basic-crafting-operations.md)으로 확인했다. [세 작업 모두 접두·접미 통제를 허용](Decisions/DEC-0016-control-all-basic-operations.md)하며 통제한 교체는 제거와 추가 모두 같은 그룹 안에서 진행한다. 기본 세 작업에는 [별도의 성공·실패 판정을 두지 않는다](Decisions/DEC-0018-basic-crafting-no-failure-roll.md). [그룹 지정에는 기본 비용 외에 추가 통제 재료를 사용](Decisions/DEC-0019-extra-material-for-affix-control.md)한다.
 
-주력 제작은 [좋은 드롭 장비를 골라 다듬는 경로](Decisions/DEC-0020-drop-equipment-crafting-start.md)다. 희귀 장비는 [일부 옵션과 6개 옵션 구성을 함께 드롭](Decisions/DEC-0021-partial-and-full-affix-drops.md)한다. [기반 고정 특성은 추가 옵션 6칸과 별도로 제공](Decisions/DEC-0022-base-fixed-traits.md)한다. 다음은 [기반 종류와 추가 옵션 후보군의 관계](Proposals/Crafting-Endgame.md)를 확인하는 순서를 제안한다.
+주력 제작은 [좋은 드롭 장비를 골라 다듬는 경로](Decisions/DEC-0020-drop-equipment-crafting-start.md)다. 희귀 장비는 [일부 옵션과 6개 옵션 구성을 함께 드롭](Decisions/DEC-0021-partial-and-full-affix-drops.md)한다. [기반 고정 특성은 추가 옵션 6칸과 별도로 제공](Decisions/DEC-0022-base-fixed-traits.md)한다. [같은 장비 계열의 기반들은 추가 옵션 후보를 공유](Decisions/DEC-0023-shared-affix-pool-by-equipment-family.md)한다. 다음은 [제작 가능한 옵션의 최고 등급 제한](Proposals/Crafting-Endgame.md)을 확인하는 순서를 제안한다.
 
 | 순서 | 논의할 내용 | 확인 후 구체화할 수 있는 내용 |
 | --- | --- | --- |
-| 1 | 기반 장비와 옵션 구조 | 추가 옵션 후보군의 공유 범위, 기반 종류와 고정 특성의 세부 효과, 옵션 분류·등급 |
+| 1 | 기반 장비와 옵션 구조 | 옵션 최고 등급의 접근 조건, 장비 계열·기반 종류와 고정 특성의 세부 효과, 옵션 분류·등급 |
 | 2 | 기본 작업의 세부 규칙 | 무통제 교체의 그룹 관계, 실행 조건과 불가능한 작업의 처리 |
 | 3 | 보존과 손실·특수 제작 | 기존 옵션을 보호할지, 특수 제작을 도입할지와 그 위험 |
 | 4 | 재료와 득템 구조 | 자동 전투의 획득물, 제작 출발점과 완제품 드롭의 관계 |
