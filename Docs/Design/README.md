@@ -19,6 +19,7 @@
 - [기본 제작의 개별 옵션 추가·제거·교체](Decisions/DEC-0015-basic-crafting-operations.md)
 - [세 기본 작업 모두 접두·접미 통제 허용](Decisions/DEC-0016-control-all-basic-operations.md)
 - [기본 제작의 별도 성공·실패 판정 없음](Decisions/DEC-0018-basic-crafting-no-failure-roll.md)
+- [접두·접미 지정의 추가 재료 사용](Decisions/DEC-0019-extra-material-for-affix-control.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
 - [제작의 PoE 2 기준 결정](Decisions/DEC-0009-poe2-crafting-reference.md)
