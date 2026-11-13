@@ -28,6 +28,8 @@ approval: {"by": "user", "date": "2026-11-13", "evidence": "기본 제작 작업
 
 옵션 수치만 다시 뽑거나 옵션 등급을 올리는 별도 작업, 희귀도 승급과 제작 재료의 종류는 이번 결정에 포함하지 않는다.
 
+기본 세 작업에 별도의 성공·실패 판정을 두지 않는 범위는 후속 [DEC-0018](DEC-0018-basic-crafting-no-failure-roll.md)에서 확인했다. 이 문서에서 미정으로 남긴 실패 처리는 해당 후속 결정과 함께 읽는다.
+
 ## 연결
 
 - 전제: [희귀 장비 제작 중심](DEC-0012-crafting-equipment-scope.md), [통제의 접두·접미 선택](DEC-0014-prefix-suffix-control.md)

@@ -22,6 +22,8 @@ approval: {"by": "user", "date": "2026-11-13", "evidence": "원하는 옵션을 
 
 이번 결정만으로 특정 옵션을 자유롭게 고르는 기능이나 기존 옵션을 보호하는 기능을 도입하지 않는다.
 
+기본 세 작업에 별도의 성공·실패 판정을 두지 않는 범위는 후속 [DEC-0018](DEC-0018-basic-crafting-no-failure-roll.md)에서 확인했다. 이 문서에서 미정으로 남긴 실패 처리는 해당 후속 결정과 함께 읽는다.
+
 ## 연결
 
 - 전제: [제작의 PoE 2 기준](DEC-0009-poe2-crafting-reference.md), [종결 장비의 혼합형 기준](DEC-0010-endgame-definition.md), [희귀 장비 제작 중심](DEC-0012-crafting-equipment-scope.md)
