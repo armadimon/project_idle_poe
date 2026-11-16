@@ -34,6 +34,7 @@
 - [개별 옵션의 성능 등급은 7단계](Decisions/DEC-0031-seven-affix-performance-tiers.md)
 - [성급마다 세 옵션 등급을 허용하는 범위](Decisions/DEC-0032-three-affix-tiers-per-equipment-grade.md)
 - [같은 옵션 등급 안의 범위에서 여러 수치를 추첨](Decisions/DEC-0033-random-values-within-affix-tier-ranges.md)
+- [같은 옵션의 인접 등급 간 수치 범위 겹침](Decisions/DEC-0034-overlapping-value-ranges-between-adjacent-affix-tiers.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
 - [제작의 PoE 2 기준 결정](Decisions/DEC-0009-poe2-crafting-reference.md)
