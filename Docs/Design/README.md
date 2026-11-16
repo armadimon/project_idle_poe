@@ -35,6 +35,7 @@
 - [성급마다 세 옵션 등급을 허용하는 범위](Decisions/DEC-0032-three-affix-tiers-per-equipment-grade.md)
 - [같은 옵션 등급 안의 범위에서 여러 수치를 추첨](Decisions/DEC-0033-random-values-within-affix-tier-ranges.md)
 - [같은 옵션의 인접 등급 간 수치 범위 겹침](Decisions/DEC-0034-overlapping-value-ranges-between-adjacent-affix-tiers.md)
+- [추가 옵션 종류·등급을 유지하는 수치 재추첨 작업](Decisions/DEC-0035-reroll-affix-values-keeping-types-and-tiers.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
 - [제작의 PoE 2 기준 결정](Decisions/DEC-0009-poe2-crafting-reference.md)
