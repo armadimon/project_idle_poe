@@ -28,6 +28,7 @@
 - [장비 등급의 5단계 구성](Decisions/DEC-0025-five-equipment-grades.md)
 - [성장 구간 중심의 장비 성급 역할 배분](Decisions/DEC-0026-growth-focused-equipment-grade-roles.md)
 - [성급에 따른 허용 옵션 등급의 하한·상한 상승](Decisions/DEC-0027-rising-affix-tier-floor-and-ceiling.md)
+- [희귀 장비의 획득 시 성급 고정](Decisions/DEC-0028-fixed-rare-equipment-star-grade.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
 - [제작의 PoE 2 기준 결정](Decisions/DEC-0009-poe2-crafting-reference.md)
