@@ -32,6 +32,7 @@
 - [희귀 장비의 추가 옵션은 장비 간 이전 없음](Decisions/DEC-0029-no-affix-transfer-between-rare-equipment.md)
 - [5성 최상위 추가 옵션은 드롭과 제작 모두 허용](Decisions/DEC-0030-top-tier-affixes-from-drops-and-crafting.md)
 - [개별 옵션의 성능 등급은 7단계](Decisions/DEC-0031-seven-affix-performance-tiers.md)
+- [성급마다 세 옵션 등급을 허용하는 범위](Decisions/DEC-0032-three-affix-tiers-per-equipment-grade.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
 - [제작의 PoE 2 기준 결정](Decisions/DEC-0009-poe2-crafting-reference.md)
