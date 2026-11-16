@@ -38,6 +38,7 @@
 - [추가 옵션 종류·등급을 유지하는 수치 재추첨 작업](Decisions/DEC-0035-reroll-affix-values-keeping-types-and-tiers.md)
 - [현재 붙은 모든 추가 옵션의 수치를 함께 재추첨](Decisions/DEC-0036-reroll-values-of-all-existing-affixes.md)
 - [수치 재추첨의 새 결과는 바로 적용](Decisions/DEC-0037-apply-new-rerolled-values-directly.md)
+- [네 제작 작업에 각각 전용 기본 재료 배정](Decisions/DEC-0038-dedicated-basic-materials-for-each-crafting-operation.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
 - [제작의 PoE 2 기준 결정](Decisions/DEC-0009-poe2-crafting-reference.md)
