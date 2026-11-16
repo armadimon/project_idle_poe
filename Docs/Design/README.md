@@ -41,6 +41,7 @@
 - [네 제작 작업에 각각 전용 기본 재료 배정](Decisions/DEC-0038-dedicated-basic-materials-for-each-crafting-operation.md)
 - [세 작업이 공유하는 접두·접미 통제 재료 1종](Decisions/DEC-0039-shared-material-for-prefix-suffix-control.md)
 - [통제 없는 교체도 제거한 옵션의 그룹 유지](Decisions/DEC-0040-keep-affix-group-in-uncontrolled-replacement.md)
+- [동일 추가 옵션 종류는 희귀 장비당 1개](Decisions/DEC-0041-one-affix-of-each-kind-per-rare-equipment.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
 - [제작의 PoE 2 기준 결정](Decisions/DEC-0009-poe2-crafting-reference.md)
