@@ -47,6 +47,7 @@
 - [희귀 장비의 네 제작 작업에 횟수 제한 없음](Decisions/DEC-0048-no-per-equipment-crafting-attempt-limit.md)
 - [제작 후보·등급·수치 범위와 확률의 게임 내 공개](Decisions/DEC-0051-disclose-crafting-candidates-ranges-and-probabilities.md)
 - [종결 장비 경쟁은 자동 전투 성과 중심](Decisions/DEC-0053-endgame-competition-centered-on-auto-combat-results.md)
+- [종결 장비 경쟁의 주 지표는 최고 도달 단계](Decisions/DEC-0054-highest-stage-as-primary-competition-metric.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [종결 장비 경쟁의 평가 기준과 세부 제안](Proposals/Endgame-Competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
