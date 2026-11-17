@@ -18,7 +18,7 @@ approval: {"by": "user", "date": "2026-11-17", "evidence": "같은 파밍 던전
 
 이번 결정은 성공 후 설정 초기화까지다. 초기화 뒤 다시 패널티를 부여하는 방식·시점·비용, 반복 입장 비용과 재료 재소모, 보상 지급량·정산 시점은 별도로 확인한다. 설정 초기화를 새 패널티의 자동 부여와 같은 동작으로 정하지 않는다.
 
-실패 후 설정 유지·재시도 허용·횟수·비용, 실패 판정 기준, 다른 대상 전환·앱 재접속 시 처리, 잠금 체크 상태의 유지, 자동 반복 입장과 취소·환급은 이번 결정의 범위가 아니다.
+실패 후 설정은 후속 [DEC-0075](DEC-0075-reset-farming-dungeon-modifiers-after-failure.md)에서 실패해도 패널티와 연결된 보상 강화 설정을 초기화하는 것으로 확인했다. 재시도 허용·횟수·비용, 실패 판정 기준, 다른 대상 전환·앱 재접속 시 처리, 잠금 체크 상태의 유지, 자동 반복 입장과 취소·환급은 별도로 확인한다.
 
 기존의 무작위 패널티 부여, 지정한 한 줄 교체·나머지 보존·새 결과 즉시 적용, 매 교체의 재료 소모·반복 횟수에 따른 비용 증가 없음·별도 교체 횟수 제한 없음은 유지한다. 던전 변화는 파밍에만 적용하고 최고 단계 경쟁의 공통 도전 조건은 유지한다.
 
@@ -28,5 +28,5 @@ approval: {"by": "user", "date": "2026-11-17", "evidence": "같은 파밍 던전
 
 - 전제: [던전 변화는 파밍에만 적용](DEC-0061-dungeon-modification-for-farming-only.md)
 - 관련: [무작위 패널티 부여](DEC-0062-randomly-assign-farming-dungeon-penalties.md), [패널티 교체에 별도 횟수 제한 없음](DEC-0073-no-attempt-limit-for-dungeon-penalty-replacement.md)
-- 제안: [던전 변화와 파밍 실패 후 설정 유지](../Proposals/Dungeon-Modification.md)
+- 제안: [던전 변화와 실패 시 교체 재료 환급](../Proposals/Dungeon-Modification.md)
 - 반영: [현재 방향](../00-Concept.md), [기획 순서](../01-Decision-Queue.md), [제작 중심 적용 제안](../Proposals/Crafting-Endgame.md)
