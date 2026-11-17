@@ -282,13 +282,13 @@
 
 ## 경쟁의 확인 사항과 미정 항목
 
-종결 장비 경쟁은 [자동 전투 성과 중심](../Decisions/DEC-0053-endgame-competition-centered-on-auto-combat-results.md)이며 [최고 도달 단계](../Decisions/DEC-0054-highest-stage-as-primary-competition-metric.md)를 주 지표로 비교한다. 시간 제한은 [각 단계에 별도로 적용](../Decisions/DEC-0057-separate-time-limit-for-each-competition-stage.md)한다. 실패 후에는 [실패한 단계부터 재도전](../Decisions/DEC-0058-retry-competition-from-the-failed-stage.md)한다. 다음에는 [재도전의 입장 비용](Endgame-Competition.md)을 비교한다. 입장 비용과 횟수·초기화·보상 등 나머지 실패 처리는 아직 승인되지 않았다.
+종결 장비 경쟁은 [자동 전투 성과 중심](../Decisions/DEC-0053-endgame-competition-centered-on-auto-combat-results.md)이며 [최고 도달 단계](../Decisions/DEC-0054-highest-stage-as-primary-competition-metric.md)를 주 지표로 비교한다. 시간 제한은 [각 단계에 별도로 적용](../Decisions/DEC-0057-separate-time-limit-for-each-competition-stage.md)한다. 실패 후에는 [실패한 단계부터 재도전](../Decisions/DEC-0058-retry-competition-from-the-failed-stage.md)한다. [재도전 입장 자체에는 별도 비용을 두지 않는다](../Decisions/DEC-0059-no-separate-entry-cost-for-competition-retries.md). [재화로 패널티와 보상을 높이는 던전 변화](../Decisions/DEC-0060-currency-funded-dungeon-penalties-and-better-rewards.md)를 기획에 포함하며, 다음에는 [파밍·경쟁 적용 범위](Dungeon-Modification.md)를 비교한다. 재도전 횟수·초기화·보상과 변화 유지·재소모 여부는 아직 승인되지 않았다.
 
 직접 PvP, 거래소, 장비 점수, 순위표·시즌·초기화와 보상은 아직 결정하지 않았다.
 
 ## 다음 확인 순서
 
-다음은 실패 후 재도전의 입장 비용을 먼저 확인하는 순서를 제안한다. 작업별 실행 조건과 공개 정보의 세부 표현, 새 옵션 수치의 상세 추첨 및 장비·옵션의 종류, 보존과 손실·재료·득템 규칙은 후속 확인 항목으로 남긴다. 화면과 소켓 색상은 이 구조를 정한 뒤 다룬다.
+다음은 던전 변화의 파밍·경쟁 적용 범위를 먼저 확인하는 순서를 제안한다. 작업별 실행 조건과 공개 정보의 세부 표현, 새 옵션 수치의 상세 추첨 및 장비·옵션의 종류, 보존과 손실·재료·득템 규칙은 후속 확인 항목으로 남긴다. 화면과 소켓 색상은 이 구조를 정한 뒤 다룬다.
 
 ## 검증 계획
 
