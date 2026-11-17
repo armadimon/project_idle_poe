@@ -20,7 +20,7 @@ approval: {"by": "user", "date": "2026-11-17", "evidence": "패널티 교체에 
 
 재료를 공유한다는 이유로 두 작업의 소모량·실행 조건·추첨 확률·횟수 규칙을 같게 두지 않는다. 장비 제작의 접두·접미 통제를 던전에 도입하거나, 최초 패널티 부여 등 다른 던전 변화 작업에 같은 재료를 쓰는지도 이번 결정으로 확정하지 않는다.
 
-실제 재료 이름·소모량·공급과 희소성, 반복 교체에 따른 비용 증가 여부, 교체 횟수 제한·실제 차감 처리 시점·취소·환급, 보상·지속 범위는 별도 확인한다. 기존의 교체 실행마다 재화 소모와 한 줄 교체·나머지 보존·새 결과 즉시 적용은 유지한다.
+반복 교체에 따른 비용은 후속 [DEC-0071](DEC-0071-no-cost-escalation-for-repeated-dungeon-penalty-replacement.md)에서 같은 조건에서는 횟수 누적에 따른 비용 증가를 두지 않는 것으로 확인했다. 실제 재료 이름·소모량·공급과 희소성, 교체 횟수 제한·실제 차감 처리 시점·취소·환급, 보상·지속 범위는 별도 확인한다. 기존의 교체 실행마다 재화 소모와 한 줄 교체·나머지 보존·새 결과 즉시 적용은 유지한다.
 
 이번 기록은 기획 문서 반영까지다. 재료 데이터·수치·경제 밸런스·던전 변화 기능을 구현하거나 실제 파밍 실험을 수행하지 않았다.
 
@@ -28,5 +28,5 @@ approval: {"by": "user", "date": "2026-11-17", "evidence": "패널티 교체에 
 
 - 전제: [작업별 기본 재료 4종](DEC-0038-dedicated-basic-materials-for-each-crafting-operation.md), [패널티 교체 실행마다 재화 소모](DEC-0068-consume-currency-for-each-dungeon-penalty-replacement.md)
 - 관련: [공통 접두·접미 통제 재료](DEC-0039-shared-material-for-prefix-suffix-control.md), [패널티 한 개 교체](DEC-0064-reroll-one-selected-dungeon-penalty.md)
-- 제안: [던전 변화와 반복 교체 비용](../Proposals/Dungeon-Modification.md)
+- 제안: [던전 변화와 교체 횟수 제한](../Proposals/Dungeon-Modification.md)
 - 반영: [현재 방향](../00-Concept.md), [기획 순서](../01-Decision-Queue.md), [제작 중심 적용 제안](../Proposals/Crafting-Endgame.md)
