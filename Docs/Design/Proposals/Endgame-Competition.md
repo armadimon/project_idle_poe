@@ -40,7 +40,7 @@
 
 파밍에서 얻은 장비·재료를 제작과 빌드 개선에 활용하고, 그 빌드의 경쟁 성과는 공통 도전 조건에서 비교한다. 공통 조건의 세부 내용과 장비·스킬 외 성장 차이의 취급은 별도 확인한다. 캐릭터 능력치의 정규화나 장비 통일을 확정한 것은 아니다.
 
-파밍 던전의 패널티는 후속 [DEC-0062](../Decisions/DEC-0062-randomly-assign-farming-dungeon-penalties.md)에서 무작위로 부여하는 것으로 확인했다. 재추첨은 [지정한 한 줄만 무작위 교체](../Decisions/DEC-0064-reroll-one-selected-dungeon-penalty.md)하며 [각 줄 우측에 잠금 토글](../Decisions/DEC-0065-right-side-lock-checkbox-for-dungeon-penalty-rows.md)을 둔다. 다음에는 [던전 변화 제안](Dungeon-Modification.md)에서 잠금 해제와 교체 대상의 연동 방식을 비교한다. 파밍의 입장·실패 후 재시도와 변화 유지·재소모·환급 조건은 미정이며, 경쟁의 무료 재도전 원칙만으로 정하지 않는다.
+파밍 던전의 패널티는 후속 [DEC-0062](../Decisions/DEC-0062-randomly-assign-farming-dungeon-penalties.md)에서 무작위로 부여하는 것으로 확인했다. 재추첨은 [지정한 한 줄만 무작위 교체](../Decisions/DEC-0064-reroll-one-selected-dungeon-penalty.md)하며 [각 줄 우측에 잠금 토글](../Decisions/DEC-0065-right-side-lock-checkbox-for-dungeon-penalty-rows.md)을 둔다. [잠금 해제는 최대 한 줄이며 대상 전환 시 기존 줄은 자동 잠금](../Decisions/DEC-0066-allow-only-one-unlocked-dungeon-penalty-row.md)으로 전환한다. 다음에는 [던전 변화 제안](Dungeon-Modification.md)에서 교체한 새 결과의 적용 방식을 비교한다. 파밍의 입장·실패 후 재시도와 변화 유지·재소모·환급 조건은 미정이며, 경쟁의 무료 재도전 원칙만으로 정하지 않는다.
 
 ## 후속 확인 범위
 
