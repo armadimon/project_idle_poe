@@ -282,13 +282,13 @@
 
 ## 경쟁의 확인 사항과 미정 항목
 
-종결 장비 경쟁은 [자동 전투 성과 중심](../Decisions/DEC-0053-endgame-competition-centered-on-auto-combat-results.md)이며 [최고 도달 단계](../Decisions/DEC-0054-highest-stage-as-primary-competition-metric.md)를 주 지표로 비교한다. 시간 제한은 [각 단계에 별도로 적용](../Decisions/DEC-0057-separate-time-limit-for-each-competition-stage.md)한다. 실패 후에는 [실패한 단계부터 재도전](../Decisions/DEC-0058-retry-competition-from-the-failed-stage.md)한다. [재도전 입장 자체에는 별도 비용을 두지 않는다](../Decisions/DEC-0059-no-separate-entry-cost-for-competition-retries.md). [재화로 패널티와 보상을 높이는 던전 변화](../Decisions/DEC-0060-currency-funded-dungeon-penalties-and-better-rewards.md)는 [파밍에만 적용하고 최고 단계 경쟁은 공통 조건을 유지](../Decisions/DEC-0061-dungeon-modification-for-farming-only.md)한다. [파밍 던전의 패널티는 무작위로 부여](../Decisions/DEC-0062-randomly-assign-farming-dungeon-penalties.md)한다. 다음에는 [패널티 재추첨의 허용 범위](Dungeon-Modification.md)를 비교한다. 경쟁 재도전의 횟수·초기화·보상과 파밍의 재시도·변화 유지·재소모 여부는 아직 승인되지 않았다.
+종결 장비 경쟁은 [자동 전투 성과 중심](../Decisions/DEC-0053-endgame-competition-centered-on-auto-combat-results.md)이며 [최고 도달 단계](../Decisions/DEC-0054-highest-stage-as-primary-competition-metric.md)를 주 지표로 비교한다. 시간 제한은 [각 단계에 별도로 적용](../Decisions/DEC-0057-separate-time-limit-for-each-competition-stage.md)한다. 실패 후에는 [실패한 단계부터 재도전](../Decisions/DEC-0058-retry-competition-from-the-failed-stage.md)한다. [재도전 입장 자체에는 별도 비용을 두지 않는다](../Decisions/DEC-0059-no-separate-entry-cost-for-competition-retries.md). [재화로 패널티와 보상을 높이는 던전 변화](../Decisions/DEC-0060-currency-funded-dungeon-penalties-and-better-rewards.md)는 [파밍에만 적용하고 최고 단계 경쟁은 공통 조건을 유지](../Decisions/DEC-0061-dungeon-modification-for-farming-only.md)한다. [파밍 던전의 패널티는 무작위로 부여](../Decisions/DEC-0062-randomly-assign-farming-dungeon-penalties.md)한다. 재추첨은 [지정한 한 줄만 무작위 교체](../Decisions/DEC-0064-reroll-one-selected-dungeon-penalty.md)하고 나머지를 보존하며 [각 줄 우측에 잠금 토글](../Decisions/DEC-0065-right-side-lock-checkbox-for-dungeon-penalty-rows.md)을 둔다. 다음에는 [잠금 해제와 교체 대상의 연동 방식](Dungeon-Modification.md)을 비교한다. 경쟁 재도전의 횟수·초기화·보상과 파밍의 재시도·변화 유지·재소모 여부는 아직 승인되지 않았다.
 
 직접 PvP, 거래소, 장비 점수, 순위표·시즌·초기화와 보상은 아직 결정하지 않았다.
 
 ## 다음 확인 순서
 
-다음은 파밍 던전의 패널티 재추첨 범위를 먼저 확인하는 순서를 제안한다. 작업별 실행 조건과 공개 정보의 세부 표현, 새 옵션 수치의 상세 추첨 및 장비·옵션의 종류, 보존과 손실·재료·득템 규칙은 후속 확인 항목으로 남긴다. 화면과 소켓 색상은 이 구조를 정한 뒤 다룬다.
+다음은 패널티 잠금 해제와 교체 대상의 연동 방식을 먼저 확인하는 순서를 제안한다. 작업별 실행 조건과 공개 정보의 세부 표현, 새 옵션 수치의 상세 추첨 및 장비·옵션의 종류, 보존과 손실·재료·득템 규칙은 후속 확인 항목으로 남긴다. 화면과 소켓 색상은 이 구조를 정한 뒤 다룬다.
 
 ## 검증 계획
 
