@@ -16,9 +16,9 @@ approval: {"by": "user", "date": "2026-11-17", "evidence": "패널티 반복 교
 
 사용자는 1안 반복해도 비용 유지, 2안 교체할수록 비용 증가 중 1안을 선택했다. 사용자 답변은 “1”이다. 같은 조건에서 매번 같은 양을 소모하며 실제 소모량·공급·횟수 제한은 별도로 확인한다고 명시한 질문에 대한 선택이다.
 
-이번 결정은 반복 횟수에 따른 비용 증가 여부까지다. 실제 재료 이름·소모량·공급, 교체 횟수 제한·실행 조건·실제 차감 처리 시점·취소·환급은 별도로 확인한다.
+이번 결정은 반복 횟수에 따른 비용 증가 여부까지다. 후속 [DEC-0073](DEC-0073-no-attempt-limit-for-dungeon-penalty-replacement.md)에서 패널티 교체에 별도 횟수 제한을 두지 않는 것으로 확인했다. 실제 재료 이름·소모량·공급과 실행 조건·실제 차감 처리 시점·취소·환급은 별도로 확인한다.
 
-서로 다른 던전 조건 사이의 동일 비용이나 장비 옵션 교체와 같은 소모량을 확정하지 않는다. 별도 교체 횟수 제한 없음, 자동 연속 교체, 최초 패널티 부여나 다른 변화 작업의 비용 규칙도 이번 결정의 범위가 아니다.
+서로 다른 던전 조건 사이의 동일 비용이나 장비 옵션 교체와 같은 소모량을 확정하지 않는다. 자동 연속 교체, 최초 패널티 부여나 다른 변화 작업의 비용 규칙도 이번 결정의 범위가 아니다.
 
 패널티 교체 실행마다 장비 옵션 교체의 기본 재료를 소모하는 원칙은 유지한다. 지정한 한 줄만 무작위 교체하고 나머지를 보존하며 새 결과를 바로 적용한다. 던전 변화는 파밍에만 적용하고 최고 단계 경쟁의 공통 도전 조건은 유지한다.
 
@@ -28,5 +28,5 @@ approval: {"by": "user", "date": "2026-11-17", "evidence": "패널티 반복 교
 
 - 전제: [패널티 교체 실행마다 재화 소모](DEC-0068-consume-currency-for-each-dungeon-penalty-replacement.md), [장비 옵션 교체 재료와 공유](DEC-0070-share-equipment-replacement-material-with-dungeon-penalty-replacement.md)
 - 관련: [새 교체 결과 즉시 적용](DEC-0067-apply-new-dungeon-penalty-result-directly.md)
-- 제안: [던전 변화와 교체 횟수 제한](../Proposals/Dungeon-Modification.md)
+- 제안: [던전 변화와 파밍 성공 후 설정 유지](../Proposals/Dungeon-Modification.md)
 - 반영: [현재 방향](../00-Concept.md), [기획 순서](../01-Decision-Queue.md), [제작 중심 적용 제안](../Proposals/Crafting-Endgame.md)
