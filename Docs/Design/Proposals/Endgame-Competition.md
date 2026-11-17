@@ -1,6 +1,6 @@
 # 종결 장비 경쟁의 평가 기준과 세부 제안
 
-확인된 방향은 [종결 장비를 통한 경쟁](../Decisions/DEC-0008-endgame-gear-competition.md)과 [빌드별 옵션 조합·등급·수치 완성](../Decisions/DEC-0010-endgame-definition.md)이다. 전투는 [완전 자동](../Decisions/DEC-0002-combat-control.md)으로 진행한다. 경쟁은 후속 [DEC-0053](../Decisions/DEC-0053-endgame-competition-centered-on-auto-combat-results.md)에 따라 자동 전투 성과를 중심으로 평가한다. 주 지표는 후속 [DEC-0054](../Decisions/DEC-0054-highest-stage-as-primary-competition-metric.md)에서 최고 도달 단계로 확인했다. 시간 제한은 후속 [DEC-0057](../Decisions/DEC-0057-separate-time-limit-for-each-competition-stage.md)에서 단계별 적용으로 확인했다. 재도전의 시작 지점은 후속 [DEC-0058](../Decisions/DEC-0058-retry-competition-from-the-failed-stage.md)에서 실패한 단계로 확인했다. 재도전 입장 자체의 별도 비용은 후속 [DEC-0059](../Decisions/DEC-0059-no-separate-entry-cost-for-competition-retries.md)에서 두지 않기로 확인했다. 재화로 던전 패널티와 보상을 높이는 방향은 [DEC-0060](../Decisions/DEC-0060-currency-funded-dungeon-penalties-and-better-rewards.md)에서 확인했다. 던전 변화를 이 경쟁에 적용할지는 [다음 제안](Dungeon-Modification.md)에서 별도로 확인한다.
+확인된 방향은 [종결 장비를 통한 경쟁](../Decisions/DEC-0008-endgame-gear-competition.md)과 [빌드별 옵션 조합·등급·수치 완성](../Decisions/DEC-0010-endgame-definition.md)이다. 전투는 [완전 자동](../Decisions/DEC-0002-combat-control.md)으로 진행한다. 경쟁은 후속 [DEC-0053](../Decisions/DEC-0053-endgame-competition-centered-on-auto-combat-results.md)에 따라 자동 전투 성과를 중심으로 평가한다. 주 지표는 후속 [DEC-0054](../Decisions/DEC-0054-highest-stage-as-primary-competition-metric.md)에서 최고 도달 단계로 확인했다. 시간 제한은 후속 [DEC-0057](../Decisions/DEC-0057-separate-time-limit-for-each-competition-stage.md)에서 단계별 적용으로 확인했다. 재도전의 시작 지점은 후속 [DEC-0058](../Decisions/DEC-0058-retry-competition-from-the-failed-stage.md)에서 실패한 단계로 확인했다. 재도전 입장 자체의 별도 비용은 후속 [DEC-0059](../Decisions/DEC-0059-no-separate-entry-cost-for-competition-retries.md)에서 두지 않기로 확인했다. 재화로 던전 패널티와 보상을 높이는 방향은 [DEC-0060](../Decisions/DEC-0060-currency-funded-dungeon-penalties-and-better-rewards.md)에서 확인했다. 던전 변화는 후속 [DEC-0061](../Decisions/DEC-0061-dungeon-modification-for-farming-only.md)에서 파밍에만 적용하고 이 경쟁은 공통 도전 조건을 유지하는 것으로 확인했다.
 
 ## 확인된 경쟁의 중심 기준
 
@@ -32,13 +32,15 @@
 
 이번 결정은 재도전 입장 비용까지다. 재도전 횟수·대기 시간·자동 반복 여부, 최초 입장 조건, 전투 중 소모품·부활 비용, 체력·적·스킬 재사용 시간·제한 시간의 재설정과 보상·기록 인정은 별도 확인한다.
 
-## 던전 변화와 경쟁의 연결은 다음 확인
+## 확인된 던전 변화와 경쟁의 관계
 
 사용자는 무료 재도전을 선택하면서 **재화 소모 → 던전 패널티 추가 + 보상 강화**의 던전 변화 시스템을 제안했다. 이 도입 방향은 [DEC-0060](../Decisions/DEC-0060-currency-funded-dungeon-penalties-and-better-rewards.md)에서 확인했다.
 
-무료 재도전 입장과 던전 변화에 드는 재화는 구분한다. 변화 시스템의 비용을 모든 재도전에 의무적으로 부과하는 규칙으로 확대하지 않는다. 경쟁에도 변화를 적용할지와 재도전 시 패널티·보상 유지, 재화의 재소모·환급은 아직 정하지 않았다.
+던전 변화는 **파밍에만 적용**하고, 최고 도달 단계 경쟁에는 적용하지 않으며 **공통 도전 조건을 유지**한다. 사용자는 경쟁에도 변화를 허용하는 대안과 비교해 이 1안을 선택했다. 확인 근거는 [DEC-0061](../Decisions/DEC-0061-dungeon-modification-for-farming-only.md)에 기록했다.
 
-다음에는 [던전 변화 제안](Dungeon-Modification.md)에서 파밍에만 적용할지, 최고 단계 경쟁에도 허용할지 비교한다. 경쟁의 공통 조건과 기록 비교 방식에 영향을 주므로 적용 범위를 먼저 확인한다.
+파밍에서 얻은 장비·재료를 제작과 빌드 개선에 활용하고, 그 빌드의 경쟁 성과는 공통 도전 조건에서 비교한다. 공통 조건의 세부 내용과 장비·스킬 외 성장 차이의 취급은 별도 확인한다. 캐릭터 능력치의 정규화나 장비 통일을 확정한 것은 아니다.
+
+다음에는 [던전 변화 제안](Dungeon-Modification.md)에서 파밍 던전의 패널티 부여 방식을 비교한다. 파밍의 입장·실패 후 재시도와 변화 유지·재소모·환급 조건은 미정이며, 경쟁의 무료 재도전 원칙만으로 정하지 않는다.
 
 ## 후속 확인 범위
 
@@ -48,6 +50,6 @@
 
 ## 검증 계획
 
-던전 변화의 적용 범위와 재도전 초기화 등 남은 도전 조건을 확인받은 뒤 서로 다른 장비·스킬 조합의 사례를 만들고, 실패한 단계에서 재도전하며 단계별 제한 시간 안에서 제작으로 바뀐 옵션과 최고 도달 단계의 차이를 설명할 수 있는지 검토한다. 평가 조건과 수치를 합의한 뒤에 실제 전투 실험이나 점수 비교를 수행한다. 현재는 제안 문서만 작성하며 경쟁 시스템이나 평가 수치를 구현하지 않는다.
+경쟁의 공통 도전 조건과 재도전 초기화 등 남은 사항을 확인받은 뒤 서로 다른 장비·스킬 조합의 사례를 만들고, 실패한 단계에서 재도전하며 단계별 제한 시간 안에서 제작으로 바뀐 옵션과 최고 도달 단계의 차이를 설명할 수 있는지 검토한다. 평가 조건과 수치를 합의한 뒤에 실제 전투 실험이나 점수 비교를 수행한다. 현재는 제안 문서만 작성하며 경쟁 시스템이나 평가 수치를 구현하지 않는다.
 
 - 연결: [현재 방향](../00-Concept.md), [기획 순서](../01-Decision-Queue.md), [제작 중심 제안](Crafting-Endgame.md)
