@@ -18,7 +18,7 @@ approval: {"by": "user", "date": "2026-11-17", "evidence": "던전 변화 적용
 
 사용자는 1안 파밍에 적용하고 최고 단계 경쟁은 공통 조건 유지, 2안 최고 단계 경쟁에도 적용 중 1안을 선택했다. 사용자 답변은 “1로 가자”다. 패널티 부여 방식과 재도전 시 유지·재화 재소모 여부는 이후 따로 확인한다고 명시한 질문에 대한 선택이다.
 
-이번 결정은 적용 범위까지다. 패널티 부여 방식은 후속 [DEC-0062](DEC-0062-randomly-assign-farming-dungeon-penalties.md)에서 무작위 부여로 확인했다. 후속 [DEC-0064](DEC-0064-reroll-one-selected-dungeon-penalty.md)에서 지정한 한 줄만 무작위 교체하고 나머지를 보존하는 범위와 [DEC-0065](DEC-0065-right-side-lock-checkbox-for-dungeon-penalty-rows.md)에서 각 줄 우측의 잠금 토글을 확인했다. 잠금 해제는 후속 [DEC-0066](DEC-0066-allow-only-one-unlocked-dungeon-penalty-row.md)에서 최대 한 줄로, 대상 전환 시 기존 줄은 자동 잠금으로 확인했다. 기본 잠금 상태·전체 잠금 처리와 패널티 종류·개수·중첩·추첨 확률·삭제·새 결과 적용 및 재추첨 비용·횟수와 보상 강화의 종류·수치, 재화·소모 시점·지속 범위·실패 후 재시도·환급은 별도로 확인한다.
+이번 결정은 적용 범위까지다. 패널티 부여 방식은 후속 [DEC-0062](DEC-0062-randomly-assign-farming-dungeon-penalties.md)에서 무작위 부여로 확인했다. 후속 [DEC-0064](DEC-0064-reroll-one-selected-dungeon-penalty.md)에서 지정한 한 줄만 무작위 교체하고 나머지를 보존하는 범위와 [DEC-0065](DEC-0065-right-side-lock-checkbox-for-dungeon-penalty-rows.md)에서 각 줄 우측의 잠금 토글을 확인했다. 잠금 해제는 후속 [DEC-0066](DEC-0066-allow-only-one-unlocked-dungeon-penalty-row.md)에서 최대 한 줄로, 대상 전환 시 기존 줄은 자동 잠금으로 확인했다. 결과 적용은 후속 [DEC-0067](DEC-0067-apply-new-dungeon-penalty-result-directly.md)에서 새 결과를 즉시 적용하는 것으로 확인했다. 기본 잠금 상태·전체 잠금 처리와 패널티 종류·개수·중첩·추첨 확률·삭제 및 재추첨 비용·횟수와 보상 강화의 종류·수치, 재화·소모 시점·지속 범위·실패 후 재시도·환급은 별도로 확인한다.
 
 공통 도전 조건의 구체적인 내용과 기록 인정·동률·시즌, 장비·스킬 외 성장 차이의 취급은 미정이다. 공통 조건을 유지한다는 선택을 캐릭터 능력치의 정규화나 장비 통일로 확대하지 않는다. 별도 던전·모드·입장 화면의 수와 구성도 이번 선택으로 정하지 않는다.
 
