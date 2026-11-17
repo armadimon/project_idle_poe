@@ -282,13 +282,13 @@
 
 ## 경쟁의 확인 사항과 미정 항목
 
-종결 장비 경쟁은 [자동 전투 성과 중심](../Decisions/DEC-0053-endgame-competition-centered-on-auto-combat-results.md)이며 [최고 도달 단계](../Decisions/DEC-0054-highest-stage-as-primary-competition-metric.md)를 주 지표로 비교한다. 다음에는 [단계 도전의 시간 제한 방식](Endgame-Competition.md)에서 단계별 시간·도전 전체 공통 시간·시간 제한 없음의 세 안을 제안한다. 시간 제한 방식은 아직 승인되지 않았다.
+종결 장비 경쟁은 [자동 전투 성과 중심](../Decisions/DEC-0053-endgame-competition-centered-on-auto-combat-results.md)이며 [최고 도달 단계](../Decisions/DEC-0054-highest-stage-as-primary-competition-metric.md)를 주 지표로 비교한다. 시간 제한은 [각 단계에 별도로 적용](../Decisions/DEC-0057-separate-time-limit-for-each-competition-stage.md)한다. 다음에는 [실패 후 재도전의 시작 지점](Endgame-Competition.md)을 비교한다. 시작 지점과 구체적인 실패 처리는 아직 승인되지 않았다.
 
 직접 PvP, 거래소, 장비 점수, 순위표·시즌·초기화와 보상은 아직 결정하지 않았다.
 
 ## 다음 확인 순서
 
-다음은 단계 도전의 시간 제한 방식을 먼저 확인하는 순서를 제안한다. 작업별 실행 조건과 공개 정보의 세부 표현, 새 옵션 수치의 상세 추첨 및 장비·옵션의 종류, 보존과 손실·재료·득템 규칙은 후속 확인 항목으로 남긴다. 화면과 소켓 색상은 이 구조를 정한 뒤 다룬다.
+다음은 실패 후 재도전의 시작 지점을 먼저 확인하는 순서를 제안한다. 작업별 실행 조건과 공개 정보의 세부 표현, 새 옵션 수치의 상세 추첨 및 장비·옵션의 종류, 보존과 손실·재료·득템 규칙은 후속 확인 항목으로 남긴다. 화면과 소켓 색상은 이 구조를 정한 뒤 다룬다.
 
 ## 검증 계획
 
