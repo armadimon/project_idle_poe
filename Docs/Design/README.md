@@ -43,6 +43,7 @@
 - [통제 없는 교체도 제거한 옵션의 그룹 유지](Decisions/DEC-0040-keep-affix-group-in-uncontrolled-replacement.md)
 - [동일 추가 옵션 종류는 희귀 장비당 1개](Decisions/DEC-0041-one-affix-of-each-kind-per-rare-equipment.md)
 - [교체에서 제거한 옵션 종류의 재등장 허용](Decisions/DEC-0046-allow-removed-affix-kind-to-reappear-in-replacement.md)
+- [교체할 새 옵션 등급은 성급 허용 범위에서 재추첨](Decisions/DEC-0047-reroll-replacement-affix-tier-within-equipment-grade.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
 - [제작의 PoE 2 기준 결정](Decisions/DEC-0009-poe2-crafting-reference.md)
