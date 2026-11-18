@@ -18,7 +18,7 @@ approval: {"by": "user", "date": "2026-11-18", "evidence": "최초 부여 재화
 
 이번 결정은 장비 제작 기본 재료 4종 중 2종의 사용처를 최초 패널티 부여로 넓히는 범위다. 구체적인 두 재료는 후속 [DEC-0086](DEC-0086-use-affix-addition-and-replacement-materials-for-initial-dungeon-penalties.md)에서 옵션 추가·교체의 기본 재료로 확인했다. 추가·제거·교체·수치 재추첨의 작업별 기본 재료 4종과 별도 통제 재료는 유지한다.
 
-공유만으로 최초 부여·패널티 교체·장비 제작의 소모량·실행 조건·추첨 규칙을 같게 정하지 않는다. 두 재료의 동시 소모나 가격·희소성·성능 순서도 확정하지 않는다. 재료 이름·재화별 개수 범위·확률·상한·소모량·공급·보상 강화는 미정이다.
+공유만으로 최초 부여·패널티 교체·장비 제작의 소모량·실행 조건·추첨 규칙을 같게 정하지 않는다. 두 재료의 동시 소모나 가격·희소성·성능 순서도 확정하지 않는다. 최초 부여 개수 범위는 후속 [DEC-0088](DEC-0088-initial-dungeon-penalty-count-ranges-by-crafting-material.md)에서 추가 재료 1~2개·교체 재료 3~4개로 확인했다. 재료 이름·개수별 확률·전체 상한·소모량·공급·보상 강화는 미정이다.
 
 기존의 최초 일괄 부여와 재화에 따른 무작위 개수, 한 줄 교체·나머지 보존, 장비 옵션 교체 재료를 쓰는 패널티 교체, 성공·실패 후 설정 초기화·실패 시 교체 재료 환급 없음은 유지한다.
 
@@ -28,5 +28,5 @@ approval: {"by": "user", "date": "2026-11-18", "evidence": "최초 부여 재화
 
 - 전제: [장비 제작 기본 재료 4종](DEC-0038-dedicated-basic-materials-for-each-crafting-operation.md), [최초 부여 재화 2종](DEC-0083-two-currency-types-for-initial-dungeon-penalty-generation.md)
 - 관련: [패널티 교체 재료 공유](DEC-0070-share-equipment-replacement-material-with-dungeon-penalty-replacement.md)
-- 제안: [던전 변화와 최초 부여 개수 범위](../Proposals/Dungeon-Modification.md)
+- 제안: [던전 변화와 최초 부여 개수별 확률](../Proposals/Dungeon-Modification.md)
 - 반영: [현재 방향](../00-Concept.md), [기획 순서](../01-Decision-Queue.md), [제작 중심 적용 제안](../Proposals/Crafting-Endgame.md)

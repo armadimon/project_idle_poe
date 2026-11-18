@@ -16,7 +16,7 @@ approval: {"by": "user", "date": "2026-11-18", "evidence": "최초 패널티 개
 
 사용자는 “페널티 개수는 효과 부여에 사용되는 재화에 따라 랜덤. poe 방식 비슷하게.”라고 직접 지시했다. 이번 확인은 부여 재화에 맞춰 패널티 개수를 무작위로 결정하는 원칙까지다.
 
-재화 종류 수는 후속 [DEC-0083](DEC-0083-two-currency-types-for-initial-dungeon-penalty-generation.md)에서 2종으로 시작하는 것으로 확인했다. 재화 이름·장비 제작 재료 공유 여부, 재화별 개수 범위·확률·상한·소모량·공급, 추가·삭제 허용 여부와 보상 강화 규칙은 별도로 확인한다. PoE의 실제 통화 이름·희귀도 단계·개수 범위·확률을 우리 게임에 그대로 적용하는 결정은 아니다.
+재화 종류 수는 후속 [DEC-0083](DEC-0083-two-currency-types-for-initial-dungeon-penalty-generation.md)에서 2종으로 시작하는 것으로 확인했다. 공유할 두 재료는 후속 [DEC-0086](DEC-0086-use-affix-addition-and-replacement-materials-for-initial-dungeon-penalties.md)에서 옵션 추가·교체의 기본 재료로 확인했다. 최초 부여 개수 범위는 후속 [DEC-0088](DEC-0088-initial-dungeon-penalty-count-ranges-by-crafting-material.md)에서 추가 재료 1~2개·교체 재료 3~4개로 확인했다. 재화 이름·개수별 확률·전체 상한·소모량·공급, 추가·삭제 허용 여부와 보상 강화 규칙은 별도로 확인한다. PoE의 실제 통화 이름·희귀도 단계·개수 범위·확률을 우리 게임에 그대로 적용하는 결정은 아니다.
 
 기존에 확인한 한 줄 교체는 한 개를 바꾸고 나머지를 보존한다. 이번 결정으로 교체할 때 전체 패널티 개수까지 다시 추첨하거나 기존 설정 전체를 재추첨하는 별도 작업을 도입하지 않는다.
 
@@ -29,5 +29,5 @@ approval: {"by": "user", "date": "2026-11-18", "evidence": "최초 패널티 개
 - 전제: [최초 패널티 일괄 무작위 부여](DEC-0078-initial-farming-dungeon-penalties-generated-as-one-random-batch.md)
 - 관련: [한 줄 교체·나머지 보존](DEC-0064-reroll-one-selected-dungeon-penalty.md)
 - 조사: [PoE 재화별 옵션 생성 구조](../../Research/2026-11-18-currency-dependent-dungeon-penalty-counts.md)
-- 제안: [던전 변화와 최초 부여 재료 공유](../Proposals/Dungeon-Modification.md)
+- 제안: [던전 변화와 최초 부여 개수별 확률](../Proposals/Dungeon-Modification.md)
 - 반영: [현재 방향](../00-Concept.md), [기획 순서](../01-Decision-Queue.md), [제작 중심 적용 제안](../Proposals/Crafting-Endgame.md)
