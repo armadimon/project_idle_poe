@@ -16,9 +16,9 @@ approval: {"by": "user", "date": "2026-11-17", "evidence": "클리어 실패 시
 
 사용자는 1안 설정 유지, 2안 실패해도 초기화 중 2안을 선택했다. 사용자 답변은 “2”이다. 재도전 허용·비용과 환급 여부는 별도로 확인한다고 명시한 질문에 대한 선택이다.
 
-이번 결정은 실패 후 설정 초기화까지다. 실패 판정 기준, 재시도 허용·횟수·비용, 초기화 뒤 다시 패널티를 부여하는 방식·시점·비용, 실패 보상·취소·환급은 별도로 확인한다.
+이번 결정은 실패 후 설정 초기화까지다. 실패한 도전의 패널티 교체에 사용한 재료는 후속 [DEC-0076](DEC-0076-no-refund-of-dungeon-penalty-replacement-materials-after-failure.md)에서 환급하지 않는 것으로 확인했다. 실패 판정 기준, 재시도 허용·횟수·비용, 초기화 뒤 다시 패널티를 부여하는 방식·시점·비용, 실패 보상과 다른 작업의 환급·취소는 별도로 확인한다.
 
-설정 초기화는 교체 재료의 환급 여부나 실패 보상 지급 여부를 정하는 결정이 아니다. 다른 대상 전환·앱 재접속·중단 시 처리, 잠금 체크 상태의 유지, 자동 반복 입장도 이번 결정의 범위가 아니다.
+설정 초기화와 교체 재료의 환급은 별도 결정으로 확인했다. 실패 보상 지급 여부, 다른 대상 전환·앱 재접속·중단 시 처리, 잠금 체크 상태의 유지, 자동 반복 입장은 별도로 확인한다.
 
 기존의 성공 후 설정 초기화, 지정한 한 줄 교체·나머지 보존·새 결과 즉시 적용, 매 교체의 재료 소모·반복 횟수에 따른 비용 증가 없음·별도 교체 횟수 제한 없음은 유지한다. 던전 변화는 파밍에만 적용하고 최고 단계 경쟁의 공통 도전 조건은 유지한다.
 
@@ -28,5 +28,5 @@ approval: {"by": "user", "date": "2026-11-17", "evidence": "클리어 실패 시
 
 - 전제: [던전 변화는 파밍에만 적용](DEC-0061-dungeon-modification-for-farming-only.md), [파밍 성공 후 설정 초기화](DEC-0074-reset-farming-dungeon-modifiers-after-successful-clear.md)
 - 관련: [교체 실행마다 재화 소모](DEC-0068-consume-currency-for-each-dungeon-penalty-replacement.md)
-- 제안: [던전 변화와 실패 시 교체 재료 환급](../Proposals/Dungeon-Modification.md)
+- 제안: [던전 변화와 파밍 재도전](../Proposals/Dungeon-Modification.md)
 - 반영: [현재 방향](../00-Concept.md), [기획 순서](../01-Decision-Queue.md), [제작 중심 적용 제안](../Proposals/Crafting-Endgame.md)
