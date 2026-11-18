@@ -16,7 +16,7 @@ approval: {"by": "user", "date": "2026-11-18", "evidence": "처음 패널티를 
 
 사용자는 1안 기본 패널티들을 한 번에 무작위 부여, 2안 한 개씩 무작위 추가 중 1안을 선택했다. 사용자 답변은 “1”이다. 패널티 개수·상한과 부여 재료·비용은 별도로 확인한다고 명시한 질문에 대한 선택이다.
 
-이번 결정은 최초 패널티 부여 작업의 단위까지다. 실제 부여 개수·최대 개수와 최초 부여 후 추가 허용 여부, 부여 재료·소모량·공급·시점·실행 조건은 별도로 확인한다.
+이번 결정은 최초 패널티 부여 작업의 단위까지다. 후속 [DEC-0082](DEC-0082-currency-dependent-random-count-for-initial-dungeon-penalties.md)에서 개수는 효과 부여에 사용하는 재화에 따라 무작위로 결정하는 것으로 확인했다. 재화 종류 수·재화별 개수 범위와 확률·최대 개수, 최초 부여 후 추가 허용 여부와 부여 재료·소모량·공급·시점·실행 조건은 별도로 확인한다.
 
 한 번에 부여한다는 것은 한 개의 재료를 소모하거나 모든 패널티를 같은 확률로 추첨한다는 뜻이 아니다. 패널티 종류·수치·확률·중복·삭제·보상 강화 규칙, 패널티 없이 입장할 수 있는지와 잠금 기본 상태도 미정이다.
 
@@ -30,5 +30,5 @@ approval: {"by": "user", "date": "2026-11-18", "evidence": "처음 패널티를 
 
 - 전제: [파밍 패널티는 무작위 부여](DEC-0062-randomly-assign-farming-dungeon-penalties.md)
 - 관련: [한 줄 교체·나머지 보존](DEC-0064-reroll-one-selected-dungeon-penalty.md), [파밍 재도전과 입장 자체의 비용 없음](DEC-0077-allow-farming-retries-without-separate-entry-cost.md)
-- 제안: [던전 변화와 최초 패널티 개수](../Proposals/Dungeon-Modification.md)
+- 제안: [던전 변화와 부여 재화 종류 수](../Proposals/Dungeon-Modification.md)
 - 반영: [현재 방향](../00-Concept.md), [기획 순서](../01-Decision-Queue.md), [제작 중심 적용 제안](../Proposals/Crafting-Endgame.md)
