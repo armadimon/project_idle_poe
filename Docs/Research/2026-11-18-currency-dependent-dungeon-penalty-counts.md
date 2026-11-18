@@ -22,4 +22,4 @@
 
 사용자가 확인한 범위는 부여 재화에 따라 최초 패널티 개수를 무작위로 결정하는 원칙이다. 최초 일괄 부여와 이후 한 줄 교체를 유지한다. 기존 고정 개수 제안은 채택된 규칙이 아니며 미승인 상태의 수치를 구현에 전파하지 않는다.
 
-부여 재화 수는 [DEC-0083](../Design/Decisions/DEC-0083-two-currency-types-for-initial-dungeon-penalty-generation.md)에서 2종으로 확인했다. 다음에는 [기존 제작 재료 공유 여부](../Design/Proposals/Dungeon-Modification.md)를 비교하고, 확인 뒤 구체적인 재료·이름·재화별 개수 범위·확률·비용·보상을 제안한다. 수치 승인 뒤 표본별 개수 분포와 한 줄 교체의 개수 보존, 서로 다른 빌드의 클리어 성과·재료 소비를 검증한다. 현재 완료한 검증은 출처 열람과 기획 문서 검사이며 실제 확률·사용성·경제 검증은 미실시다.
+부여 재화 수는 [DEC-0083](../Design/Decisions/DEC-0083-two-currency-types-for-initial-dungeon-penalty-generation.md)에서 2종으로 확인했다. 후속 [DEC-0085](../Design/Decisions/DEC-0085-share-two-equipment-crafting-materials-with-initial-dungeon-penalty-generation.md)에서 장비 제작 기본 재료 중 2종을 골라 공유하는 것으로 확인했다. 다음에는 [공유할 재료 조합](../Design/Proposals/Dungeon-Modification.md)을 비교하고, 확인 뒤 이름·재화별 개수 범위·확률·비용·보상을 제안한다. 수치 승인 뒤 표본별 개수 분포와 한 줄 교체의 개수 보존, 서로 다른 빌드의 클리어 성과·재료 소비를 검증한다. 현재 완료한 검증은 출처 열람과 기획 문서 검사이며 실제 확률·사용성·경제 검증은 미실시다.
