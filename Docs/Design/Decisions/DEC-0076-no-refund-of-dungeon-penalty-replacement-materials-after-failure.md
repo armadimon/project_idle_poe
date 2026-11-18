@@ -18,7 +18,7 @@ approval: {"by": "user", "date": "2026-11-18", "evidence": "실패한 도전의 
 
 이번 결정은 해당 실패 도전에 연결된 패널티 교체에 소모한 재료의 환급 여부까지다. 장비 옵션 교체와 공유하는 재료이지만 장비 제작에 사용한 재료의 환급 규칙을 정하는 결정은 아니다.
 
-재도전 허용·횟수·입장 비용, 실패 판정 기준과 실패 보상, 최초 패널티 부여·입장 등 다른 작업의 비용·환급, 취소·중단·접속 종료 처리는 별도로 확인한다. 실제 소모량·공급과 처리 순서도 미정이다.
+재도전은 후속 [DEC-0077](DEC-0077-allow-farming-retries-without-separate-entry-cost.md)에서 실패 후 같은 파밍 대상에 새 도전을 허용하고 입장 자체에는 별도 비용을 두지 않는 것으로 확인했다. 재도전 횟수·기타 조건, 실패 판정 기준과 실패 보상, 최초 패널티 부여 등 다른 작업의 비용·환급, 취소·중단·접속 종료 처리는 별도로 확인한다. 실제 소모량·공급과 처리 순서도 미정이다.
 
 기존의 성공·실패 후 패널티와 연결된 보상 강화 설정 초기화, 지정한 한 줄 교체·나머지 보존·새 결과 즉시 적용, 매 교체의 재료 소모·반복 횟수에 따른 비용 증가 없음·별도 교체 횟수 제한 없음은 유지한다. 던전 변화는 파밍에만 적용하고 최고 단계 경쟁의 공통 도전 조건은 유지한다.
 
@@ -28,5 +28,5 @@ approval: {"by": "user", "date": "2026-11-18", "evidence": "실패한 도전의 
 
 - 전제: [교체 실행마다 재화 소모](DEC-0068-consume-currency-for-each-dungeon-penalty-replacement.md), [파밍 실패 후 설정 초기화](DEC-0075-reset-farming-dungeon-modifiers-after-failure.md)
 - 관련: [장비 옵션 교체 재료와 공유](DEC-0070-share-equipment-replacement-material-with-dungeon-penalty-replacement.md)
-- 제안: [던전 변화와 파밍 재도전](../Proposals/Dungeon-Modification.md)
+- 제안: [던전 변화와 최초 패널티 부여 단위](../Proposals/Dungeon-Modification.md)
 - 반영: [현재 방향](../00-Concept.md), [기획 순서](../01-Decision-Queue.md), [제작 중심 적용 제안](../Proposals/Crafting-Endgame.md)
