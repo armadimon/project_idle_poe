@@ -27,6 +27,6 @@ PoEDB Community Wiki에 표시된 CC BY-NC-SA 3.0을 PoEDB 데이터·GGG 텍스
 
 ## 적용 범위와 검증 계획
 
-준비·변경은 [DEC-0090](../Design/Decisions/DEC-0090-farming-dungeon-preparation-and-modification-rules.md), 패널티·보상 콘텐츠는 후속 [DEC-0092](../Design/Decisions/DEC-0092-farming-dungeon-penalties-and-bonus-drops.md)에서 사용자 확인을 기록하고 [현행 기획서](../Design/Systems/Farming-Dungeon-Modification.md)에 통합했다. 다음 [파밍 수급·정산 제안](../Design/Proposals/Dungeon-Modification.md)은 미승인 상태로 구분한다.
+준비·변경은 [DEC-0090](../Design/Decisions/DEC-0090-farming-dungeon-preparation-and-modification-rules.md), 패널티·보상 콘텐츠는 후속 [DEC-0092](../Design/Decisions/DEC-0092-farming-dungeon-penalties-and-bonus-drops.md)에서 사용자 확인을 기록하고 [현행 기획서](../Design/Systems/Farming-Dungeon-Modification.md)에 통합했다. 후속 [DEC-0094](../Design/Decisions/DEC-0094-farming-dungeon-supply-settlement-and-resume.md)에서 기본 보상·공급 비율·입장·환급·중단과 정산을 묶어 확인했다. 이 규칙과 수치는 우리 게임의 자체 설계이며 PoE의 현행 드롭 확률·접속 중단 처리를 검증한 결과가 아니다. 다음 [장비 득템·파밍 대상 구성](../Design/Proposals/Equipment-Drops-and-Farming-Targets.md)은 미승인 제안으로 구분한다.
 
 콘텐츠 규칙은 승인되었으나 이번 변경은 문서 반영까지이며 실제 실행은 미검증이다. 구현 승인 후 종류 추첨의 중복 방지·같은 결과 재등장·개수 보존, 추가 추첨의 기대량·비재귀·성공 정산을 검증한다. 정식 빌드와 수급을 정한 뒤 완주 성과·재료 순소비·시간당 획득·특정 패널티 회피 비용을 비교한다. 현재 완료한 범위는 문헌 열람과 제안 작성이다.
