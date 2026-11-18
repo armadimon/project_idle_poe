@@ -14,7 +14,7 @@
 
 ## 다음 확인 묶음
 
-[기본 제작의 실행·비용·확률](Crafting-Execution-Costs-and-Odds.md)을 한 묶음으로 제안한다. 재료 이름·소모량·통제 비용, 작업별 유효 대상·추첨과 무효 처리, 차감·즉시 결과·취소/중단·복원과 장착 중 제작은 아직 승인되지 않았다. 추천값을 확정 규칙으로 취급하지 않는다.
+[기본 제작의 실행·비용·확률·종료](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)를 확인하고 [제작 기획서](../Systems/Equipment-Crafting.md)에 통합했다. 다음은 [장비 보관·비교·교체·분해](Equipment-Inventory-Comparison-and-Salvage.md)를 한 묶음으로 제안한다. 가방 용량·분해/회수 등 새 세부 규칙은 아직 승인되지 않았다.
 
 장비 비교·교체와 처분, 보호/특수 제작·자동/일괄 제작, 재료 교환·다른 공급, 스킬/젬·캐릭터 성장과 실제 콘텐츠·경쟁의 후속 수치는 별도로 확인한다. 상세 순서는 [기획 순서](../01-Decision-Queue.md)를 따른다.
 

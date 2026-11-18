@@ -10,7 +10,7 @@
 
 현재 적용할 규칙은 기능 기획서에서 읽고 세부 승인 근거는 연결된 이력에서 확인한다. 미승인 추천을 확정 규칙으로 취급하지 않는다.
 
-[장비 득템·파밍 대상 구성](../Systems/Equipment-Drops-and-Farming-Targets.md)도 [DEC-0095](../Decisions/DEC-0095-equipment-drops-and-farming-targets.md)에서 확인했다. 장비 부위·계열·기반 역할은 [DEC-0096](../Decisions/DEC-0096-equipment-catalog-and-base-structure.md)의 [장비 구성 기획서](../Systems/Equipment-Catalog-and-Base-Structure.md)에서 확인했다. 기반 성능·특성 수치와 개별 옵션·전투 계산은 [DEC-0097](../Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)의 [옵션·전투 기획서](../Systems/Equipment-Affixes-and-Combat-Numbers.md)에서 확인했다. 다음은 [제작 실행·비용·확률](Crafting-Execution-Costs-and-Odds.md)을 기능 단위로 검토한다.
+[장비 득템·파밍 대상 구성](../Systems/Equipment-Drops-and-Farming-Targets.md)도 [DEC-0095](../Decisions/DEC-0095-equipment-drops-and-farming-targets.md)에서 확인했다. 장비 부위·계열·기반 역할은 [DEC-0096](../Decisions/DEC-0096-equipment-catalog-and-base-structure.md)의 [장비 구성 기획서](../Systems/Equipment-Catalog-and-Base-Structure.md)에서 확인했다. 기반 성능·특성 수치와 개별 옵션·전투 계산은 [DEC-0097](../Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)의 [옵션·전투 기획서](../Systems/Equipment-Affixes-and-Combat-Numbers.md)에서 확인했다. 제작 실행·비용·확률·종료는 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했고 [기본 제작 기획서](../Systems/Equipment-Crafting.md)에 모았다. 다음은 [장비 보관·비교·교체·분해](Equipment-Inventory-Comparison-and-Salvage.md)를 기능 단위로 검토한다.
 
 ## 조사와 검증 상태
 

@@ -39,7 +39,7 @@
 | 방어구 | 같은 부위의 기반 3종끼리. 방패도 하나의 부위로 구분 |
 | 장신구 | 목걸이·반지·허리띠를 각각 구분. 반지 두 칸은 같은 후보 목록 사용 |
 
-따라서 같은 부위의 방어도형·회피형·보호막형은 추가 옵션 종류 후보를 공유한다. 기반 역할을 다르게 골라도 같은 계열의 후보 종류가 달라지지 않는다. 첫 34종 옵션·접두/접미 분류·7단계 수치는 [공통 데이터](Equipment-Affixes-and-Combat-Numbers.md)를 따르며 제작 확률은 후속 확인 사항이다.
+따라서 같은 부위의 방어도형·회피형·보호막형은 추가 옵션 종류 후보를 공유한다. 기반 역할을 다르게 골라도 같은 계열의 후보 종류가 달라지지 않는다. 첫 34종 옵션·접두/접미 분류·7단계 수치는 [공통 데이터](Equipment-Affixes-and-Combat-Numbers.md)를 따르며 제작 확률은 [기본 제작 기획서](Equipment-Crafting.md)를 따른다.
 
 ## 파밍 선택과 기반 확률
 
@@ -51,7 +51,7 @@
 
 ## 후속 확인 묶음
 
-기반 성능·고정 특성 수치, 접두/접미 후보와 적용 대상·7단계 범위·단위·계산은 [DEC-0097](../Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)에서 확인했고 [옵션·전투 기획서](Equipment-Affixes-and-Combat-Numbers.md)에 모았다. 다음은 [제작 실행·비용·확률](../Proposals/Crafting-Execution-Costs-and-Odds.md)을 묶어 확인한다.
+기반 성능·고정 특성 수치, 접두/접미 후보와 적용 대상·7단계 범위·단위·계산은 [DEC-0097](../Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)에서 확인했고 [옵션·전투 기획서](Equipment-Affixes-and-Combat-Numbers.md)에 모았다. 제작 실행·비용·확률은 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했고 [기본 제작 기획서](Equipment-Crafting.md)에 통합했다. 다음은 [장비 보관·비교·교체·분해](../Proposals/Equipment-Inventory-Comparison-and-Salvage.md)를 묶어 확인한다.
 
 무기별 스킬 호환성·요구 능력치·정식 젬 슬롯과 성장, 추가 무기 계열·보조 장비 종류·다른 특수 제작은 별도로 확인한다. 이번 목록을 향후 모든 무기·장비의 영구 목록으로 확정한 것은 아니다.
 
