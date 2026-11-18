@@ -10,7 +10,7 @@
 
 현재 적용할 규칙은 기능 기획서에서 읽고 세부 승인 근거는 연결된 이력에서 확인한다. 미승인 추천을 확정 규칙으로 취급하지 않는다.
 
-다음은 [장비 득템·파밍 대상 구성](Equipment-Drops-and-Farming-Targets.md)을 기능 단위로 검토한다. 성급별 파밍 구간과 해금·목표 부위·드롭 옵션 구성 및 공개 정보는 아직 승인되지 않았다.
+[장비 득템·파밍 대상 구성](../Systems/Equipment-Drops-and-Farming-Targets.md)도 [DEC-0095](../Decisions/DEC-0095-equipment-drops-and-farming-targets.md)에서 확인했다. 다음은 [장비 편성·기반 구조](Equipment-Catalog-and-Base-Structure.md)를 기능 단위로 검토한다. 실제 장비 부위·계열·기반과 개별 옵션 데이터는 아직 승인되지 않았다.
 
 ## 조사와 검증 상태
 
