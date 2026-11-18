@@ -18,7 +18,7 @@
 
 같은 옵션의 인접 등급은 수치 범위가 일부 겹치도록 설계한다. 하위 등급의 좋은 결과가 상위 등급의 낮은 결과보다 좋은 수치를 제공할 수 있으며, 첫 34종의 겹침 범위는 옵션·전투 기능 기획서의 수치표를 따른다. 5성 희귀 장비는 드롭과 제작 모두 최상위 등급의 추가 옵션을 허용하며, 파밍 희귀 드롭의 분포는 기능 기획서를 따르며 제작과 다른 획득 경로의 분포는 별도로 정한다.
 
-획득한 희귀 장비의 성급은 고정하며, 다음 성급의 장비를 새로 얻어 제작 대상을 교체한다. 희귀 장비의 추가 옵션은 다른 장비로 이전하지 않으며, 새 장비에 붙은 옵션부터 다듬는다. 분해 보상과 제작 재료 회수·투자 비용 환급은 미정이다.
+획득한 희귀 장비의 성급은 고정하며, 다음 성급의 장비를 새로 얻어 제작 대상을 교체한다. 희귀 장비의 추가 옵션은 다른 장비로 이전하지 않으며, 새 장비에 붙은 옵션부터 다듬는다. 미장착 장비는 무료 500칸에 보관하고 전투 밖에서 비교·교체·제작·분해한다. 분해 가능한 희귀 장비마다 기존 5종 제작재료 중 1개를 추첨하며 과거 제작 재료를 추가 환급하지 않는다. 보호·교체·보상과 파밍 공간은 [장비 관리 기획서](Docs/Design/Systems/Equipment-Inventory-Comparison-and-Salvage.md)를 따른다.
 
 기본 제작 장비의 추가 옵션은 접두 최대 3개와 접미 최대 3개를 기준으로 한다. 희귀 장비의 전투 드롭에는 추가 옵션이 일부만 붙은 장비와 6개가 모두 찬 장비를 함께 제공한다.
 
@@ -61,7 +61,8 @@
 | [장비 편성·기반 구조 기획](Docs/Design/Systems/Equipment-Catalog-and-Base-Structure.md) | 장비 10칸·첫 무기 3계열·기반 역할과 고정 특성 |
 | [옵션·전투 기능 기획](Docs/Design/Systems/Equipment-Affixes-and-Combat-Numbers.md) | 확정된 기반 성능·특성 수치·희귀 옵션 34종·7단계 범위·계산 |
 | [희귀 장비 기본 제작 기획](Docs/Design/Systems/Equipment-Crafting.md) | 기본 작업 4종·접두/접미 통제·재료 구조·보존과 정보 |
-| [장비 보관·비교·교체·분해 제안](Docs/Design/Proposals/Equipment-Inventory-Comparison-and-Salvage.md) | 가방 용량·항목별 비교·장착·분해 보호·처분 보상과 복원을 함께 검토 |
+| [장비 보관·비교·교체·분해](Docs/Design/Systems/Equipment-Inventory-Comparison-and-Salvage.md) | 무료 500칸·항목별 비교·무료 장착·분해 보호·기존 재료 추첨과 복원 |
+| [특수 제작의 초기 범위 제안](Docs/Design/Proposals/Crafting-Preservation-and-Special-Scope.md) | 기본 제작부터 검증할지, 옵션 보호·추가 위험 제작을 먼저 넣을지 검토 |
 | [맵 모딩 조사](Docs/Research/2026-11-17-dungeon-modification.md) | GGG 개발 기록·PoEDB·커뮤니티·poe.re의 출처와 적용 제약 |
 | [PoE 1 빌드 연구](Docs/Research/PoE1/README.md) | 장비·스킬 구조와 커뮤니티 공략의 축적 사례 |
 | [장비와 스킬 적용 제안](Docs/Design/Proposals/PoE1-Equipment-Skills.md) | 조사 결과를 바탕으로 사용자와 확인할 항목 |

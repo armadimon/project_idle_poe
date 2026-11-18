@@ -14,7 +14,7 @@
 | 반지 | 2 | 화염 저항형·냉기 저항형·번개 저항형, 두 칸이 같은 종류 후보 사용 |
 | 합계 | 10 | 양손도끼는 양손을 사용해 보조 장비와 함께 장착하지 않음 |
 
-기본 성능과 특성의 실제 효과·수치는 후속 [DEC-0097](../Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)의 [옵션·전투 기획서](Equipment-Affixes-and-Combat-Numbers.md)에서 확인했다. 장비 요구 능력치·스킬 호환성과 장비 교체 시 인벤토리 처리는 아직 미정이다. 기존 프로토타입의 무기·근력 조건·젬 연결 승인은 해당 구현 범위로 구분한다.
+기본 성능과 특성의 실제 효과·수치는 후속 [DEC-0097](../Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)의 [옵션·전투 기획서](Equipment-Affixes-and-Combat-Numbers.md)에서 확인했다. 첫 희귀 장비는 부위·양손 관계를 확인하고 별도 성급·레벨·능력치 착용 조건을 두지 않는다. 무료 장착·반지 칸 선택·양손 교체의 가방 공간과 젬 조건 재평가는 후속 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)를 따른다. 직업·무기별 스킬 호환성과 정식 젬 조건은 별도 확인한다. 기존 프로토타입의 무기·근력 조건·젬 연결 승인은 해당 구현 범위로 구분한다.
 
 ## 기반 역할·고정 특성
 
@@ -51,9 +51,9 @@
 
 ## 후속 확인 묶음
 
-기반 성능·고정 특성 수치, 접두/접미 후보와 적용 대상·7단계 범위·단위·계산은 [DEC-0097](../Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)에서 확인했고 [옵션·전투 기획서](Equipment-Affixes-and-Combat-Numbers.md)에 모았다. 제작 실행·비용·확률은 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했고 [기본 제작 기획서](Equipment-Crafting.md)에 통합했다. 다음은 [장비 보관·비교·교체·분해](../Proposals/Equipment-Inventory-Comparison-and-Salvage.md)를 묶어 확인한다.
+기반 성능·고정 특성 수치, 접두/접미 후보와 적용 대상·7단계 범위·단위·계산은 [DEC-0097](../Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)에서 확인했고 [옵션·전투 기획서](Equipment-Affixes-and-Combat-Numbers.md)에 모았다. 제작 실행·비용·확률은 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했고 [기본 제작 기획서](Equipment-Crafting.md)에 통합했다. 장비 보관·비교·교체·분해는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)에서 확인했고 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)에 통합했다. 다음은 [보존과 손실·특수 제작의 초기 범위](../Proposals/Crafting-Preservation-and-Special-Scope.md)를 검토한다.
 
-무기별 스킬 호환성·요구 능력치·정식 젬 슬롯과 성장, 추가 무기 계열·보조 장비 종류·다른 특수 제작은 별도로 확인한다. 이번 목록을 향후 모든 무기·장비의 영구 목록으로 확정한 것은 아니다.
+무기별 스킬 호환성·젬 요구 능력치·정식 젬 슬롯과 성장, 추가 무기 계열·보조 장비 종류·다른 특수 제작은 별도로 확인한다. 이번 목록을 향후 모든 무기·장비의 영구 목록으로 확정한 것은 아니다.
 
 ## 승인·조사·검증 상태
 

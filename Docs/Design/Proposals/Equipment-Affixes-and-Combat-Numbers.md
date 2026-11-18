@@ -6,4 +6,4 @@
 
 수치표를 비교할 캐릭터·주문 예시는 실제 성장·직업·모든 젬의 기본값으로 확대하지 않는다. 문서 승인은 게임 구현·전투·경제 검증 완료와 구분한다.
 
-제작 재료·비용·확률·실행과 종료는 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했고 [기본 제작 기획서](../Systems/Equipment-Crafting.md)에 모았다. 다음은 [장비 보관·비교·교체·분해](Equipment-Inventory-Comparison-and-Salvage.md)를 한 묶음으로 검토한다.
+제작 재료·비용·확률·실행과 종료는 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했고 [기본 제작 기획서](../Systems/Equipment-Crafting.md)에 모았다. 장비 보관·비교·교체·분해는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)에서 확인했고 [장비 관리 기획서](../Systems/Equipment-Inventory-Comparison-and-Salvage.md)에 통합했다. 다음은 [보존과 손실·특수 제작의 초기 범위](Crafting-Preservation-and-Special-Scope.md)를 검토한다.

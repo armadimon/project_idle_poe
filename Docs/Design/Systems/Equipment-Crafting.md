@@ -1,6 +1,6 @@
 # 희귀 장비 기본 제작 기획
 
-상태: 사용자에게 확인받은 현행 제작 원칙과 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)의 실행·비용·확률·종료 처리를 통합했다. 다음 미승인 묶음은 [장비 비교·교체·처분](../Proposals/Equipment-Inventory-Comparison-and-Salvage.md)이다.
+상태: 사용자에게 확인받은 현행 제작 원칙과 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)의 실행·비용·확률·종료 처리를 통합했다. 후속 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)에서 보관·비교·교체·분해를 확인했다. 다음 미승인 묶음은 [보존과 손실·특수 제작의 초기 범위](../Proposals/Crafting-Preservation-and-Special-Scope.md)다.
 
 ## 목적·대상과 장비 구조
 
@@ -67,7 +67,7 @@
 
 부여석은 기존 던전 최초 패널티 1~2개 부여, 교체석은 최초 3~4개 부여와 한 줄 교체에 공유한다. 던전에서는 기존대로 해당 재료 1개를 소모한다. 집중석은 이번 기본 장비 제작의 그룹 통제 재료이며 던전 모딩에 새 통제를 추가하지 않는다.
 
-추가 재료의 교환·분해 수급·판매·과금 공급이나 재료의 별도 등급은 이번 묶음에서 도입하지 않는다. 해당 경로는 별도 기능에서 확인한다.
+제작 후 남은 희귀 장비의 분해 수급은 후속 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)를 따른다. 미장착·보호 해제된 희귀 장비마다 기존 5종 중 재료 1개를 30/15/35/15/5%로 추첨하며 과거 제작 재료의 추가 환급은 없다. 분해 보호는 제작으로부터 옵션을 보호하는 기능이 아니며 보호 장비도 제작할 수 있다. 교환·판매·과금 공급이나 재료의 별도 등급은 별도 확인한다.
 
 ## 대상·공통 보존과 실행 조건
 
@@ -141,7 +141,7 @@
 
 기본 4종에는 장비당 제작 횟수 제한이 없다. 실행 조건과 비용을 만족하면 같은 장비를 계속 다듬을 수 있으며 반복 횟수로 제작 가능 횟수가 소진되거나 비용이 증가하지 않는다.
 
-제작의 이름·비용·추첨과 실행/종료는 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했다. 다음 [장비 비교·교체·처분](../Proposals/Equipment-Inventory-Comparison-and-Salvage.md)은 미승인 제안이다. 장비 보관·비교·장착 전후 정보와 분해/처분·회수, 자동/일괄 제작·보호/특수 제작·직접 옵션 지정·재료 교환/다른 공급·정식 스킬/성장은 후속 묶음으로 확인한다.
+제작의 이름·비용·추첨과 실행/종료는 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했다. 장비 보관·비교·교체·분해와 회수는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)를 따른다. 다음 [보존과 손실·특수 제작의 초기 범위](../Proposals/Crafting-Preservation-and-Special-Scope.md)는 미승인 제안이다. 자동/일괄 제작·직접 옵션 지정·재료 교환/다른 공급·정식 스킬/성장은 후속 묶음으로 확인한다.
 
 [PoE 2 제작 연구](../../Research/Crafting/README.md)와 [제작 실행 조사](../../Research/2026-11-18-crafting-execution-costs-and-odds.md)에 출처·버전·라이선스·호환성과 재사용 제약을 정리했다. 비용·균등 추첨은 우리 게임의 자체 초기 규칙이며 PoE의 현행 수치를 반입한 것이 아니다.
 

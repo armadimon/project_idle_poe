@@ -6,4 +6,4 @@
 
 기존 파밍 공급 비율과 던전 재료 소모량, 장비당 제작 횟수 제한 없음은 유지한다. 첫 실험용 초기값의 승인은 실제 게임의 제작·저장·전투·경제 검증 완료와 구분한다.
 
-다음은 [장비 보관·비교·교체·처분](Equipment-Inventory-Comparison-and-Salvage.md)을 한 묶음으로 검토한다. 보관 용량·분해/회수 등 새 세부 규칙은 아직 승인되지 않았다.
+장비 보관·비교·교체·분해는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)에서 확인했고 [장비 관리 기획서](../Systems/Equipment-Inventory-Comparison-and-Salvage.md)에 통합했다. 다음은 [보존과 손실·특수 제작의 초기 범위](Crafting-Preservation-and-Special-Scope.md)를 검토한다.

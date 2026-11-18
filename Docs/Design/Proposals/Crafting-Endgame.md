@@ -14,9 +14,9 @@
 
 ## 다음 확인 묶음
 
-[기본 제작의 실행·비용·확률·종료](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)를 확인하고 [제작 기획서](../Systems/Equipment-Crafting.md)에 통합했다. 다음은 [장비 보관·비교·교체·분해](Equipment-Inventory-Comparison-and-Salvage.md)를 한 묶음으로 제안한다. 가방 용량·분해/회수 등 새 세부 규칙은 아직 승인되지 않았다.
+[기본 제작의 실행·비용·확률·종료](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)를 확인하고 [제작 기획서](../Systems/Equipment-Crafting.md)에 통합했다. 장비 보관·비교·교체·분해는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)에서 확인했고 [장비 관리 기획서](../Systems/Equipment-Inventory-Comparison-and-Salvage.md)에 통합했다. 다음은 [보존과 손실·특수 제작의 초기 범위](Crafting-Preservation-and-Special-Scope.md)를한 묶음으로 제안한다.
 
-장비 비교·교체와 처분, 보호/특수 제작·자동/일괄 제작, 재료 교환·다른 공급, 스킬/젬·캐릭터 성장과 실제 콘텐츠·경쟁의 후속 수치는 별도로 확인한다. 상세 순서는 [기획 순서](../01-Decision-Queue.md)를 따른다.
+보호/특수 제작·자동/일괄 제작, 재료 교환·다른 공급, 스킬/젬·캐릭터 성장과 실제 콘텐츠·경쟁의 후속 수치는 별도로 확인한다. 상세 순서는 [기획 순서](../01-Decision-Queue.md)를 따른다.
 
 ## 조사와 검증
 
