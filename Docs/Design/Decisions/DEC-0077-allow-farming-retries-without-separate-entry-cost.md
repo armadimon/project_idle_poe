@@ -18,7 +18,7 @@ approval: {"by": "user", "date": "2026-11-18", "evidence": "실패한 파밍 던
 
 이번 결정은 재도전 허용과 입장 자체의 비용까지다. 실패 후 패널티와 연결된 보상 강화 설정은 초기화되며, 같은 파밍 대상에 새로 도전한다. 실패 전 설정이나 전투 진행 상태를 복구하는 결정은 아니다.
 
-재도전 횟수·대기 시간·기타 실행 조건, 초기화 뒤 패널티를 다시 부여·교체하는 방식·비용과 실제 재료 소모량·공급, 실패 보상·자동 반복 입장은 별도로 확인한다. 최초 입장의 비용과 던전 변화 작업 전체의 무료화를 함께 확정하지 않는다.
+최초 패널티 부여 작업의 단위는 후속 [DEC-0078](DEC-0078-initial-farming-dungeon-penalties-generated-as-one-random-batch.md)에서 기본 패널티들을 한 번에 무작위 부여하는 것으로 확인했다. 재도전 횟수·대기 시간·기타 실행 조건, 최초 부여의 실제 개수·재료·비용·시점과 교체의 실제 소모량·공급, 실패 보상·자동 반복 입장은 별도로 확인한다. 최초 입장의 비용과 던전 변화 작업 전체의 무료화를 함께 확정하지 않는다.
 
 기존의 실패 시 패널티 교체 재료 환급 없음, 성공·실패 후 설정 초기화, 지정한 한 줄 교체·나머지 보존·새 결과 즉시 적용, 매 교체의 재료 소모·반복 횟수에 따른 비용 증가 없음·별도 교체 횟수 제한 없음은 유지한다. 경쟁의 무료 재도전 입장과 구분해 이번 파밍 재도전의 사용자 확인을 별도로 기록한다.
 
@@ -28,5 +28,5 @@ approval: {"by": "user", "date": "2026-11-18", "evidence": "실패한 파밍 던
 
 - 전제: [파밍 실패 후 설정 초기화](DEC-0075-reset-farming-dungeon-modifiers-after-failure.md)
 - 관련: [실패 시 교체 재료 환급 없음](DEC-0076-no-refund-of-dungeon-penalty-replacement-materials-after-failure.md), [경쟁의 무료 재도전 입장](DEC-0059-no-separate-entry-cost-for-competition-retries.md)
-- 제안: [던전 변화와 최초 패널티 부여 단위](../Proposals/Dungeon-Modification.md)
+- 제안: [던전 변화와 최초 패널티 개수](../Proposals/Dungeon-Modification.md)
 - 반영: [현재 방향](../00-Concept.md), [기획 순서](../01-Decision-Queue.md), [제작 중심 적용 제안](../Proposals/Crafting-Endgame.md)

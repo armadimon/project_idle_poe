@@ -1,10 +1,10 @@
-# 던전 변화와 최초 패널티 부여 단위 제안
+# 던전 변화와 최초 패널티 개수 제안
 
 ## 확인된 방향
 
 사용자는 **재화를 소모해 던전에 패널티를 추가하고 보상을 높이는 시스템**을 기획에 포함하도록 요청했다. PoE의 맵 모딩을 참고하는 도입 방향은 [DEC-0060](../Decisions/DEC-0060-currency-funded-dungeon-penalties-and-better-rewards.md)에 기록했다. [경쟁의 무료 재도전 입장](../Decisions/DEC-0059-no-separate-entry-cost-for-competition-retries.md)은 별도 원칙으로 유지한다.
 
-던전 변화는 [DEC-0061](../Decisions/DEC-0061-dungeon-modification-for-farming-only.md)에 따라 **파밍에만 적용**한다. **최고 도달 단계 경쟁은 이 변화를 적용하지 않고 공통 도전 조건을 유지**한다. 패널티는 [DEC-0062](../Decisions/DEC-0062-randomly-assign-farming-dungeon-penalties.md)에 따라 플레이어가 고르지 않고 무작위로 부여한다. 재추첨은 [DEC-0064](../Decisions/DEC-0064-reroll-one-selected-dungeon-penalty.md)에 따라 바꿀 패널티 하나를 지정해 무작위로 교체하고 나머지는 보존한다. [DEC-0065](../Decisions/DEC-0065-right-side-lock-checkbox-for-dungeon-penalty-rows.md)에 따라 각 줄 우측에 잠금 체크박스 토글을 둔다. 잠금 해제는 [DEC-0066](../Decisions/DEC-0066-allow-only-one-unlocked-dungeon-penalty-row.md)에 따라 최대 한 줄이며 다른 줄을 해제하면 기존 줄은 자동으로 잠긴다. 교체한 새 결과는 [DEC-0067](../Decisions/DEC-0067-apply-new-dungeon-penalty-result-directly.md)에 따라 빌드에 더 불리해져도 바로 적용한다. 교체 실행마다 재화를 소모하는 원칙은 [DEC-0068](../Decisions/DEC-0068-consume-currency-for-each-dungeon-penalty-replacement.md)에서 확인했다. 사용할 재료는 [DEC-0070](../Decisions/DEC-0070-share-equipment-replacement-material-with-dungeon-penalty-replacement.md)에 따라 장비 옵션 교체의 기본 재료와 공유한다. 같은 조건에서 반복 횟수에 따른 교체 비용 증가를 두지 않는 원칙은 [DEC-0071](../Decisions/DEC-0071-no-cost-escalation-for-repeated-dungeon-penalty-replacement.md)에서 확인했다. 별도 교체 횟수 제한 없음은 [DEC-0073](../Decisions/DEC-0073-no-attempt-limit-for-dungeon-penalty-replacement.md)에서 확인했다. 파밍 성공 후 설정은 [DEC-0074](../Decisions/DEC-0074-reset-farming-dungeon-modifiers-after-successful-clear.md)에 따라 패널티와 연결된 보상 강화를 초기화한다. 파밍 실패 후에도 [DEC-0075](../Decisions/DEC-0075-reset-farming-dungeon-modifiers-after-failure.md)에 따라 패널티와 연결된 보상 강화 설정을 초기화한다. 실패한 도전의 패널티 교체에 사용한 재료는 [DEC-0076](../Decisions/DEC-0076-no-refund-of-dungeon-penalty-replacement-materials-after-failure.md)에 따라 환급하지 않는다. 실패 후 같은 파밍 대상에 새 도전을 허용하고 입장 자체에는 별도 비용을 두지 않는 원칙은 [DEC-0077](../Decisions/DEC-0077-allow-farming-retries-without-separate-entry-cost.md)에서 확인했다. 기본 잠금 상태·전체 잠금 처리와 최초 패널티 부여 단위·종류·개수·수치·확률·삭제 허용 여부, 재료 이름·실제 소모량·공급·보상, 나머지 설정 유지 범위와 재도전 횟수·기타 조건은 아직 정하지 않았다.
+던전 변화는 [DEC-0061](../Decisions/DEC-0061-dungeon-modification-for-farming-only.md)에 따라 **파밍에만 적용**한다. **최고 도달 단계 경쟁은 이 변화를 적용하지 않고 공통 도전 조건을 유지**한다. 패널티는 [DEC-0062](../Decisions/DEC-0062-randomly-assign-farming-dungeon-penalties.md)에 따라 플레이어가 고르지 않고 무작위로 부여한다. 재추첨은 [DEC-0064](../Decisions/DEC-0064-reroll-one-selected-dungeon-penalty.md)에 따라 바꿀 패널티 하나를 지정해 무작위로 교체하고 나머지는 보존한다. [DEC-0065](../Decisions/DEC-0065-right-side-lock-checkbox-for-dungeon-penalty-rows.md)에 따라 각 줄 우측에 잠금 체크박스 토글을 둔다. 잠금 해제는 [DEC-0066](../Decisions/DEC-0066-allow-only-one-unlocked-dungeon-penalty-row.md)에 따라 최대 한 줄이며 다른 줄을 해제하면 기존 줄은 자동으로 잠긴다. 교체한 새 결과는 [DEC-0067](../Decisions/DEC-0067-apply-new-dungeon-penalty-result-directly.md)에 따라 빌드에 더 불리해져도 바로 적용한다. 교체 실행마다 재화를 소모하는 원칙은 [DEC-0068](../Decisions/DEC-0068-consume-currency-for-each-dungeon-penalty-replacement.md)에서 확인했다. 사용할 재료는 [DEC-0070](../Decisions/DEC-0070-share-equipment-replacement-material-with-dungeon-penalty-replacement.md)에 따라 장비 옵션 교체의 기본 재료와 공유한다. 같은 조건에서 반복 횟수에 따른 교체 비용 증가를 두지 않는 원칙은 [DEC-0071](../Decisions/DEC-0071-no-cost-escalation-for-repeated-dungeon-penalty-replacement.md)에서 확인했다. 별도 교체 횟수 제한 없음은 [DEC-0073](../Decisions/DEC-0073-no-attempt-limit-for-dungeon-penalty-replacement.md)에서 확인했다. 파밍 성공 후 설정은 [DEC-0074](../Decisions/DEC-0074-reset-farming-dungeon-modifiers-after-successful-clear.md)에 따라 패널티와 연결된 보상 강화를 초기화한다. 파밍 실패 후에도 [DEC-0075](../Decisions/DEC-0075-reset-farming-dungeon-modifiers-after-failure.md)에 따라 패널티와 연결된 보상 강화 설정을 초기화한다. 실패한 도전의 패널티 교체에 사용한 재료는 [DEC-0076](../Decisions/DEC-0076-no-refund-of-dungeon-penalty-replacement-materials-after-failure.md)에 따라 환급하지 않는다. 실패 후 같은 파밍 대상에 새 도전을 허용하고 입장 자체에는 별도 비용을 두지 않는 원칙은 [DEC-0077](../Decisions/DEC-0077-allow-farming-retries-without-separate-entry-cost.md)에서 확인했다. 최초 기본 패널티는 [DEC-0078](../Decisions/DEC-0078-initial-farming-dungeon-penalties-generated-as-one-random-batch.md)에 따라 한 번의 작업으로 무작위 부여한다. 기본 잠금 상태·전체 잠금 처리와 패널티 종류·실제 부여 개수·최대 개수·수치·확률·삭제 허용 여부, 재료 이름·실제 소모량·공급·보상, 나머지 설정 유지 범위와 재도전 횟수·기타 조건은 아직 정하지 않았다.
 
 ## 조사에서 참고한 부분
 
@@ -101,20 +101,26 @@ GGG의 개발 회고에서 비용·위험·보상을 연결한 설계 의도를,
 
 **실패 후 같은 파밍 대상에 새 도전을 허용하며, 재도전 입장 자체에는 별도 비용을 두지 않는다.** 사용자는 재도전 입장에 별도 재화를 소모하는 2안과 비교해 1안을 선택했다. 확인 근거는 [DEC-0077](../Decisions/DEC-0077-allow-farming-retries-without-separate-entry-cost.md)에 기록했다.
 
-초기화된 설정 상태에서의 새 도전이며 실패 전 설정을 복구하지 않는다. 이번 결정은 재도전 허용과 입장 자체의 비용까지다. 재도전 횟수·대기 시간·기타 조건, 초기화 뒤 패널티를 다시 부여·교체하는 방식·비용, 실패 보상·자동 반복 입장은 별도로 확인한다. 재도전 입장 무료를 최초 입장이나 던전 변화 작업 전체의 무료화로 확장하지 않는다.
+초기화된 설정 상태에서의 새 도전이며 실패 전 설정을 복구하지 않는다. 이번 결정은 재도전 허용과 입장 자체의 비용까지다. 최초 부여 작업의 단위는 아래와 같이 확인했다. 재도전 횟수·대기 시간·기타 조건, 최초 부여의 실제 개수·재료·비용·시점과 교체의 실제 소모량·공급, 실패 보상·자동 반복 입장은 별도로 확인한다. 재도전 입장 무료를 최초 입장이나 던전 변화 작업 전체의 무료화로 확장하지 않는다.
 
-## 다음 확인인 최초 패널티 부여 작업의 단위
+## 확인된 최초 패널티 부여 작업의 단위
 
-아래 두 안은 아직 승인되지 않은 제안이다. 패널티의 무작위 부여 원칙을 유지하며 **초기 설정에서 패널티들을 한 번에 만들지, 한 개씩 추가할지** 비교한다.
+**최초 기본 패널티들을 한 번의 작업으로 무작위 부여**한다. 사용자는 한 개씩 무작위 추가하는 2안과 비교해 1안을 선택했다. 확인 근거는 [DEC-0078](../Decisions/DEC-0078-initial-farming-dungeon-penalties-generated-as-one-random-batch.md)에 기록했다.
 
-| 대안 | 최초 부여 작업의 단위 | 장점과 검토할 부담 |
+이번 결정은 최초 부여 작업의 단위까지다. 실제 부여 개수·최대 개수와 이후 추가 허용 여부, 부여 재료·소모량·공급·시점·실행 조건, 패널티 없는 입장 허용·추첨 확률·중복·삭제·보상 강화 규칙은 별도로 확인한다. 기본 패널티들의 일괄 부여를 기존 설정 전체를 다시 추첨하는 별도 작업이나 자동 부여로 확대하지 않는다. 이후에는 기존에 확인한 한 줄 교체·나머지 보존을 유지한다.
+
+## 다음 확인인 최초 부여할 패널티 개수
+
+아래 두 안은 아직 승인되지 않은 제안이다. **한 번의 최초 부여 작업에서 만들 기본 패널티의 개수**를 비교한다. 아래 수치는 자체 설계 후보이며 사용성·난도·보상 균형은 아직 검증하지 않았다.
+
+| 대안 | 최초 부여 개수 | 장점과 검토할 부담 |
 | --- | --- | --- |
-| 1안: 기본 패널티들을 한 번에 무작위 부여 — 추천 | 처음 붙일 패널티들을 한 번의 부여 작업으로 생성 | 전체 조건을 보고 필요한 한 줄을 교체하는 흐름으로 이어져 준비 조작을 줄일 수 있음. 부여 개수·비용과 결과 조합의 난도는 별도 확인 필요 |
-| 2안: 한 번에 패널티 한 개씩 무작위 추가 | 부여 작업마다 패널티를 한 개 추가 | 패널티를 추가하는 단계마다 조건을 확인할 수 있음. 필요한 개수까지 만드는 데 여러 번의 작업이 필요할 수 있음 |
+| 1안: 3개 고정 — 추천 | 최초 부여 작업에서 패널티 3개를 함께 생성 | 읽고 비교할 조건을 줄이면서 한 줄 교체로 조합을 다듬을 수 있음. 실제 패널티 종류·수치에 따라 빌드 차이가 드러나는지 검증 필요 |
+| 2안: 4개 고정 | 최초 부여 작업에서 패널티 4개를 함께 생성 | 더 많은 조건이 빌드와 함께 작용하는 조합을 만들 수 있음. 한 번에 판단할 조건과 감당해야 할 제약이 늘어남 |
 
-반복 파밍의 준비 조작을 줄이고 이미 확인한 한 줄 교체와 자연스럽게 연결하도록 **1안**을 권장한다. 이는 추천이며 아직 채택된 규칙이 아니다.
+라이트한 준비 과정을 유지하고 기본 조건을 읽기 쉽게 시작하도록 **1안**을 권장한다. 이는 추천이며 아직 채택된 규칙이 아니다.
 
-이번 질문은 초기 패널티 부여 작업의 단위까지다. 실제 부여 개수·최대 개수, 부여 재료·소모량·공급·시점·실행 조건, 패널티 없이 입장할 수 있는지, 추첨 확률·중복·삭제와 보상 강화 규칙은 별도로 확인한다. 어느 안도 장비 옵션 추가 재료를 공유하거나 자동으로 패널티를 생성하는 승인이 아니다. 1안의 묶음은 기존 설정 전체를 재추첨하는 별도 작업의 도입을 뜻하지 않는다.
+이번 질문은 최초 부여 개수까지다. 최대 패널티 개수와 최초 부여 후 추가 허용 여부, 개별 패널티의 종류·수치·확률·중복, 부여 재료·소모량·공급·실행 조건, 보상 강화·잠금 기본 상태는 별도로 확인한다. 어느 안도 모든 단계·성급에서 같은 보상이나 난도를 보장하거나 전체 설정을 다시 추첨하는 작업을 도입하지 않는다.
 
 ## 후속 확인 범위
 
@@ -129,8 +135,8 @@ GGG의 개발 회고에서 비용·위험·보상을 연결한 설계 의도를,
 
 ## 검증 계획
 
-최초 패널티 부여 작업의 단위를 확인한 뒤 부여 개수·재료·비용·재도전 횟수·기타 조건·소모량·공급·보상·나머지 지속 범위·기본 잠금 상태·전체 잠금 처리를 제안한다. 규칙과 수치를 확인받으면 서로 다른 빌드의 패널티 대응, 성공률과 시간당 제작 재료 획득, 반복 설정 부담을 검증한다. 최고 단계 경쟁에는 모딩이 적용되지 않고 공통 도전 조건을 유지하는지도 확인한다.
+최초 부여할 패널티 개수를 확인한 뒤 최대 개수·추가 허용·재료·비용·재도전 횟수·기타 조건·소모량·공급·보상·나머지 지속 범위·기본 잠금 상태·전체 잠금 처리를 제안한다. 규칙과 수치를 확인받으면 서로 다른 빌드의 패널티 대응, 성공률과 시간당 제작 재료 획득, 반복 설정 부담을 검증한다. 최고 단계 경쟁에는 모딩이 적용되지 않고 공통 도전 조건을 유지하는지도 확인한다.
 
-현재는 도입 방향·파밍 적용 범위·무작위 부여·한 개 교체·줄 우측 잠금 토글·한 줄만 잠금 해제하는 연동·새 결과 즉시 적용·교체 실행마다 재화 소모·장비 옵션 교체 재료와의 공유·반복 횟수에 따른 비용 증가와 별도 교체 횟수 제한 없음·파밍 성공·실패 후 설정 초기화·실패 시 교체 재료 환급 없음·파밍 재도전 허용과 입장 자체의 별도 비용 없음을 기록하고 미승인 최초 패널티 부여 단위를 비교했다. 던전 변화 기능·수치·화면을 구현하거나 경제·재미 검증을 수행하지 않았다.
+현재는 도입 방향·파밍 적용 범위·무작위 부여·한 개 교체·줄 우측 잠금 토글·한 줄만 잠금 해제하는 연동·새 결과 즉시 적용·교체 실행마다 재화 소모·장비 옵션 교체 재료와의 공유·반복 횟수에 따른 비용 증가와 별도 교체 횟수 제한 없음·파밍 성공·실패 후 설정 초기화·실패 시 교체 재료 환급 없음·파밍 재도전 허용과 입장 자체의 별도 비용 없음·최초 패널티 일괄 무작위 부여를 기록하고 미승인 최초 부여 개수를 비교했다. 던전 변화 기능·수치·화면을 구현하거나 경제·재미 검증을 수행하지 않았다.
 
 - 연결: [현재 방향](../00-Concept.md), [기획 순서](../01-Decision-Queue.md), [종결 장비 경쟁](Endgame-Competition.md), [제작 중심 제안](Crafting-Endgame.md)
