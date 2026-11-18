@@ -9,6 +9,6 @@
 | 희귀 옵션 | 4개 60%·5개 30%·6개 10%, 유효 그룹·종류·등급·수치의 조건부 균등 추첨 |
 | 정보 | 성급·후보·등급·수치 범위와 확률을 게임 안에서 확인 |
 
-[장비 편성·기반 구조](../Systems/Equipment-Catalog-and-Base-Structure.md)는 [DEC-0096](../Decisions/DEC-0096-equipment-catalog-and-base-structure.md)에서 확인했다. 다음은 [계열별 옵션·전투 적용·7등급 수치표](Equipment-Affixes-and-Combat-Numbers.md)를 묶어 검토한다. 실제 기반 성능·특성 수치·개별 옵션과 전투 계산은 아직 승인되지 않았다.
+[장비 편성·기반 구조](../Systems/Equipment-Catalog-and-Base-Structure.md)는 [DEC-0096](../Decisions/DEC-0096-equipment-catalog-and-base-structure.md)에서 확인했다. [옵션·전투 계산과 수치표](../Systems/Equipment-Affixes-and-Combat-Numbers.md)는 [DEC-0097](../Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)에서 확인했다. 다음은 [제작 실행·비용·확률](Crafting-Execution-Costs-and-Odds.md)을 한 묶음으로 검토한다. 제작 세부 규칙은 아직 승인되지 않았다.
 
 승인은 기획 규칙이며 게임 구현이나 드롭 분포·경제 검증 완료를 뜻하지 않는다. [기능 기획서](../Systems/Equipment-Drops-and-Farming-Targets.md)의 조사·검증 범위를 따른다.

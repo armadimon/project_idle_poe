@@ -1,6 +1,6 @@
 # 장비 분류와 옵션 데이터 기획 조사
 
-확인일: 2026-11-18. 장비 편성·기반 구조는 후속 [DEC-0096](../Design/Decisions/DEC-0096-equipment-catalog-and-base-structure.md)에서 확인했고 현재 목록은 [장비 구성 기획서](../Design/Systems/Equipment-Catalog-and-Base-Structure.md)에 모았다. 실제 기반 성능·특성 수치와 옵션·전투 데이터는 [다음 미승인 제안](../Design/Proposals/Equipment-Affixes-and-Combat-Numbers.md)으로 구분한다. 이번에 승인한 파밍 드롭 규칙은 [장비 득템·파밍 대상 기획](../Design/Systems/Equipment-Drops-and-Farming-Targets.md)에서 별도로 읽는다.
+확인일: 2026-11-18. 장비 편성·기반 구조는 후속 [DEC-0096](../Design/Decisions/DEC-0096-equipment-catalog-and-base-structure.md)에서 확인했고 현재 목록은 [장비 구성 기획서](../Design/Systems/Equipment-Catalog-and-Base-Structure.md)에 모았다. 실제 기반 성능·특성 수치와 옵션·전투 데이터도 후속 [DEC-0097](../Design/Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)에서 확인했고 [기능 기획서](../Design/Systems/Equipment-Affixes-and-Combat-Numbers.md)에 모았다. 이번에 승인한 파밍 드롭 규칙은 [장비 득템·파밍 대상 기획](../Design/Systems/Equipment-Drops-and-Farming-Targets.md)에서 별도로 읽는다.
 
 ## 출처와 확인 범위
 
@@ -30,7 +30,7 @@ PoE의 모든 장비 분류·혼합 방어구·특수 옵션을 처음부터 재
 | --- | --- |
 | 자료 조사 | 공식 아이템·무기·방어구 페이지와 PoEDB 분류/한손검 페이지 열람 |
 | 코드·라이선스 | 기존 고정 PoB 조사와 MIT 링크를 재사용. 새로운 라이브러리 도입 없음 |
-| 적용 | 승인된 드롭 기획과 후속 승인된 장비 편성·기반 구조를 기록. 실제 옵션·전투 수치표는 별도 미승인 제안 |
+| 적용 | 승인된 드롭 기획과 후속 승인된 장비 편성·기반 구조를 기록. 실제 옵션·전투 수치표는 별도 후속 승인으로 기록 |
 | 실제 실행 | PoE·PoB·Unity에서 장비·공식·분포를 실행 검증하지 않음 |
 
 승인 후 장착 조합·계열별 후보 공유와 성급별 기반 후보를 검토하고, 옵션·전투 수치표를 확인한 뒤 6개 옵션 생성 가능성, 한손/양손의 차이, 기반별 유효 선택과 제작 출발점의 획득 시간을 검증한다. 이번 단계에는 밸런스 수치를 외부에서 복제하거나 게임 데이터를 구현하지 않는다.

@@ -1,6 +1,6 @@
 # 파밍 던전 변화 기획
 
-상태: 사용자에게 확인받은 현행 규칙. 승인 근거는 연결된 결정 이력에서 확인한다. 장비 드롭·구간·해금은 [장비 득템·파밍 대상 기획서](Equipment-Drops-and-Farming-Targets.md)에서 읽고, 실제 장비 부위·기반 역할은 [장비 구성 기획서](Equipment-Catalog-and-Base-Structure.md), 미정 성능·옵션 데이터는 [옵션·전투 수치표 제안](../Proposals/Equipment-Affixes-and-Combat-Numbers.md)에서 읽는다.
+상태: 사용자에게 확인받은 현행 규칙. 승인 근거는 연결된 결정 이력에서 확인한다. 장비 드롭·구간·해금은 [장비 득템·파밍 대상 기획서](Equipment-Drops-and-Farming-Targets.md)에서 읽고, 실제 장비 부위·기반 역할은 [장비 구성 기획서](Equipment-Catalog-and-Base-Structure.md), 기반 성능·옵션 수치와 계산은 [옵션·전투 기획서](Equipment-Affixes-and-Combat-Numbers.md)에서 읽는다.
 
 ## 목적과 적용 범위
 
@@ -33,7 +33,7 @@
 | 옵션 추가 재료 | 1개 50%, 2개 50% |
 | 옵션 교체 재료 | 3개 50%, 4개 50% |
 
-표는 생성할 패널티 개수다. 최초 부여는 두 재료 중 선택한 한 종류를 1개 소모한다. 패널티 종류는 유효 후보 중 같은 확률로 추첨하며 종류별 고정 강도는 아래 콘텐츠 묶음을 따른다. 기본 보상과 제작재료 공급 비율은 아래 수급·정산 묶음을 따른다. 성급·부위·옵션 개수와 추첨 규칙은 [장비 득템·파밍 대상 기획서](Equipment-Drops-and-Farming-Targets.md)를 따르며 실제 기반·옵션 데이터는 후속 확인 사항이다. 최초 부여와 장비 제작에 같은 재료를 쓰더라도 작업 효과·비용·확률이 같다는 뜻은 아니다.
+표는 생성할 패널티 개수다. 최초 부여는 두 재료 중 선택한 한 종류를 1개 소모한다. 패널티 종류는 유효 후보 중 같은 확률로 추첨하며 종류별 고정 강도는 아래 콘텐츠 묶음을 따른다. 기본 보상과 제작재료 공급 비율은 아래 수급·정산 묶음을 따른다. 성급·부위·옵션 개수와 추첨 규칙은 [장비 득템·파밍 대상 기획서](Equipment-Drops-and-Farming-Targets.md)를 따르며 첫 기반 성능·34종 옵션과 단계별 수치표는 [옵션·전투 기획서](Equipment-Affixes-and-Combat-Numbers.md)를 따른다. 최초 부여와 장비 제작에 같은 재료를 쓰더라도 작업 효과·비용·확률이 같다는 뜻은 아니다.
 
 근거: [DEC-0078](../Decisions/DEC-0078-initial-farming-dungeon-penalties-generated-as-one-random-batch.md), [DEC-0082](../Decisions/DEC-0082-currency-dependent-random-count-for-initial-dungeon-penalties.md), [DEC-0083](../Decisions/DEC-0083-two-currency-types-for-initial-dungeon-penalty-generation.md), [DEC-0085](../Decisions/DEC-0085-share-two-equipment-crafting-materials-with-initial-dungeon-penalty-generation.md), [DEC-0086](../Decisions/DEC-0086-use-affix-addition-and-replacement-materials-for-initial-dungeon-penalties.md), [DEC-0088](../Decisions/DEC-0088-initial-dungeon-penalty-count-ranges-by-crafting-material.md), [DEC-0089](../Decisions/DEC-0089-initial-dungeon-penalty-generation-rules.md).
 
@@ -108,7 +108,7 @@
 | 모딩 추가 보상 | 이미 승인한 패널티 수 × 20% 확률의 추가 1회 추첨을 각 기본 추첨에 적용 |
 | 실패·자발적 중도 포기 | 해당 도전의 기본 보상과 모딩 추가 보상 모두 지급하지 않음 |
 
-파밍은 1성부터 시작하고 해당 구간 첫 완주로 다음 성급 구간을 해금한다. 패널티 없이도 기본 성공 보상을 얻고 해금 완주로 인정받는다. 구간과 같은 성급·선택한 부위의 장비를 생성하며 세부 기반 추첨·옵션 개수·종류·등급·수치 분포와 정보 공개는 [장비 득템·파밍 대상 기획서](Equipment-Drops-and-Farming-Targets.md)를 따른다. 승인 기록은 [DEC-0095](../Decisions/DEC-0095-equipment-drops-and-farming-targets.md)다. 실제 부위·기반 역할은 [장비 구성 기획서](Equipment-Catalog-and-Base-Structure.md)를 따르며 기반 성능·옵션 수치는 다음에 확인한다.
+파밍은 1성부터 시작하고 해당 구간 첫 완주로 다음 성급 구간을 해금한다. 패널티 없이도 기본 성공 보상을 얻고 해금 완주로 인정받는다. 구간과 같은 성급·선택한 부위의 장비를 생성하며 세부 기반 추첨·옵션 개수·종류·등급·수치 분포와 정보 공개는 [장비 득템·파밍 대상 기획서](Equipment-Drops-and-Farming-Targets.md)를 따른다. 승인 기록은 [DEC-0095](../Decisions/DEC-0095-equipment-drops-and-farming-targets.md)다. 실제 부위·기반 역할은 [장비 구성 기획서](Equipment-Catalog-and-Base-Structure.md)를 따르며 기반 성능·옵션 수치는 [옵션·전투 기획서](Equipment-Affixes-and-Combat-Numbers.md)를 따른다.
 
 제작재료의 두 기본 추첨은 각각 독립적으로 수행해 같은 재료가 두 번 나올 수 있다. 모딩 추가 추첨은 같은 범주의 기본 테이블을 사용하고 추가 추첨에 보너스를 다시 적용하지 않는다. 예를 들어 4줄을 감당해 성공하면 장비 평균 1.8개·제작재료 평균 3.6개이며 매번 해당 수량을 보장하는 것은 아니다.
 
@@ -152,7 +152,7 @@
 
 | 기능·개념 | 한 번에 확인할 범위 |
 | --- | --- |
-| 기반 성능·옵션과 전투 데이터 | 실제 기본 성능·고정 특성 수치, 개별 옵션 종류·분류·7단계 범위와 전투 적용 계산 |
+| 제작 실행·후속 빌드 데이터 | 장비 제작의 비용·확률·실행/종료, 추가 옵션·무기·빌드 기능 |
 | 다른 성장·접속 흐름 | 재료 이름과 장비 제작 소모량, 자동 반복 입장, 계정의 오프라인 성장·보상 |
 
 사용자가 확인한 기능 묶음은 이 문서에 통합하고 결정 파일 하나를 승인 이력으로 연결한다. 아직 승인되지 않은 제안을 현행 규칙에 섞지 않는다.
