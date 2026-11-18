@@ -2,6 +2,8 @@
 
 게임의 세부 기획은 사용자가 결정한다. AI는 대안을 비교하고 영향 범위와 검증 방법을 제안하며, 사용자가 확인한 내용만 확정 기록에 반영한다.
 
+사용자의 2026-11-18 요청에 따라 **질문과 기록은 기능·개념 단위로 묶는다.** 연결된 규칙과 수치를 함께 제안하고, 사용자가 묶음 전체를 승인하거나 수정할 항목을 지정할 수 있게 한다. 현재 기능은 `Systems/`에서 읽고 승인 근거는 `Decisions/`에서 확인한다.
+
 ## 현재 문서
 
 - [현재 방향](00-Concept.md)
@@ -72,7 +74,9 @@
 - [최초 패널티 부여에 장비 제작 기본 재료 2종 공유](Decisions/DEC-0085-share-two-equipment-crafting-materials-with-initial-dungeon-penalty-generation.md)
 - [최초 패널티 부여에 옵션 추가·교체 재료 공유](Decisions/DEC-0086-use-affix-addition-and-replacement-materials-for-initial-dungeon-penalties.md)
 - [최초 패널티 개수는 추가 재료 1~2개·교체 재료 3~4개](Decisions/DEC-0088-initial-dungeon-penalty-count-ranges-by-crafting-material.md)
-- [던전 변화와 최초 부여 개수별 확률 제안](Proposals/Dungeon-Modification.md)과 [맵 모딩 조사](../Research/2026-11-17-dungeon-modification.md), [재화별 개수 추첨 조사](../Research/2026-11-18-currency-dependent-dungeon-penalty-counts.md)
+- [던전 최초 패널티 생성 규칙과 개수별 균등 확률](Decisions/DEC-0089-initial-dungeon-penalty-generation-rules.md)
+- [파밍 던전 변화 기능 기획서](Systems/Farming-Dungeon-Modification.md)
+- [던전 준비·변경 규칙 묶음 제안](Proposals/Dungeon-Modification.md)과 [맵 모딩 조사](../Research/2026-11-17-dungeon-modification.md), [재화별 개수 추첨 조사](../Research/2026-11-18-currency-dependent-dungeon-penalty-counts.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [종결 장비 경쟁의 평가 기준과 세부 제안](Proposals/Endgame-Competition.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
@@ -96,16 +100,16 @@
 
 계층은 정보를 구분하는 기준이다. 아직 합의하지 않은 하위 사항을 상위 문서에 끼워 넣지 않는다. 시스템이나 콘텐츠를 결정할 때도 먼저 확정한 방향을 확인한다.
 
-## 결정 한 건을 진행하는 절차
+## 기능·개념 묶음을 진행하는 절차
 
-1. 관련된 승인 결정과 아직 미정인 사항을 읽는다.
-2. 한 번에 판단할 수 있는 범위로 질문을 정한다.
-3. 선택지의 플레이 경험, 장단점, 개발 부담과 권장 이유를 제안한다. 추천은 승인과 구분한다.
-4. 사용자 답변을 기다린다. 애매한 답변은 범위를 다시 확인한다.
-5. 확인받은 항목만 결정 파일에 기록한다. 승인 근거와 관련 결정, 영향을 받는 문서를 연결한다.
+1. 관련 승인 결정과 기능 기획서를 읽고, 현재 기능에서 끝까지 이어지는 플레이 흐름을 정한다.
+2. 같은 기능에서 함께 판단할 규칙·수치·기본 동작·예외를 하나의 제안으로 묶는다. 예를 들어 던전 준비의 입장 조건·재료 소모·조정 가능 범위·잠금 동작을 함께 제안한다.
+3. 기존 확정 사항과 이번에 확인할 묶음을 구분하고, 적용 범위·장단점·권장 이유·검증 계획을 함께 제시한다. 추천은 승인과 구분한다.
+4. 사용자에게 묶음 전체 승인이나 일부 수정 의견을 받는다. 누락되거나 모호한 항목은 승인으로 처리하지 않는다.
+5. 한 번 승인받은 묶음은 결정 파일 하나에 기록한다. 현행 규칙은 기능별 기획서에 모으고 승인 이력을 연결한다. 개수·확률·비용마다 별도 결정 파일을 새로 만들지 않는다.
 6. 관련 기획을 갱신하고 형식과 링크를 검사한다. 재미나 밸런스의 검증 결과는 실제 실험 뒤 별도로 기록한다.
 
-결정 상태는 `proposed`, `approved`, `superseded`로 나눈다. `proposed`는 검토용이며 구현의 전제가 아니다. 승인된 내용을 수정할 때는 새 결정을 확인받고 기존 결정은 `superseded`로 남긴다.
+결정 상태는 `proposed`, `approved`, `superseded`로 나눈다. `proposed`는 검토용이며 구현의 전제가 아니다. 승인된 내용을 수정할 때는 변경 묶음을 확인받고 대체되는 승인 이력을 연결한다. 기존의 개별 결정 파일은 승인 이력으로 보존하고 현행 기능 기획서에서 통합해 읽는다.
 
 ## 결정 파일 규격
 

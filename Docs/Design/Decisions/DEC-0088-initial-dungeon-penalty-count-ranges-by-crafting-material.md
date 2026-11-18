@@ -21,7 +21,7 @@ approval: {"by": "user", "date": "2026-11-18", "evidence": "최초 패널티 부
 
 사용자는 1안 옵션 추가 재료 1~2개·옵션 교체 재료 3~4개, 2안 옵션 추가 재료 1~2개·옵션 교체 재료 4~6개 중 1안을 선택했다. 사용자 답변은 “1”이다. 모두 범위 안에서 무작위로 결정하며, 개수별 확률·재료 소모량·보상 수치는 별도로 확인한다고 명시한 질문에 대한 선택이다.
 
-이번 결정은 최초 부여에서 생성할 패널티 개수 범위까지다. 표의 숫자는 소모하는 재료 수량이 아니다. 각 범위 안의 개수별 확률·추첨 가중치와 패널티 종류 및 수치의 추첨 확률은 미정이며 균등 확률을 기본값으로 확정하지 않는다.
+이번 결정은 최초 부여에서 생성할 패널티 개수 범위까지다. 표의 숫자는 소모하는 재료 수량이 아니다. 개수별 확률은 후속 [DEC-0089](DEC-0089-initial-dungeon-penalty-generation-rules.md)에서 각 범위의 두 개수를 각각 50%로 추첨하는 것으로 확인했다. 패널티 종류 및 수치의 추첨 확률은 별도 확인 사항이다.
 
 기존의 한 번의 작업으로 최초 패널티들을 함께 부여하는 방식과 두 기본 재료의 공유를 유지한다. 이후 지정한 패널티 한 줄 교체는 나머지 줄을 보존하며, 전체 개수를 다시 추첨하거나 늘리는 작업으로 바뀌지 않는다.
 
@@ -35,6 +35,6 @@ approval: {"by": "user", "date": "2026-11-18", "evidence": "최초 패널티 부
 
 - 전제: [재화에 따른 무작위 개수](DEC-0082-currency-dependent-random-count-for-initial-dungeon-penalties.md), [최초 부여에 옵션 추가·교체 재료 공유](DEC-0086-use-affix-addition-and-replacement-materials-for-initial-dungeon-penalties.md)
 - 관련: [최초 일괄 무작위 부여](DEC-0078-initial-farming-dungeon-penalties-generated-as-one-random-batch.md), [지정한 한 줄 교체](DEC-0064-reroll-one-selected-dungeon-penalty.md)
-- 제안: [던전 변화와 최초 부여 개수별 확률](../Proposals/Dungeon-Modification.md)
+- 제안: [던전 준비·변경 규칙 묶음](../Proposals/Dungeon-Modification.md)
 - 조사: [재화별 개수 추첨 구조](../../Research/2026-11-18-currency-dependent-dungeon-penalty-counts.md)
 - 반영: [현재 방향](../00-Concept.md), [기획 순서](../01-Decision-Queue.md), [제작 중심 적용 제안](../Proposals/Crafting-Endgame.md)
