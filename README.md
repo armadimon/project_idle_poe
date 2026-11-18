@@ -22,7 +22,7 @@
 
 기본 제작 장비의 추가 옵션은 접두 최대 3개와 접미 최대 3개를 기준으로 한다. 희귀 장비의 전투 드롭에는 추가 옵션이 일부만 붙은 장비와 6개가 모두 찬 장비를 함께 제공한다.
 
-장비 기반의 고정 특성은 접두·접미 6칸과 별도로 제공한다. 같은 장비 계열의 기반은 붙을 수 있는 추가 옵션 후보를 공유한다.
+장비는 주무기·보조 장비·방어구·장신구를 합해 10칸으로 구성하고 첫 무기는 한손검·양손도끼·마법봉이다. 기반마다 고정 특성 1개를 추가 옵션 6칸과 별도로 제공한다. 같은 기반·성급에서 특성 수치는 고정이며 기본 제작으로 바꾸지 않는다. 모든 기반 역할을 1~5성에 제공하고 같은 계열끼리 추가 옵션 후보를 공유한다. 실제 장착 관계와 기반 역할은 [장비 편성·기반 구조 기획서](Docs/Design/Systems/Equipment-Catalog-and-Base-Structure.md)에 모았다.
 
 추가 옵션 제작은 희귀 장비를 중심으로 한다. 기본 제작 작업은 옵션 한 개씩 추가·제거·교체하는 세 종류를 각각 제공한다. 기본 세 작업에는 별도의 성공·실패 판정을 두지 않는다. 고유 장비는 정해진 특수 효과를 제공하며 추가 옵션 제작에서 제외한다.
 
@@ -58,7 +58,8 @@
 | [종결 장비 경쟁 제안](Docs/Design/Proposals/Endgame-Competition.md) | 최고 도달 단계·단계별 시간 제한·실패 단계 무료 재도전 |
 | [파밍 던전 변화 기획](Docs/Design/Systems/Farming-Dungeon-Modification.md) | 적용 범위·최초 부여·한 줄 교체·종료 처리의 현행 규칙과 승인 근거 |
 | [장비 득템·파밍 대상 기획](Docs/Design/Systems/Equipment-Drops-and-Farming-Targets.md) | 확정된 구간·해금·목표 부위·옵션 생성과 공개 정보 |
-| [장비 편성·기반 구조 제안](Docs/Design/Proposals/Equipment-Catalog-and-Base-Structure.md) | 장비 칸·무기와 보조 장비·기반 역할·고정 특성을 한 묶음으로 검토 |
+| [장비 편성·기반 구조 기획](Docs/Design/Systems/Equipment-Catalog-and-Base-Structure.md) | 장비 10칸·첫 무기 3계열·기반 역할과 고정 특성 |
+| [옵션·전투 수치표 제안](Docs/Design/Proposals/Equipment-Affixes-and-Combat-Numbers.md) | 기반 성능·특성 수치·희귀 옵션 34종·7단계 범위·피해/방어 계산을 함께 검토 |
 | [맵 모딩 조사](Docs/Research/2026-11-17-dungeon-modification.md) | GGG 개발 기록·PoEDB·커뮤니티·poe.re의 출처와 적용 제약 |
 | [PoE 1 빌드 연구](Docs/Research/PoE1/README.md) | 장비·스킬 구조와 커뮤니티 공략의 축적 사례 |
 | [장비와 스킬 적용 제안](Docs/Design/Proposals/PoE1-Equipment-Skills.md) | 조사 결과를 바탕으로 사용자와 확인할 항목 |
