@@ -1,6 +1,6 @@
 # 희귀 장비 기본 제작 기획
 
-상태: 사용자에게 확인받은 현행 제작 원칙과 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)의 실행·비용·확률·종료 처리를 통합했다. 후속 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)에서 보관·비교·교체·분해를 확인했다. 다음 미승인 묶음은 [보존과 손실·특수 제작의 초기 범위](../Proposals/Crafting-Preservation-and-Special-Scope.md)다.
+상태: 사용자에게 확인받은 현행 제작 원칙과 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)의 실행·비용·확률·종료 처리를 통합했다. 후속 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)에서 보관·비교·교체·분해를 확인했다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 다음 미승인 묶음은 [고유 장비의 역할·획득·착용·처분](../Proposals/Unique-Equipment-Role-Acquisition-and-Handling.md)이다.
 
 ## 목적·대상과 장비 구조
 
@@ -9,6 +9,25 @@
 희귀 장비의 추가 옵션은 접두 최대 3개·접미 최대 3개, 합계 최대 6개다. 같은 종류는 장비당 1개이며 단계·값이 달라도 같은 종류로 본다. 기반 고정 특성은 6칸과 별개이며 기본 4종 제작으로 변경하지 않는다. 획득한 성급은 고정이고 장비 간 추가 옵션 이전은 없다.
 
 기반 목록과 특성의 역할은 [장비 구성](Equipment-Catalog-and-Base-Structure.md), 실제 기본 성능·특성 수치와 34종 후보·7단계 범위는 [장비 옵션·전투 데이터](Equipment-Affixes-and-Combat-Numbers.md)를 따른다.
+
+## 첫 제작 검증 범위
+
+[DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 A안, 기본 제작부터 검증하는 범위를 확인했다. 기본 4종과 집중석의 그룹 통제를 첫 모델로 두고, 추가 특수 제작은 목표 빌드·파밍 시간을 정한 뒤 필요성을 다시 검토한다. 이 범위를 향후 모든 버전의 영구 금지나 이미 검증된 경제/재미로 해석하지 않는다.
+
+| 항목 | 확정 규칙 |
+| --- | --- |
+| 첫 제작 구성 | 추가·제거·교체·전체 수치 재추첨과 접두/접미 통제까지. 재료는 기존 부여석·제거석·교체석·조율석·집중석 5종 |
+| 특정 옵션 보호 | 개별 줄 잠금·영구 고정·접두/접미 전체 보존·특정 옵션 확정 부여는 첫 범위에서 제외 |
+| 결과 복구 | 제작 결과 선택·되돌리기·보험·투자 재료 환급 없이 기존 즉시 적용 규칙 유지 |
+| 아이템 자체 위험 | 파괴·성급 하락·영구 제작 불가·타락과 같은 추가 위험 제작은 도입하지 않음 |
+| 수치·자리 상한 | 기존 성급별 허용 3단계와 7단계 수치 범위·접두 3+접미 3 유지. 초과 수치·일곱 번째 옵션·기반/고정 특성 변경을 주는 별도 제작 없음 |
+| 종결 이후 | ‘완성 확정’ 비용·봉인·강제 제작 종료 상태를 두지 않으며 사용자가 멈추거나 계속 제작 가능. 별도 완성 보너스 없음 |
+| 보호 표시 | 승인된 ‘분해 보호’는 분해만 차단하며 제거·교체·조율로부터 옵션을 보호하지 않음. 집중석도 그룹 내 특정 줄을 보호하지 않음 |
+| 변경 판단 | 목표 빌드와 파밍 시간을 정한 뒤 기본 제작의 완성 비용·중간 결과 손실·최악에 가까운 연속 시도를 평가하고 특수 제작 필요성 재검토 |
+
+분해 보호한 장비도 교체석으로 좋은 옵션을 잃을 수 있고 조율석은 모든 기존 옵션 값을 바꾼다. 접미 지정 교체는 해당 실행에서 접미만 바꾸지만 접두를 영구 고정하는 상태를 만들지는 않는다. 장비 자체의 파괴와 추가 옵션을 잃는 위험을 구분한다.
+
+초기 범위에는 새 특수 제작 재료·효과를 등록하지 않는다. B/C의 보호·되돌릴 수 없는 강화와 후속 자동/일괄 제작·재료 교환·판매/과금·고유 제작의 개별 규칙은 이번 승인으로 확정하지 않는다. 추가할 때 기존 조율·중복·그룹·단계와 공급/비용의 변경을 기능 단위로 먼저 제안하고 확인받는다.
 
 ## 기본 작업 4종
 
@@ -141,14 +160,17 @@
 
 기본 4종에는 장비당 제작 횟수 제한이 없다. 실행 조건과 비용을 만족하면 같은 장비를 계속 다듬을 수 있으며 반복 횟수로 제작 가능 횟수가 소진되거나 비용이 증가하지 않는다.
 
-제작의 이름·비용·추첨과 실행/종료는 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했다. 장비 보관·비교·교체·분해와 회수는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)를 따른다. 다음 [보존과 손실·특수 제작의 초기 범위](../Proposals/Crafting-Preservation-and-Special-Scope.md)는 미승인 제안이다. 자동/일괄 제작·직접 옵션 지정·재료 교환/다른 공급·정식 스킬/성장은 후속 묶음으로 확인한다.
+제작의 이름·비용·추첨과 실행/종료는 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했다. 장비 보관·비교·교체·분해와 회수는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)를 따른다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 위 ‘첫 제작 검증 범위’에 통합했다. 후속 모델의 보호/특수 제작·자동/일괄 제작·직접 옵션 지정·재료 교환/다른 공급·정식 스킬/성장은 다시 제안하고 확인받는다. 다음 미승인 묶음은 [고유 장비의 역할·획득·착용·처분](../Proposals/Unique-Equipment-Role-Acquisition-and-Handling.md)이다.
 
 [PoE 2 제작 연구](../../Research/Crafting/README.md)와 [제작 실행 조사](../../Research/2026-11-18-crafting-execution-costs-and-odds.md)에 출처·버전·라이선스·호환성과 재사용 제약을 정리했다. 비용·균등 추첨은 우리 게임의 자체 초기 규칙이며 PoE의 현행 수치를 반입한 것이 아니다.
 
 이번 변경은 문서 반영이다. 제작·저장·UI·전투의 실제 구현과 게임 경제 검증을 수행하지 않았다. 구현 전에 기술 조사와 적용·검증 계획을 제안한다. 이후 작업별 유효/무효·통제/강제 그룹·개별 대상 확률·교체 그룹 유지/재등장·단계/값 분포·조율 독립성/보존·차감/즉시 결과·취소/중단/복원·장착 능력치와 젬 조건을 검증한다. 스킬·몬스터·파밍 시간을 정한 뒤 수급과 제작 비용을 연결해 중간/종결 완성과 긴 실패 연속의 소요 분포를 비교한다.
 
+[특수 제작 범위 조사](../../Research/2026-11-18-crafting-preservation-and-special-scope.md)의 문헌과 실제 실행을 구분하며, 보호 토글 유무의 후보/확률 일치·그룹 밖 옵션 보존·조율의 전체 수치 변경·기반/성급/수치 상한·반복 제작 가능 상태를 후속 검증할 계획이다. 이번에는 제작 시뮬레이터·Unity 전투/저장·경제 실험을 실행하지 않았다.
+
 ## 승인 이력
 
+- 첫 제작 검증 범위·추가 특수 제작 후속 검토: [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)
 - 제작 출발점·희귀/고유 역할: [DEC-0020](../Decisions/DEC-0020-drop-equipment-crafting-start.md), [DEC-0012](../Decisions/DEC-0012-crafting-equipment-scope.md)
 - 기본 3종·그룹 통제·별도 실패 판정 없음: [DEC-0015](../Decisions/DEC-0015-basic-crafting-operations.md), [DEC-0016](../Decisions/DEC-0016-control-all-basic-operations.md), [DEC-0018](../Decisions/DEC-0018-basic-crafting-no-failure-roll.md)
 - 전체 수치 재추첨·즉시 결과: [DEC-0035](../Decisions/DEC-0035-reroll-affix-values-keeping-types-and-tiers.md), [DEC-0036](../Decisions/DEC-0036-reroll-values-of-all-existing-affixes.md), [DEC-0037](../Decisions/DEC-0037-apply-new-rerolled-values-directly.md)

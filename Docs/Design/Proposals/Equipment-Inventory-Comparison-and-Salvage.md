@@ -6,4 +6,4 @@
 
 [조사](../../Research/2026-11-18-equipment-inventory-comparison-and-salvage.md)에 출처·버전·권리·호환성과 재사용 범위를 기록했다. 현재 변경은 기획 문서이며 정식 규칙의 Unity 구현·실행·경제/사용성 검증은 수행하지 않았다. 구현 전 조사와 적용·검증 계획은 별도로 제안한다.
 
-다음 미승인 묶음은 [보존과 손실·특수 제작의 초기 범위](Crafting-Preservation-and-Special-Scope.md)다. 자동 분해·프리셋·판매/거래·고유 분해·젬 보관·보관 확장은 별도 확인 사항이다.
+[DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 다음은 [고유 장비의 역할·획득·착용·처분](Unique-Equipment-Role-Acquisition-and-Handling.md)을 한 묶음으로 검토한다. 자동 분해·프리셋·판매/거래·고유 분해·젬 보관·보관 확장은 별도 확인 사항이다.

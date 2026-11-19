@@ -40,6 +40,8 @@
 
 희귀 장비의 추가·제거·교체·수치 재추첨에는 장비당 제작 횟수 제한을 두지 않는다. 각 작업의 실행 조건을 만족하고 필요한 비용을 지불하면 같은 장비를 계속 다듬을 수 있다. 기본 비용은 성급·반복 횟수에 관계없이 같으며 별도 골드·대기 시간·할증을 두지 않는다. 작업별 실행 조건과 기존 파밍 공급은 확정 기능 기획서를 따른다.
 
+첫 제작 검증은 기본 4종과 집중석까지로 구성한다. 개별 옵션 잠금·영구 고정·확정 부여·추가 위험 강화와 별도 완성 비용/보너스는 도입하지 않으며, 분해 보호는 제작으로 옵션이 바뀌는 것을 막지 않는다. 기존 수치·자리 상한과 반복 제작 가능 상태를 유지하고 후속 특수 제작의 필요성은 목표 빌드와 파밍 시간을 정한 뒤 다시 검토한다. 승인 범위는 [DEC-0102](Docs/Design/Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)와 [기본 제작 기획서](Docs/Design/Systems/Equipment-Crafting.md)를 따른다.
+
 제작에서 가능한 옵션 후보·허용 옵션 등급·수치 범위와 옵션 종류별·등급별 추첨 확률을 게임 안에서 공개한다. 현재 장비와 선택한 작업·통제 조건에 적용되는 정보를 기준으로 하며, 확률은 기본 제작 기획서의 작업별 조건을 따르며 실제 화면 구성은 후속 확인한다.
 
 장비·스킬의 작동 구조는 **PoE 1**, 아이템 제작은 **PoE 2**를 기준으로 삼는다. 공식 자료와 PoEDB 계열 데이터, 제작자·커뮤니티 기록을 조사해 기획에 활용한다.
@@ -62,7 +64,8 @@
 | [옵션·전투 기능 기획](Docs/Design/Systems/Equipment-Affixes-and-Combat-Numbers.md) | 확정된 기반 성능·특성 수치·희귀 옵션 34종·7단계 범위·계산 |
 | [희귀 장비 기본 제작 기획](Docs/Design/Systems/Equipment-Crafting.md) | 기본 작업 4종·접두/접미 통제·재료 구조·보존과 정보 |
 | [장비 보관·비교·교체·분해](Docs/Design/Systems/Equipment-Inventory-Comparison-and-Salvage.md) | 무료 500칸·항목별 비교·무료 장착·분해 보호·기존 재료 추첨과 복원 |
-| [특수 제작의 초기 범위 제안](Docs/Design/Proposals/Crafting-Preservation-and-Special-Scope.md) | 기본 제작부터 검증할지, 옵션 보호·추가 위험 제작을 먼저 넣을지 검토 |
+| [첫 제작 검증 범위](Docs/Design/Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md) | 기본 4종+집중석부터 검증, 추가 특수 제작은 후속 검토 |
+| [고유 장비 공통 규칙 제안](Docs/Design/Proposals/Unique-Equipment-Role-Acquisition-and-Handling.md) | 역할·첫 목록 범위·획득·착용 제한·비교·보관·처분을 함께 검토 |
 | [맵 모딩 조사](Docs/Research/2026-11-17-dungeon-modification.md) | GGG 개발 기록·PoEDB·커뮤니티·poe.re의 출처와 적용 제약 |
 | [PoE 1 빌드 연구](Docs/Research/PoE1/README.md) | 장비·스킬 구조와 커뮤니티 공략의 축적 사례 |
 | [장비와 스킬 적용 제안](Docs/Design/Proposals/PoE1-Equipment-Skills.md) | 조사 결과를 바탕으로 사용자와 확인할 항목 |

@@ -90,7 +90,7 @@
 
 승인 근거는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)다. 직전 요약과 상세 제안서의 보관·비교·교체·보호·선택·분해 보상·투자 회수·파밍 공간·취소/중단 조건을 사용자가 “오케이”로 한 묶음 승인했다. 후속 변경도 기능·개념 단위로 제안하고 다시 확인받는다.
 
-자동 분해·장비 세트/프리셋·판매/거래·고유 장비 분해·젬 보관·보관 확장과 후속 직업/무기·스킬 호환성은 별도 확인 사항이다. 장비 자체의 착용 조건과 젬 요구 조건을 구분하며 프로토타입의 직업·젬 실험 승인을 정식 성장·드롭 규칙으로 확대하지 않는다. 다음 미승인 묶음은 [보존과 손실·특수 제작의 초기 범위](../Proposals/Crafting-Preservation-and-Special-Scope.md)다.
+자동 분해·장비 세트/프리셋·판매/거래·고유 장비 분해·젬 보관·보관 확장과 후속 직업/무기·스킬 호환성은 별도 확인 사항이다. 장비 자체의 착용 조건과 젬 요구 조건을 구분하며 프로토타입의 직업·젬 실험 승인을 정식 성장·드롭 규칙으로 확대하지 않는다. 분해 보호와 옵션 보호의 경계·첫 제작 범위는 [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)의 A안과 [기본 제작 기획서](Equipment-Crafting.md)를 따른다. 다음 미승인 묶음은 [고유 장비의 역할·획득·착용·처분](../Proposals/Unique-Equipment-Role-Acquisition-and-Handling.md)이다.
 
 [장비 비교·보관·분해 조사](../../Research/2026-11-18-equipment-inventory-comparison-and-salvage.md)에 공식 필터 문서·고정 PoB·로컬 화면, 버전·라이선스·호환성과 재사용 범위를 기록했다. 기존 game-ui-standard 0.2.0의 정보/조작·현재/교체/조건 표시 원칙을 따른다. 이번 승인은 기능과 정보 흐름이며 화면 시안·새 아트·프레임·Unity 적용의 개별 승인이 아니다.
 

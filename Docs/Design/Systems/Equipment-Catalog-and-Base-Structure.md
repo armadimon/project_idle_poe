@@ -51,7 +51,7 @@
 
 ## 후속 확인 묶음
 
-기반 성능·고정 특성 수치, 접두/접미 후보와 적용 대상·7단계 범위·단위·계산은 [DEC-0097](../Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)에서 확인했고 [옵션·전투 기획서](Equipment-Affixes-and-Combat-Numbers.md)에 모았다. 제작 실행·비용·확률은 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했고 [기본 제작 기획서](Equipment-Crafting.md)에 통합했다. 장비 보관·비교·교체·분해는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)에서 확인했고 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)에 통합했다. 다음은 [보존과 손실·특수 제작의 초기 범위](../Proposals/Crafting-Preservation-and-Special-Scope.md)를 검토한다.
+기반 성능·고정 특성 수치, 접두/접미 후보와 적용 대상·7단계 범위·단위·계산은 [DEC-0097](../Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)에서 확인했고 [옵션·전투 기획서](Equipment-Affixes-and-Combat-Numbers.md)에 모았다. 제작 실행·비용·확률은 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했고 [기본 제작 기획서](Equipment-Crafting.md)에 통합했다. 장비 보관·비교·교체·분해는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)에서 확인했고 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)에 통합했다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 다음 미승인 묶음은 [고유 장비의 역할·획득·착용·처분](../Proposals/Unique-Equipment-Role-Acquisition-and-Handling.md)이다.
 
 무기별 스킬 호환성·젬 요구 능력치·정식 젬 슬롯과 성장, 추가 무기 계열·보조 장비 종류·다른 특수 제작은 별도로 확인한다. 이번 목록을 향후 모든 무기·장비의 영구 목록으로 확정한 것은 아니다.
 
