@@ -1,10 +1,10 @@
 # 희귀 장비 기본 제작 기획
 
-상태: 사용자에게 확인받은 현행 제작 원칙과 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)의 실행·비용·확률·종료 처리를 통합했다. 후속 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)에서 보관·비교·교체·분해를 확인했다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 다음 미승인 묶음은 [고유 장비의 역할·획득·착용·처분](../Proposals/Unique-Equipment-Role-Acquisition-and-Handling.md)이다.
+상태: 사용자에게 확인받은 현행 제작 원칙과 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)의 실행·비용·확률·종료 처리를 통합했다. 후속 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)에서 보관·비교·교체·분해를 확인했다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 고유 공통 규칙은 [DEC-0104](../Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)에서 복수 착용으로 확인했다. 다음 미승인 묶음은 [첫 고유 3종의 효과·수치·중복과 빌드 검증](../Proposals/Unique-Equipment-Effects-and-Build-Cases.md)이다.
 
 ## 목적·대상과 장비 구조
 
-좋은 드롭 장비의 기반과 기존 옵션을 보고 제작 출발점을 고른 뒤 빌드에 맞는 조합·단계·수치를 완성한다. 희귀 장비가 추가 옵션 제작의 중심이며 고유 장비는 정해진 특수 효과를 제공하고 일반 추가 옵션 제작에서는 제외한다.
+좋은 드롭 장비의 기반과 기존 옵션을 보고 제작 출발점을 고른 뒤 빌드에 맞는 조합·단계·수치를 완성한다. 희귀 장비가 추가 옵션 제작의 중심이며 고유 장비는 정해진 특수 효과를 제공하고 기본 4종 제작·집중석에서는 제외한다. 고유 복수 착용·획득·분해는 후속 [고유 공통 기획서](Unique-Equipment-Role-Acquisition-and-Handling.md)를 따른다.
 
 희귀 장비의 추가 옵션은 접두 최대 3개·접미 최대 3개, 합계 최대 6개다. 같은 종류는 장비당 1개이며 단계·값이 달라도 같은 종류로 본다. 기반 고정 특성은 6칸과 별개이며 기본 4종 제작으로 변경하지 않는다. 획득한 성급은 고정이고 장비 간 추가 옵션 이전은 없다.
 
@@ -86,7 +86,7 @@
 
 부여석은 기존 던전 최초 패널티 1~2개 부여, 교체석은 최초 3~4개 부여와 한 줄 교체에 공유한다. 던전에서는 기존대로 해당 재료 1개를 소모한다. 집중석은 이번 기본 장비 제작의 그룹 통제 재료이며 던전 모딩에 새 통제를 추가하지 않는다.
 
-제작 후 남은 희귀 장비의 분해 수급은 후속 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)를 따른다. 미장착·보호 해제된 희귀 장비마다 기존 5종 중 재료 1개를 30/15/35/15/5%로 추첨하며 과거 제작 재료의 추가 환급은 없다. 분해 보호는 제작으로부터 옵션을 보호하는 기능이 아니며 보호 장비도 제작할 수 있다. 교환·판매·과금 공급이나 재료의 별도 등급은 별도 확인한다.
+제작 후 남은 희귀 장비의 분해 수급은 후속 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)를 따른다. 미장착·보호 해제된 희귀 장비와 고유 단건 분해마다 기존 5종 중 재료 1개를 30/15/35/15/5%로 추첨하며 과거 제작 재료의 추가 환급은 없다. 분해 보호는 제작으로부터 옵션을 보호하는 기능이 아니며 보호 장비도 제작할 수 있다. 교환·판매·과금 공급이나 재료의 별도 등급은 별도 확인한다.
 
 ## 대상·공통 보존과 실행 조건
 
@@ -160,7 +160,7 @@
 
 기본 4종에는 장비당 제작 횟수 제한이 없다. 실행 조건과 비용을 만족하면 같은 장비를 계속 다듬을 수 있으며 반복 횟수로 제작 가능 횟수가 소진되거나 비용이 증가하지 않는다.
 
-제작의 이름·비용·추첨과 실행/종료는 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했다. 장비 보관·비교·교체·분해와 회수는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)를 따른다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 위 ‘첫 제작 검증 범위’에 통합했다. 후속 모델의 보호/특수 제작·자동/일괄 제작·직접 옵션 지정·재료 교환/다른 공급·정식 스킬/성장은 다시 제안하고 확인받는다. 다음 미승인 묶음은 [고유 장비의 역할·획득·착용·처분](../Proposals/Unique-Equipment-Role-Acquisition-and-Handling.md)이다.
+제작의 이름·비용·추첨과 실행/종료는 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했다. 장비 보관·비교·교체·분해와 회수는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)를 따른다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 위 ‘첫 제작 검증 범위’에 통합했다. 후속 모델의 보호/특수 제작·자동/일괄 제작·직접 옵션 지정·재료 교환/다른 공급·정식 스킬/성장은 다시 제안하고 확인받는다. 고유 공통 규칙은 [DEC-0104](../Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)에서 복수 착용으로 확인했다. 다음 미승인 묶음은 [첫 고유 3종의 효과·수치·중복과 빌드 검증](../Proposals/Unique-Equipment-Effects-and-Build-Cases.md)이다.
 
 [PoE 2 제작 연구](../../Research/Crafting/README.md)와 [제작 실행 조사](../../Research/2026-11-18-crafting-execution-costs-and-odds.md)에 출처·버전·라이선스·호환성과 재사용 제약을 정리했다. 비용·균등 추첨은 우리 게임의 자체 초기 규칙이며 PoE의 현행 수치를 반입한 것이 아니다.
 

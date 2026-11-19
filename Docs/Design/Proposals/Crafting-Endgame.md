@@ -14,7 +14,7 @@
 
 ## 다음 확인 묶음
 
-[기본 제작의 실행·비용·확률·종료](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)를 확인하고 [제작 기획서](../Systems/Equipment-Crafting.md)에 통합했다. 장비 보관·비교·교체·분해는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)에서 확인했고 [장비 관리 기획서](../Systems/Equipment-Inventory-Comparison-and-Salvage.md)에 통합했다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 다음은 [고유 장비의 역할·획득·착용·처분](Unique-Equipment-Role-Acquisition-and-Handling.md)을 한 묶음으로 검토한다.
+[기본 제작의 실행·비용·확률·종료](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)를 확인하고 [제작 기획서](../Systems/Equipment-Crafting.md)에 통합했다. 장비 보관·비교·교체·분해는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)에서 확인했고 [장비 관리 기획서](../Systems/Equipment-Inventory-Comparison-and-Salvage.md)에 통합했다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 고유 공통 규칙은 [DEC-0104](../Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)의 2안(B)으로 확인했고 [기능 기획서](../Systems/Unique-Equipment-Role-Acquisition-and-Handling.md)에 통합했다. 다음 미승인 묶음은 [첫 고유 3종의 효과·수치·중복과 빌드 검증](Unique-Equipment-Effects-and-Build-Cases.md)이다.
 
 보호/특수 제작·자동/일괄 제작, 재료 교환·다른 공급, 스킬/젬·캐릭터 성장과 실제 콘텐츠·경쟁의 후속 수치는 별도로 확인한다. 상세 순서는 [기획 순서](../01-Decision-Queue.md)를 따른다.
 
