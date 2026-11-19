@@ -8,4 +8,4 @@
 
 [조사](../../Research/2026-11-18-crafting-preservation-and-special-scope.md)에 출처·버전·권리·Unity 호환성과 재사용 제약을 기록했다. 이번은 기획 문서 반영이며 구현·제작 시뮬레이션·전투/저장·경제 실험을 실행하지 않았다.
 
-고유 공통 규칙은 [DEC-0104](../Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)의 2안(B)으로 확인했고 [기능 기획서](../Systems/Unique-Equipment-Role-Acquisition-and-Handling.md)에 통합했다. 다음 미승인 묶음은 [첫 고유 3종의 효과·수치·중복과 빌드 검증](Unique-Equipment-Effects-and-Build-Cases.md)이다. 개별 고유의 효과/수치·정식 빌드·젬/캐릭터 성장은 이번 승인으로 확정하지 않는다.
+고유 공통 규칙은 [DEC-0104](../Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)의 2안(B)으로 확인했고 [기능 기획서](../Systems/Unique-Equipment-Role-Acquisition-and-Handling.md)에 통합했다. 첫 고유 효과·수치·중복과 빌드 검증 목표는 [DEC-0105](../Decisions/DEC-0105-first-unique-effects-stacking-and-build-goals.md)에서 확인했고 [고유 기획서](../Systems/Unique-Equipment-Role-Acquisition-and-Handling.md)에 통합했다. 후속 정식 스킬·젬 성장과 콘텐츠는 [기획 순서](../01-Decision-Queue.md)에서 확인한다. 개별 고유의 효과/수치·정식 빌드·젬/캐릭터 성장은 이번 승인으로 확정하지 않는다.

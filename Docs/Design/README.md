@@ -89,7 +89,7 @@
 - [첫 제작 검증 범위 A안 승인](Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)과 [조사](../Research/2026-11-18-crafting-preservation-and-special-scope.md)
 - [고유 장비 공통 기능 기획서](Systems/Unique-Equipment-Role-Acquisition-and-Handling.md)와 [복수 착용 승인](Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)
 - [고유 공통 조사](../Research/2026-11-19-unique-equipment-role-acquisition-and-handling.md)
-- [첫 고유 효과·수치·중복과 빌드 검증 제안](Proposals/Unique-Equipment-Effects-and-Build-Cases.md)과 [조사](../Research/2026-11-19-unique-effects-stacking-and-build-cases.md)
+- [첫 고유 3종의 효과·수치·중복과 빌드 검증 목표 승인](Decisions/DEC-0105-first-unique-effects-stacking-and-build-goals.md)과 [조사](../Research/2026-11-19-unique-effects-stacking-and-build-cases.md)
 - [제작 실행 조사](../Research/2026-11-18-crafting-execution-costs-and-odds.md)
 - [계산 조사](../Research/2026-11-18-affix-calculation-and-data.md)와 [장비 분류 조사](../Research/2026-11-18-equipment-catalog-and-affix-data.md)
 - [맵 모딩 조사](../Research/2026-11-17-dungeon-modification.md), [재화별 개수 추첨 조사](../Research/2026-11-18-currency-dependent-dungeon-penalty-counts.md)

@@ -1,6 +1,6 @@
 # 희귀 장비 기본 제작 기획
 
-상태: 사용자에게 확인받은 현행 제작 원칙과 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)의 실행·비용·확률·종료 처리를 통합했다. 후속 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)에서 보관·비교·교체·분해를 확인했다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 고유 공통 규칙은 [DEC-0104](../Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)에서 복수 착용으로 확인했다. 다음 미승인 묶음은 [첫 고유 3종의 효과·수치·중복과 빌드 검증](../Proposals/Unique-Equipment-Effects-and-Build-Cases.md)이다.
+상태: 사용자에게 확인받은 현행 제작 원칙과 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)의 실행·비용·확률·종료 처리를 통합했다. 후속 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)에서 보관·비교·교체·분해를 확인했다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 고유 공통 규칙은 [DEC-0104](../Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)에서 복수 착용으로 확인했다. 첫 고유 3종의 효과·수치·중복과 빌드 검증 목표는 [DEC-0105](../Decisions/DEC-0105-first-unique-effects-stacking-and-build-goals.md)에서 확인했고 [고유 기획서](Unique-Equipment-Role-Acquisition-and-Handling.md)에 통합했다. 후속 정식 스킬·성장과 콘텐츠는 [기획 순서](../01-Decision-Queue.md)에서 확인한다.
 
 ## 목적·대상과 장비 구조
 
@@ -160,7 +160,7 @@
 
 기본 4종에는 장비당 제작 횟수 제한이 없다. 실행 조건과 비용을 만족하면 같은 장비를 계속 다듬을 수 있으며 반복 횟수로 제작 가능 횟수가 소진되거나 비용이 증가하지 않는다.
 
-제작의 이름·비용·추첨과 실행/종료는 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했다. 장비 보관·비교·교체·분해와 회수는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)를 따른다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 위 ‘첫 제작 검증 범위’에 통합했다. 후속 모델의 보호/특수 제작·자동/일괄 제작·직접 옵션 지정·재료 교환/다른 공급·정식 스킬/성장은 다시 제안하고 확인받는다. 고유 공통 규칙은 [DEC-0104](../Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)에서 복수 착용으로 확인했다. 다음 미승인 묶음은 [첫 고유 3종의 효과·수치·중복과 빌드 검증](../Proposals/Unique-Equipment-Effects-and-Build-Cases.md)이다.
+제작의 이름·비용·추첨과 실행/종료는 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했다. 장비 보관·비교·교체·분해와 회수는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)의 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)를 따른다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 위 ‘첫 제작 검증 범위’에 통합했다. 후속 모델의 보호/특수 제작·자동/일괄 제작·직접 옵션 지정·재료 교환/다른 공급·정식 스킬/성장은 다시 제안하고 확인받는다. 고유 공통 규칙은 [DEC-0104](../Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)에서 복수 착용으로 확인했다. 첫 고유 3종의 효과·수치·중복과 빌드 검증 목표는 [DEC-0105](../Decisions/DEC-0105-first-unique-effects-stacking-and-build-goals.md)에서 확인했고 [고유 기획서](Unique-Equipment-Role-Acquisition-and-Handling.md)에 통합했다. 후속 정식 스킬·성장과 콘텐츠는 [기획 순서](../01-Decision-Queue.md)에서 확인한다.
 
 [PoE 2 제작 연구](../../Research/Crafting/README.md)와 [제작 실행 조사](../../Research/2026-11-18-crafting-execution-costs-and-odds.md)에 출처·버전·라이선스·호환성과 재사용 제약을 정리했다. 비용·균등 추첨은 우리 게임의 자체 초기 규칙이며 PoE의 현행 수치를 반입한 것이 아니다.
 

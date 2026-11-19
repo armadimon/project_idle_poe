@@ -4,6 +4,6 @@
 
 추천 1안의 총수 1개 제한은 채택하지 않는다. 첫 3종·4/5성·고정 일반 옵션 2개+특수 효과 1개·기본 제작/승급/이전 불가·대상 장비당 희귀/고유 97/3%·기본/모딩 동일·기존 보상 개수/공간·단건 분해와 중단 복원의 공통 조건을 유지한다.
 
-개별 고유 이름·성능·특수 효과/수치, 같은 고유 복수 착용과 동일 효과 중복/중첩·충돌은 아직 미정이다. 다음 [첫 고유 3종의 효과·수치·중복과 빌드 검증](Unique-Equipment-Effects-and-Build-Cases.md)에서 한 묶음으로 제안해 확인받는다.
+첫 고유 효과·수치·중복과 빌드 검증 목표는 [DEC-0105](../Decisions/DEC-0105-first-unique-effects-stacking-and-build-goals.md)에서 확인했고 [고유 기획서](../Systems/Unique-Equipment-Role-Acquisition-and-Handling.md)에 통합했다. 후속 정식 스킬·젬 성장과 콘텐츠는 [기획 순서](../01-Decision-Queue.md)에서 확인한다.
 
 [조사](../../Research/2026-11-19-unique-equipment-role-acquisition-and-handling.md)에 출처·버전·권리·호환성과 재사용 한계를 기록했다. 이번은 기획 문서 반영이며 고유 데이터/Unity 구현·PoB/게임 실행·경제/사용성 검증을 수행하지 않았다. 구현 전 기술 조사와 적용·검증 계획을 별도로 제안한다.

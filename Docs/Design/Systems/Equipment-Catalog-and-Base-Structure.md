@@ -18,7 +18,7 @@
 
 ## 고유 장비와 장착
 
-후속 [DEC-0104](../Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)의 [고유 기획서](Unique-Equipment-Role-Acquisition-and-Handling.md)는 목걸이·반지·허리띠 각 1종을 4/5성으로 제공한다. 부위가 맞는 여러 고유를 함께 착용하고 전체 1개 제한을 두지 않는다. 동일 고유 복수 착용·효과 중첩과 개별 성능/특수 효과는 다음 묶음에서 확인한다. 고유의 정해진 기반·일반 옵션 2개·특수 효과 1개는 아래 희귀 기반 후보와 무작위 옵션 추첨을 변경하지 않는다.
+후속 [DEC-0104](../Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)의 [고유 기획서](Unique-Equipment-Role-Acquisition-and-Handling.md)는 목걸이·반지·허리띠 각 1종을 4/5성으로 제공한다. 부위가 맞는 여러 고유를 함께 착용하고 전체 1개 제한을 두지 않는다. 첫 고유의 성능/특수 효과와 동일 고유 중복·중첩은 후속 [DEC-0105](../Decisions/DEC-0105-first-unique-effects-stacking-and-build-goals.md)의 고유 기획서를 따른다. 속행의 반지 두 개를 반지 두 칸에 각각 착용할 수 있다. 고유의 정해진 기반·일반 옵션 2개·특수 효과 1개는 아래 희귀 기반 후보와 무작위 옵션 추첨을 변경하지 않는다.
 
 ## 기반 역할·고정 특성
 
@@ -55,7 +55,7 @@
 
 ## 후속 확인 묶음
 
-기반 성능·고정 특성 수치, 접두/접미 후보와 적용 대상·7단계 범위·단위·계산은 [DEC-0097](../Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)에서 확인했고 [옵션·전투 기획서](Equipment-Affixes-and-Combat-Numbers.md)에 모았다. 제작 실행·비용·확률은 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했고 [기본 제작 기획서](Equipment-Crafting.md)에 통합했다. 장비 보관·비교·교체·분해는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)에서 확인했고 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)에 통합했다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 고유 공통 규칙은 [DEC-0104](../Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)에서 복수 착용으로 확인했다. 다음 미승인 묶음은 [첫 고유 3종의 효과·수치·중복과 빌드 검증](../Proposals/Unique-Equipment-Effects-and-Build-Cases.md)이다.
+기반 성능·고정 특성 수치, 접두/접미 후보와 적용 대상·7단계 범위·단위·계산은 [DEC-0097](../Decisions/DEC-0097-equipment-affixes-base-stats-and-combat-numbers.md)에서 확인했고 [옵션·전투 기획서](Equipment-Affixes-and-Combat-Numbers.md)에 모았다. 제작 실행·비용·확률은 [DEC-0098](../Decisions/DEC-0098-crafting-execution-costs-odds-and-recovery.md)에서 확인했고 [기본 제작 기획서](Equipment-Crafting.md)에 통합했다. 장비 보관·비교·교체·분해는 [DEC-0100](../Decisions/DEC-0100-equipment-inventory-comparison-and-salvage.md)에서 확인했고 [장비 관리 기획서](Equipment-Inventory-Comparison-and-Salvage.md)에 통합했다. [DEC-0102](../Decisions/DEC-0102-initial-crafting-scope-without-extra-special-crafting.md)에서 첫 제작은 기본 4종과 집중석부터 검증하는 A안으로 확인했다. 고유 공통 규칙은 [DEC-0104](../Decisions/DEC-0104-unique-equipment-with-multiple-equipped-items.md)에서 복수 착용으로 확인했다. 첫 고유 3종의 효과·수치·중복과 빌드 검증 목표는 [DEC-0105](../Decisions/DEC-0105-first-unique-effects-stacking-and-build-goals.md)에서 확인했고 [고유 기획서](Unique-Equipment-Role-Acquisition-and-Handling.md)에 통합했다. 후속 정식 스킬·성장과 콘텐츠는 [기획 순서](../01-Decision-Queue.md)에서 확인한다.
 
 무기별 스킬 호환성·젬 요구 능력치·정식 젬 슬롯과 성장, 추가 무기 계열·보조 장비 종류·다른 특수 제작은 별도로 확인한다. 이번 목록을 향후 모든 무기·장비의 영구 목록으로 확정한 것은 아니다.
 
