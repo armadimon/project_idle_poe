@@ -1,0 +1,2012 @@
+{
+  "schema_version": 1,
+  "status": "proposed",
+  "date": "2026-11-23",
+  "scope": "offline design model; not Unity runtime data",
+  "growth": {
+    "max_level": 20,
+    "xp_per_next_level_factor": 100,
+    "equipped_xp_per_star": 20,
+    "unequipped_fraction": 0.25,
+    "active_damage_per_level": 0.02,
+    "support_increase_per_level": 0.01,
+    "spell_damage_per_level": 0.12
+  },
+  "weapons": {
+    "sword": {
+      "name": "한손검",
+      "damage": 20,
+      "aps": 1.5,
+      "shield": true,
+      "attribute": "strength",
+      "basis": "DEC-0097"
+    },
+    "bow": {
+      "name": "활",
+      "damage": 24,
+      "aps": 1.2,
+      "shield": false,
+      "attribute": "dexterity",
+      "basis": "proposed comparison extension"
+    },
+    "wand": {
+      "name": "마법봉",
+      "damage": 12,
+      "aps": 1.2,
+      "shield": true,
+      "attribute": "intelligence",
+      "basis": "DEC-0097"
+    },
+    "axe": {
+      "name": "양손도끼",
+      "damage": 40,
+      "aps": 0.8,
+      "shield": false,
+      "attribute": "strength",
+      "basis": "DEC-0097"
+    },
+    "hammer": {
+      "name": "양손망치",
+      "damage": 44,
+      "aps": 0.72,
+      "shield": false,
+      "attribute": "strength",
+      "basis": "proposed comparison extension"
+    }
+  },
+  "skills": [
+    {
+      "id": "spin",
+      "name": "회전 베기",
+      "weapons": [
+        "sword"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 2.2,
+      "cooldown": 2.8,
+      "action": 0.7,
+      "radius": 2,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "area",
+        "direct"
+      ],
+      "description": "영웅 주변을 한 번 베기",
+      "range": 3,
+      "crit_base": 0.05
+    },
+    {
+      "id": "slam",
+      "name": "지면 강타",
+      "weapons": [
+        "sword",
+        "axe",
+        "hammer"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 2.8,
+      "cooldown": 4,
+      "action": 0.9,
+      "radius": 2,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "area",
+        "direct"
+      ],
+      "description": "전방 지점의 원형 강타",
+      "range": 3,
+      "crit_base": 0.05
+    },
+    {
+      "id": "wave",
+      "name": "관통 충격파",
+      "weapons": [
+        "sword"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 1.7,
+      "cooldown": 3.5,
+      "action": 0.65,
+      "radius": 0.4,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "projectile",
+        "pierce",
+        "direct"
+      ],
+      "description": "직선 관통 충격파",
+      "range": 9,
+      "crit_base": 0.05
+    },
+    {
+      "id": "blade_field",
+      "name": "칼바람 지대",
+      "weapons": [
+        "sword"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 0.85,
+      "cooldown": 5,
+      "action": 0.8,
+      "radius": 2,
+      "pulses": 3,
+      "interval": 0.4,
+      "projectiles": 1,
+      "tags": [
+        "area",
+        "persistent"
+      ],
+      "description": "고정 지대에서 세 번 명중",
+      "range": 6,
+      "crit_base": 0.05
+    },
+    {
+      "id": "thrust",
+      "name": "집중 찌르기",
+      "weapons": [
+        "sword"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 3.8,
+      "cooldown": 4.5,
+      "action": 0.95,
+      "radius": 0.6,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "direct"
+      ],
+      "description": "좁은 전방의 단일 대상 집중",
+      "range": 3,
+      "crit_base": 0.05
+    },
+    {
+      "id": "flurry",
+      "name": "연환 검격",
+      "weapons": [
+        "sword"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 0.95,
+      "cooldown": 4,
+      "action": 1.2,
+      "radius": 0.7,
+      "pulses": 3,
+      "interval": 0.18,
+      "projectiles": 1,
+      "tags": [
+        "direct",
+        "combo"
+      ],
+      "description": "연속 동작으로 세 번 베기",
+      "range": 3,
+      "crit_base": 0.05
+    },
+    {
+      "id": "piercing_arrow",
+      "name": "관통 화살",
+      "weapons": [
+        "bow"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 1.7,
+      "cooldown": 3,
+      "action": 0.8,
+      "radius": 0.35,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "projectile",
+        "pierce",
+        "direct"
+      ],
+      "description": "적을 관통하는 직선 화살",
+      "range": 9,
+      "crit_base": 0.05
+    },
+    {
+      "id": "explosive_arrow",
+      "name": "폭발 화살",
+      "weapons": [
+        "bow"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 2.1,
+      "cooldown": 4,
+      "action": 0.85,
+      "radius": 1.8,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "projectile",
+        "area",
+        "direct"
+      ],
+      "description": "첫 충돌 지점에서 한 번 폭발",
+      "range": 9,
+      "crit_base": 0.05
+    },
+    {
+      "id": "arrow_rain",
+      "name": "화살비",
+      "weapons": [
+        "bow"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 0.85,
+      "cooldown": 5,
+      "action": 0.9,
+      "radius": 2.2,
+      "pulses": 3,
+      "interval": 0.4,
+      "projectiles": 1,
+      "tags": [
+        "area",
+        "persistent"
+      ],
+      "description": "지정 구역을 세 차례 타격",
+      "range": 6,
+      "crit_base": 0.05
+    },
+    {
+      "id": "spread_arrow",
+      "name": "확산 화살",
+      "weapons": [
+        "bow"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 1.25,
+      "cooldown": 3.5,
+      "action": 0.85,
+      "radius": 0.3,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 3,
+      "tags": [
+        "projectile",
+        "direct"
+      ],
+      "description": "비관통 화살 세 발을 부채꼴 발사",
+      "range": 9,
+      "crit_base": 0.05
+    },
+    {
+      "id": "snipe",
+      "name": "저격 화살",
+      "weapons": [
+        "bow"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 4.2,
+      "cooldown": 5,
+      "action": 1.3,
+      "radius": 0.3,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "projectile",
+        "direct"
+      ],
+      "description": "동작이 긴 단일 대상 저격",
+      "range": 9,
+      "crit_base": 0.05
+    },
+    {
+      "id": "homing_arrow",
+      "name": "유도 화살",
+      "weapons": [
+        "bow"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 1.65,
+      "cooldown": 3,
+      "action": 0.75,
+      "radius": 0.3,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "projectile",
+        "homing",
+        "direct"
+      ],
+      "description": "한 대상을 따라가는 비관통 화살",
+      "range": 9,
+      "crit_base": 0.05
+    },
+    {
+      "id": "frost_lance",
+      "name": "서리창",
+      "weapons": [
+        "wand"
+      ],
+      "kind": "spell",
+      "element": "cold",
+      "power": 105,
+      "cooldown": 3.2,
+      "action": 0.65,
+      "radius": 0.35,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "projectile",
+        "pierce",
+        "direct"
+      ],
+      "description": "직선 관통 냉기 주문",
+      "range": 9,
+      "crit_base": 0.05
+    },
+    {
+      "id": "flame_burst",
+      "name": "화염 폭발",
+      "weapons": [
+        "wand"
+      ],
+      "kind": "spell",
+      "element": "fire",
+      "power": 150,
+      "cooldown": 4,
+      "action": 0.8,
+      "radius": 2.2,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "area",
+        "direct"
+      ],
+      "description": "목표 위치의 화염 폭발",
+      "range": 6,
+      "crit_base": 0.05
+    },
+    {
+      "id": "chain_lightning",
+      "name": "연쇄 번개",
+      "weapons": [
+        "wand"
+      ],
+      "kind": "spell",
+      "element": "lightning",
+      "power": 100,
+      "cooldown": 3.5,
+      "action": 0.7,
+      "radius": 0,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "chain",
+        "direct"
+      ],
+      "description": "최대 세 적 사이를 도약",
+      "range": 6,
+      "crit_base": 0.05
+    },
+    {
+      "id": "frost_wave",
+      "name": "서리 파동",
+      "weapons": [
+        "wand"
+      ],
+      "kind": "spell",
+      "element": "cold",
+      "power": 140,
+      "cooldown": 4,
+      "action": 0.85,
+      "radius": 2.1,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "area",
+        "direct"
+      ],
+      "description": "전방 부채꼴의 냉기 명중",
+      "range": 6,
+      "crit_base": 0.05
+    },
+    {
+      "id": "flame_ring",
+      "name": "화염 고리",
+      "weapons": [
+        "wand"
+      ],
+      "kind": "spell",
+      "element": "fire",
+      "power": 60,
+      "cooldown": 5,
+      "action": 0.75,
+      "radius": 2.2,
+      "pulses": 3,
+      "interval": 0.5,
+      "projectiles": 1,
+      "tags": [
+        "area",
+        "persistent"
+      ],
+      "description": "고정된 화염 지대의 반복 명중",
+      "range": 6,
+      "crit_base": 0.05
+    },
+    {
+      "id": "lightning_orb",
+      "name": "번개 구체",
+      "weapons": [
+        "wand"
+      ],
+      "kind": "spell",
+      "element": "lightning",
+      "power": 52,
+      "cooldown": 5,
+      "action": 0.85,
+      "radius": 2,
+      "pulses": 4,
+      "interval": 0.5,
+      "projectiles": 1,
+      "tags": [
+        "area",
+        "persistent"
+      ],
+      "description": "이동하는 구체 주변의 반복 명중",
+      "range": 6,
+      "crit_base": 0.05
+    },
+    {
+      "id": "aftershock",
+      "name": "여진 강타",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 1.45,
+      "cooldown": 5,
+      "action": 1,
+      "radius": 2.2,
+      "pulses": 2,
+      "interval": 0.65,
+      "projectiles": 1,
+      "tags": [
+        "area",
+        "persistent"
+      ],
+      "description": "첫 강타와 같은 지점의 지연 여진",
+      "range": 6,
+      "crit_base": 0.05
+    },
+    {
+      "id": "cleave",
+      "name": "쐐기 가르기",
+      "weapons": [
+        "axe"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 2.7,
+      "cooldown": 3.8,
+      "action": 0.95,
+      "radius": 2.3,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "area",
+        "direct"
+      ],
+      "description": "넓은 전방 부채꼴 공격",
+      "range": 3,
+      "crit_base": 0.05
+    },
+    {
+      "id": "shatter_ring",
+      "name": "파쇄 고리",
+      "weapons": [
+        "hammer"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 3,
+      "cooldown": 4.5,
+      "action": 1.05,
+      "radius": 2.5,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "area",
+        "direct"
+      ],
+      "description": "중앙이 빈 고리 띠 강타",
+      "range": 3,
+      "crit_base": 0.05
+    },
+    {
+      "id": "crush",
+      "name": "집중 분쇄",
+      "weapons": [
+        "axe",
+        "hammer"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 4.8,
+      "cooldown": 6,
+      "action": 1.35,
+      "radius": 0.8,
+      "pulses": 1,
+      "interval": 0,
+      "projectiles": 1,
+      "tags": [
+        "direct"
+      ],
+      "description": "좁은 범위의 무거운 단일 명중",
+      "range": 3,
+      "crit_base": 0.05
+    },
+    {
+      "id": "rift",
+      "name": "균열 확장",
+      "weapons": [
+        "axe"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 1.05,
+      "cooldown": 5.5,
+      "action": 1.1,
+      "radius": 2,
+      "pulses": 3,
+      "interval": 0.3,
+      "projectiles": 1,
+      "tags": [
+        "area",
+        "persistent"
+      ],
+      "description": "전방으로 순차 확장하는 세 균열",
+      "range": 6,
+      "crit_base": 0.05
+    },
+    {
+      "id": "quake_field",
+      "name": "진동 장판",
+      "weapons": [
+        "hammer"
+      ],
+      "kind": "attack",
+      "element": "physical",
+      "power": 0.9,
+      "cooldown": 5.5,
+      "action": 1.1,
+      "radius": 2.4,
+      "pulses": 4,
+      "interval": 0.45,
+      "projectiles": 1,
+      "tags": [
+        "area",
+        "persistent"
+      ],
+      "description": "망치로 남긴 진동 지대",
+      "range": 6,
+      "crit_base": 0.05
+    }
+  ],
+  "supports": [
+    {
+      "id": "area",
+      "name": "범위 확대",
+      "requires": "area",
+      "effects": {
+        "radius": 1.4,
+        "hit": 0.9
+      },
+      "description": "넓은 범위 대신 명중 피해 10% 감폭"
+    },
+    {
+      "id": "repeat",
+      "name": "연속 공격",
+      "requires": "direct_attack",
+      "effects": {
+        "repeat": 1,
+        "repeat_damage": 0.65
+      },
+      "description": "공격을 한 차례 더 실행하며 추가 동작을 점유"
+    },
+    {
+      "id": "haste",
+      "name": "재사용 가속",
+      "requires": "all",
+      "effects": {
+        "cdr": 30,
+        "hit": 0.9
+      },
+      "description": "회복 속도 +30%, 명중 피해 10% 감폭"
+    },
+    {
+      "id": "multi",
+      "name": "다중 투사체",
+      "requires": "projectile",
+      "effects": {
+        "projectiles": 2,
+        "hit": 0.7
+      },
+      "description": "투사체 +2, 명중 피해 30% 감폭; 같은 발사 중복 불가"
+    },
+    {
+      "id": "chain",
+      "name": "연쇄",
+      "requires": "chainable",
+      "effects": {
+        "chains": 2,
+        "hit": 0.8
+      },
+      "description": "다른 적으로 추가 2회 도약, 명중 피해 20% 감폭"
+    },
+    {
+      "id": "return",
+      "name": "귀환",
+      "requires": "pierce",
+      "effects": {
+        "return_damage": 0.5
+      },
+      "description": "관통 투사체가 돌아오며 왕복 각 1회 명중, 귀환 피해 50%"
+    },
+    {
+      "id": "echo",
+      "name": "주문 메아리",
+      "requires": "direct_spell",
+      "effects": {
+        "repeat": 1,
+        "repeat_damage": 0.65
+      },
+      "description": "직접 주문을 한 차례 더 시전하며 동작 점유"
+    },
+    {
+      "id": "concentrate",
+      "name": "집중 범위",
+      "requires": "area",
+      "effects": {
+        "radius": 0.7,
+        "hit": 1.35
+      },
+      "description": "반경 30% 감소, 명중 피해 35% 증폭"
+    },
+    {
+      "id": "aim",
+      "name": "단일 조준",
+      "requires": "projectile",
+      "effects": {
+        "force_projectiles": 1,
+        "range": 0.7,
+        "hit": 1.5
+      },
+      "description": "한 발로 제한, 사거리 30% 감소, 명중 피해 50% 증폭"
+    },
+    {
+      "id": "heavy",
+      "name": "묵직한 일격",
+      "requires": "attack",
+      "effects": {
+        "action": 1.5,
+        "hit": 1.35
+      },
+      "description": "공격 동작 50% 증가, 명중 피해 35% 증폭"
+    },
+    {
+      "id": "critical",
+      "name": "치명 집중",
+      "requires": "all",
+      "effects": {
+        "crit_multi": 0.5,
+        "noncrit": 0.8,
+        "crit_inc": 200
+      },
+      "description": "Critical chance increased by 200%, critical multiplier +50 percentage points; noncritical hit damage x0.8."
+    },
+    {
+      "id": "burst",
+      "name": "완급 조절",
+      "requires": "all",
+      "effects": {
+        "cooldown": 1.5,
+        "hit": 1.35
+      },
+      "description": "기본 재사용 50% 증가, 명중 피해 35% 증폭"
+    },
+    {
+      "id": "to_cold",
+      "name": "냉기 전환",
+      "requires": "physical",
+      "effects": {
+        "convert": "cold",
+        "hit": 0.85
+      },
+      "description": "기본 물리 성분 전부 냉기로 전환, 명중 피해 15% 감폭"
+    },
+    {
+      "id": "to_fire",
+      "name": "화염 전환",
+      "requires": "physical",
+      "effects": {
+        "convert": "fire",
+        "hit": 0.85
+      },
+      "description": "기본 물리 성분 전부 화염으로 전환, 명중 피해 15% 감폭"
+    },
+    {
+      "id": "to_lightning",
+      "name": "번개 전환",
+      "requires": "physical",
+      "effects": {
+        "convert": "lightning",
+        "hit": 0.85
+      },
+      "description": "기본 물리 성분 전부 번개로 전환, 명중 피해 15% 감폭"
+    },
+    {
+      "id": "duration",
+      "name": "지속 확장",
+      "requires": "persistent",
+      "effects": {
+        "pulses": 2,
+        "hit": 0.8
+      },
+      "description": "명중 두 차례 추가, 각 명중 피해 20% 감폭"
+    },
+    {
+      "id": "bleed",
+      "name": "출혈",
+      "requires": "direct_physical_attack",
+      "effects": {
+        "ailment": "bleed",
+        "ailment_rate": 0.18,
+        "hit": 0.75
+      },
+      "description": "Direct physical attacks apply 3-second bleed at 18% of pre-hit physical damage per second; hit damage x0.75."
+    },
+    {
+      "id": "ignite",
+      "name": "점화",
+      "requires": "fire",
+      "effects": {
+        "ailment": "ignite",
+        "ailment_rate": 0.6,
+        "hit": 0.75
+      },
+      "description": "화염 기반 점화 3초; 명중 피해 25% 감폭"
+    },
+    {
+      "id": "on_crit",
+      "name": "치명 연동",
+      "requires": "direct",
+      "effects": {
+        "trigger": "crit",
+        "hit": 0.75
+      },
+      "description": "일반 사용 대신 다른 기본/일반 명중의 치명타로 발동; 명중 피해 25% 감폭"
+    },
+    {
+      "id": "on_block",
+      "name": "막기 연동",
+      "requires": "direct",
+      "effects": {
+        "trigger": "block",
+        "hit": 1.1
+      },
+      "description": "방패 막기 후 발동, 명중 피해 10% 증폭; 평상시 자동 사용 제외"
+    },
+    {
+      "id": "lifeburn",
+      "name": "생명 연소",
+      "requires": "all",
+      "effects": {
+        "life_cost": 0.04,
+        "hit": 1.35
+      },
+      "description": "활성화마다 최대 생명력 4% 소모, 명중 피해 35% 증폭"
+    },
+    {
+      "id": "leech",
+      "name": "흡혈",
+      "requires": "all",
+      "effects": {
+        "leech": 0.04,
+        "hit": 0.85
+      },
+      "description": "Recover 4% of hit damage; hit damage x0.85; shared recovery cap."
+    },
+    {
+      "id": "velocity",
+      "name": "빠른 투사체",
+      "requires": "projectile",
+      "effects": {
+        "range": 1.3,
+        "hit": 0.9,
+        "moving_accuracy": 0.15
+      },
+      "description": "사거리 30% 증가, 이동 대상 명중 유지 개선, 피해 10% 감폭"
+    },
+    {
+      "id": "close",
+      "name": "근접 사격",
+      "requires": "projectile",
+      "effects": {
+        "near": 1.35,
+        "far": 0.65
+      },
+      "description": "거리 3 이내 명중 피해 35% 증폭, 밖에서는 35% 감폭"
+    }
+  ],
+  "builds": [
+    {
+      "id": "spin_noncrit",
+      "name": "비치명 회전 검투사",
+      "weapon": "sword",
+      "gear": "physical",
+      "uniques": [
+        "amulet"
+      ],
+      "groups": [
+        {
+          "skill": "spin",
+          "supports": [
+            "area",
+            "repeat"
+          ]
+        },
+        {
+          "skill": "flurry",
+          "supports": [
+            "repeat",
+            "heavy"
+          ]
+        },
+        {
+          "skill": "slam",
+          "supports": [
+            "area",
+            "haste"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "critical_sniper",
+      "name": "치명 저격 사수",
+      "weapon": "bow",
+      "gear": "critical",
+      "uniques": [],
+      "groups": [
+        {
+          "skill": "snipe",
+          "supports": [
+            "aim",
+            "critical"
+          ]
+        },
+        {
+          "skill": "homing_arrow",
+          "supports": [
+            "aim",
+            "haste"
+          ]
+        },
+        {
+          "skill": "explosive_arrow",
+          "supports": [
+            "concentrate",
+            "critical"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chain_clear",
+      "name": "군집 연쇄 사수",
+      "weapon": "bow",
+      "gear": "physical",
+      "uniques": [],
+      "groups": [
+        {
+          "skill": "spread_arrow",
+          "supports": [
+            "multi",
+            "chain"
+          ]
+        },
+        {
+          "skill": "homing_arrow",
+          "supports": [
+            "multi",
+            "chain"
+          ]
+        },
+        {
+          "skill": "explosive_arrow",
+          "supports": [
+            "chain",
+            "area"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "return_arrow",
+      "name": "귀환 관통 사수",
+      "weapon": "bow",
+      "gear": "physical",
+      "uniques": [],
+      "groups": [
+        {
+          "skill": "piercing_arrow",
+          "supports": [
+            "multi",
+            "return"
+          ]
+        },
+        {
+          "skill": "snipe",
+          "supports": [
+            "aim",
+            "burst"
+          ]
+        },
+        {
+          "skill": "arrow_rain",
+          "supports": [
+            "area",
+            "duration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elemental_blade",
+      "name": "냉기 전환 검투사",
+      "weapon": "sword",
+      "gear": "elemental",
+      "uniques": [],
+      "groups": [
+        {
+          "skill": "spin",
+          "supports": [
+            "to_cold",
+            "repeat"
+          ]
+        },
+        {
+          "skill": "slam",
+          "supports": [
+            "to_cold",
+            "concentrate"
+          ]
+        },
+        {
+          "skill": "wave",
+          "supports": [
+            "to_cold",
+            "return"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "echo_caster",
+      "name": "반복 시전 원소술사",
+      "weapon": "wand",
+      "gear": "spell",
+      "uniques": [],
+      "groups": [
+        {
+          "skill": "frost_lance",
+          "supports": [
+            "multi",
+            "echo"
+          ]
+        },
+        {
+          "skill": "frost_wave",
+          "supports": [
+            "concentrate",
+            "echo"
+          ]
+        },
+        {
+          "skill": "flame_burst",
+          "supports": [
+            "haste",
+            "echo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "field_caster",
+      "name": "지대 유지 원소술사",
+      "weapon": "wand",
+      "gear": "spell",
+      "uniques": [],
+      "groups": [
+        {
+          "skill": "flame_ring",
+          "supports": [
+            "duration",
+            "area"
+          ]
+        },
+        {
+          "skill": "lightning_orb",
+          "supports": [
+            "duration",
+            "concentrate"
+          ]
+        },
+        {
+          "skill": "frost_wave",
+          "supports": [
+            "haste",
+            "echo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heavy_aftershock",
+      "name": "중량 여진 파쇄자",
+      "weapon": "hammer",
+      "gear": "physical",
+      "uniques": [
+        "belt"
+      ],
+      "groups": [
+        {
+          "skill": "crush",
+          "supports": [
+            "heavy",
+            "burst"
+          ]
+        },
+        {
+          "skill": "aftershock",
+          "supports": [
+            "concentrate",
+            "haste"
+          ]
+        },
+        {
+          "skill": "quake_field",
+          "supports": [
+            "duration",
+            "area"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bleed_axe",
+      "name": "출혈 파쇄자",
+      "weapon": "axe",
+      "gear": "physical",
+      "uniques": [],
+      "groups": [
+        {
+          "skill": "crush",
+          "supports": [
+            "bleed",
+            "burst"
+          ]
+        },
+        {
+          "skill": "cleave",
+          "supports": [
+            "bleed",
+            "area"
+          ]
+        },
+        {
+          "skill": "rift",
+          "supports": [
+            "area",
+            "duration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ignite_caster",
+      "name": "점화 원소술사",
+      "weapon": "wand",
+      "gear": "spell",
+      "uniques": [],
+      "groups": [
+        {
+          "skill": "flame_burst",
+          "supports": [
+            "ignite",
+            "burst"
+          ]
+        },
+        {
+          "skill": "flame_ring",
+          "supports": [
+            "ignite",
+            "duration"
+          ]
+        },
+        {
+          "skill": "frost_lance",
+          "supports": [
+            "echo",
+            "haste"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "critical_trigger",
+      "name": "치명 연동 원소술사",
+      "weapon": "wand",
+      "gear": "critical",
+      "uniques": [],
+      "groups": [
+        {
+          "skill": "frost_wave",
+          "supports": [
+            "critical",
+            "haste"
+          ]
+        },
+        {
+          "skill": "flame_burst",
+          "supports": [
+            "on_crit",
+            "concentrate"
+          ]
+        },
+        {
+          "skill": "chain_lightning",
+          "supports": [
+            "on_crit",
+            "critical"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "block_trigger",
+      "name": "방패 반격 검투사",
+      "weapon": "sword",
+      "gear": "defense",
+      "uniques": [
+        "belt"
+      ],
+      "groups": [
+        {
+          "skill": "spin",
+          "supports": [
+            "area",
+            "leech"
+          ]
+        },
+        {
+          "skill": "slam",
+          "supports": [
+            "on_block",
+            "concentrate"
+          ]
+        },
+        {
+          "skill": "thrust",
+          "supports": [
+            "on_block",
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life_burn",
+      "name": "생명 소모·흡혈 검투사",
+      "weapon": "sword",
+      "gear": "sustain",
+      "uniques": [
+        "belt"
+      ],
+      "groups": [
+        {
+          "skill": "spin",
+          "supports": [
+            "lifeburn",
+            "leech"
+          ]
+        },
+        {
+          "skill": "flurry",
+          "supports": [
+            "lifeburn",
+            "leech"
+          ]
+        },
+        {
+          "skill": "slam",
+          "supports": [
+            "lifeburn",
+            "leech"
+          ]
+        }
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "boss",
+      "name": "고정 단일 대상",
+      "targets": 1,
+      "distance": 3,
+      "spread": 3,
+      "field_uptime": 1,
+      "moving_accuracy": 1,
+      "armour": 800,
+      "resistance": 0.25,
+      "enemy_damage": 55,
+      "enemy_interval": 1.5,
+      "enemy_attack_fraction": 0.7
+    },
+    {
+      "id": "pack",
+      "name": "밀집 다수 대상",
+      "targets": 8,
+      "distance": 4,
+      "spread": 3,
+      "field_uptime": 0.9,
+      "moving_accuracy": 0.95,
+      "armour": 300,
+      "resistance": 0.15,
+      "enemy_damage": 40,
+      "enemy_interval": 0.7,
+      "enemy_attack_fraction": 0.8
+    },
+    {
+      "id": "moving",
+      "name": "흩어진 이동 대상",
+      "targets": 5,
+      "distance": 8,
+      "spread": 5,
+      "field_uptime": 0.4,
+      "moving_accuracy": 0.65,
+      "armour": 400,
+      "resistance": 0.2,
+      "enemy_damage": 70,
+      "enemy_interval": 1.2,
+      "enemy_attack_fraction": 0.6
+    },
+    {
+      "id": "pressure",
+      "name": "근거리 생존 압박",
+      "targets": 1,
+      "distance": 2,
+      "spread": 3,
+      "field_uptime": 0.8,
+      "moving_accuracy": 0.95,
+      "armour": 1000,
+      "resistance": 0.3,
+      "enemy_damage": 260,
+      "enemy_interval": 0.8,
+      "enemy_attack_fraction": 0.8
+    }
+  ],
+  "simulation": {
+    "seconds": 60,
+    "seeds": 24,
+    "trigger_global_cooldown": 0.5,
+    "leech_max_life_per_second": 0.1,
+    "field_limit_per_group": 1,
+    "dot_seconds": 3,
+    "dot_tick": 0.5,
+    "attribute_requirement": 20
+  },
+  "equipment": {
+    "source_document": "Docs/Design/Systems/Equipment-Affixes-and-Combat-Numbers.md",
+    "source_sha256": "9ed2d5f8a86f41c82c3aa6f4e14b7f985203060bb24b6073a3156fd6e2d5efe5",
+    "extension_note": "Bow and hammer use axe affix candidates as a proposed comparison extension.",
+    "affixes": {
+      "weapon_phys_flat": {
+        "group": "prefix",
+        "range": "F"
+      },
+      "weapon_phys_inc": {
+        "group": "prefix",
+        "range": "P"
+      },
+      "attack_fire": {
+        "group": "prefix",
+        "range": "F"
+      },
+      "attack_cold": {
+        "group": "prefix",
+        "range": "F"
+      },
+      "attack_lightning": {
+        "group": "prefix",
+        "range": "F"
+      },
+      "spell_inc": {
+        "group": "prefix",
+        "range": "P"
+      },
+      "spell_fire": {
+        "group": "prefix",
+        "range": "F"
+      },
+      "spell_cold": {
+        "group": "prefix",
+        "range": "F"
+      },
+      "spell_lightning": {
+        "group": "prefix",
+        "range": "F"
+      },
+      "life": {
+        "group": "prefix",
+        "range": "L"
+      },
+      "armour": {
+        "group": "prefix",
+        "range": "D"
+      },
+      "evasion": {
+        "group": "prefix",
+        "range": "D"
+      },
+      "shield": {
+        "group": "prefix",
+        "range": "E"
+      },
+      "armour_inc": {
+        "group": "prefix",
+        "range": "P"
+      },
+      "evasion_inc": {
+        "group": "prefix",
+        "range": "P"
+      },
+      "shield_inc": {
+        "group": "prefix",
+        "range": "P"
+      },
+      "physical_inc": {
+        "group": "prefix",
+        "range": "P"
+      },
+      "elemental_inc": {
+        "group": "prefix",
+        "range": "P"
+      },
+      "regen": {
+        "group": "prefix",
+        "range": "B"
+      },
+      "strength": {
+        "group": "suffix",
+        "range": "A"
+      },
+      "dexterity": {
+        "group": "suffix",
+        "range": "A"
+      },
+      "intelligence": {
+        "group": "suffix",
+        "range": "A"
+      },
+      "fire_res": {
+        "group": "suffix",
+        "range": "R"
+      },
+      "cold_res": {
+        "group": "suffix",
+        "range": "R"
+      },
+      "lightning_res": {
+        "group": "suffix",
+        "range": "R"
+      },
+      "local_attack_speed": {
+        "group": "suffix",
+        "range": "S"
+      },
+      "attack_speed": {
+        "group": "suffix",
+        "range": "S"
+      },
+      "cast_speed": {
+        "group": "suffix",
+        "range": "S"
+      },
+      "crit_inc": {
+        "group": "suffix",
+        "range": "P"
+      },
+      "crit_multi": {
+        "group": "suffix",
+        "range": "E"
+      },
+      "cooldown": {
+        "group": "suffix",
+        "range": "S"
+      },
+      "move_speed": {
+        "group": "suffix",
+        "range": "S"
+      },
+      "block": {
+        "group": "suffix",
+        "range": "B"
+      },
+      "healing": {
+        "group": "suffix",
+        "range": "P"
+      }
+    },
+    "pools": {
+      "sword": [
+        "weapon_phys_flat",
+        "weapon_phys_inc",
+        "attack_fire",
+        "attack_cold",
+        "attack_lightning",
+        "life",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "local_attack_speed",
+        "crit_inc",
+        "crit_multi"
+      ],
+      "axe": [
+        "weapon_phys_flat",
+        "weapon_phys_inc",
+        "attack_fire",
+        "attack_cold",
+        "attack_lightning",
+        "life",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "local_attack_speed",
+        "crit_inc",
+        "crit_multi"
+      ],
+      "wand": [
+        "spell_inc",
+        "spell_fire",
+        "spell_cold",
+        "spell_lightning",
+        "life",
+        "shield",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "cast_speed",
+        "crit_inc",
+        "crit_multi"
+      ],
+      "head": [
+        "life",
+        "armour",
+        "evasion",
+        "shield",
+        "armour_inc",
+        "evasion_inc",
+        "shield_inc",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "fire_res",
+        "cold_res",
+        "lightning_res",
+        "cooldown"
+      ],
+      "chest": [
+        "life",
+        "armour",
+        "evasion",
+        "shield",
+        "armour_inc",
+        "evasion_inc",
+        "shield_inc",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "fire_res",
+        "cold_res",
+        "lightning_res",
+        "healing"
+      ],
+      "offhand": [
+        "life",
+        "armour",
+        "evasion",
+        "shield",
+        "armour_inc",
+        "evasion_inc",
+        "shield_inc",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "fire_res",
+        "cold_res",
+        "lightning_res",
+        "block"
+      ],
+      "gloves": [
+        "life",
+        "armour",
+        "evasion",
+        "shield",
+        "armour_inc",
+        "evasion_inc",
+        "shield_inc",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "fire_res",
+        "cold_res",
+        "lightning_res",
+        "attack_speed",
+        "cast_speed"
+      ],
+      "boots": [
+        "life",
+        "armour",
+        "evasion",
+        "shield",
+        "armour_inc",
+        "evasion_inc",
+        "shield_inc",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "fire_res",
+        "cold_res",
+        "lightning_res",
+        "move_speed"
+      ],
+      "amulet": [
+        "life",
+        "armour",
+        "evasion",
+        "shield",
+        "physical_inc",
+        "elemental_inc",
+        "regen",
+        "spell_inc",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "fire_res",
+        "cold_res",
+        "lightning_res",
+        "crit_inc",
+        "crit_multi",
+        "cooldown"
+      ],
+      "ring": [
+        "life",
+        "armour",
+        "evasion",
+        "shield",
+        "physical_inc",
+        "elemental_inc",
+        "regen",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "fire_res",
+        "cold_res",
+        "lightning_res",
+        "attack_speed",
+        "cast_speed"
+      ],
+      "belt": [
+        "life",
+        "armour",
+        "evasion",
+        "shield",
+        "physical_inc",
+        "elemental_inc",
+        "regen",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "fire_res",
+        "cold_res",
+        "lightning_res",
+        "healing"
+      ],
+      "bow": [
+        "weapon_phys_flat",
+        "weapon_phys_inc",
+        "attack_fire",
+        "attack_cold",
+        "attack_lightning",
+        "life",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "local_attack_speed",
+        "crit_inc",
+        "crit_multi"
+      ],
+      "hammer": [
+        "weapon_phys_flat",
+        "weapon_phys_inc",
+        "attack_fire",
+        "attack_cold",
+        "attack_lightning",
+        "life",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "local_attack_speed",
+        "crit_inc",
+        "crit_multi"
+      ]
+    },
+    "ranges": {
+      "F": [
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          17,
+          21
+        ],
+        [
+          20,
+          24
+        ]
+      ],
+      "P": [
+        [
+          8,
+          16
+        ],
+        [
+          14,
+          22
+        ],
+        [
+          20,
+          28
+        ],
+        [
+          26,
+          34
+        ],
+        [
+          32,
+          40
+        ],
+        [
+          38,
+          46
+        ],
+        [
+          44,
+          52
+        ]
+      ],
+      "S": [
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          13,
+          16
+        ],
+        [
+          15,
+          18
+        ]
+      ],
+      "A": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          12,
+          16
+        ],
+        [
+          15,
+          19
+        ],
+        [
+          18,
+          22
+        ],
+        [
+          21,
+          25
+        ]
+      ],
+      "L": [
+        [
+          20,
+          40
+        ],
+        [
+          35,
+          55
+        ],
+        [
+          50,
+          70
+        ],
+        [
+          65,
+          85
+        ],
+        [
+          80,
+          100
+        ],
+        [
+          95,
+          115
+        ],
+        [
+          110,
+          130
+        ]
+      ],
+      "D": [
+        [
+          30,
+          60
+        ],
+        [
+          50,
+          80
+        ],
+        [
+          70,
+          100
+        ],
+        [
+          90,
+          120
+        ],
+        [
+          110,
+          140
+        ],
+        [
+          130,
+          160
+        ],
+        [
+          150,
+          180
+        ]
+      ],
+      "E": [
+        [
+          10,
+          20
+        ],
+        [
+          18,
+          28
+        ],
+        [
+          26,
+          36
+        ],
+        [
+          34,
+          44
+        ],
+        [
+          42,
+          52
+        ],
+        [
+          50,
+          60
+        ],
+        [
+          58,
+          68
+        ]
+      ],
+      "R": [
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          22,
+          26
+        ]
+      ],
+      "B": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          13,
+          16
+        ]
+      ]
+    }
+  },
+  "revision": 2,
+  "holdout_scenarios": [
+    {
+      "id": "holdout_armour",
+      "name": "Holdout: armoured boss",
+      "targets": 1,
+      "distance": 4,
+      "spread": 3,
+      "field_uptime": 1,
+      "moving_accuracy": 1,
+      "armour": 2500,
+      "resistance": 0.1,
+      "enemy_damage": 120,
+      "enemy_interval": 1.1,
+      "enemy_attack_fraction": 0.7
+    },
+    {
+      "id": "holdout_resist",
+      "name": "Holdout: elemental-resistant boss",
+      "targets": 1,
+      "distance": 5,
+      "spread": 3,
+      "field_uptime": 1,
+      "moving_accuracy": 1,
+      "armour": 200,
+      "resistance": 0.65,
+      "enemy_damage": 90,
+      "enemy_interval": 1.2,
+      "enemy_attack_fraction": 0.7
+    },
+    {
+      "id": "holdout_wide",
+      "name": "Holdout: wide pack",
+      "targets": 12,
+      "distance": 6,
+      "spread": 6,
+      "field_uptime": 0.5,
+      "moving_accuracy": 0.65,
+      "armour": 600,
+      "resistance": 0.35,
+      "enemy_damage": 70,
+      "enemy_interval": 1.2,
+      "enemy_attack_fraction": 0.6
+    },
+    {
+      "id": "holdout_short",
+      "name": "Holdout: short pressure window",
+      "targets": 3,
+      "distance": 2,
+      "spread": 3,
+      "field_uptime": 0.8,
+      "moving_accuracy": 0.95,
+      "armour": 1000,
+      "resistance": 0.3,
+      "enemy_damage": 180,
+      "enemy_interval": 0.6,
+      "enemy_attack_fraction": 0.8,
+      "seconds": 15
+    }
+  ]
+}

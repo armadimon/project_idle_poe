@@ -1,0 +1,907 @@
+{
+  "catalog_sha256": "71910892c1afae4d8276bf3e7bd533285465e079f443e03378b5218809742df7",
+  "analyzer_sha256": "7c9e6e76a054c1e7adef66c354b0cf8fbc8538f0c1c8ffb740ff50cffefde013",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "leaders": [
+    {
+      "scenario": "boss",
+      "best": "bleed_axe",
+      "best_dps": 3912.0137,
+      "within_20_percent": [
+        "bleed_axe"
+      ]
+    },
+    {
+      "scenario": "pack",
+      "best": "bleed_axe",
+      "best_dps": 17640.3681,
+      "within_20_percent": [
+        "bleed_axe"
+      ]
+    },
+    {
+      "scenario": "moving",
+      "best": "bleed_axe",
+      "best_dps": 2616.4605,
+      "within_20_percent": [
+        "bleed_axe",
+        "return_arrow"
+      ]
+    },
+    {
+      "scenario": "pressure",
+      "best": "bleed_axe",
+      "best_dps": 1515.471,
+      "within_20_percent": [
+        "bleed_axe"
+      ]
+    }
+  ],
+  "benchmarks": [
+    {
+      "build": "spin_noncrit",
+      "scenario": "boss",
+      "mean_dps": 1472.676,
+      "ci95_normal": [
+        1472.676,
+        1472.676
+      ],
+      "min_dps": 1472.676,
+      "max_dps": 1472.676,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.7827
+    },
+    {
+      "build": "spin_noncrit",
+      "scenario": "pack",
+      "mean_dps": 5386.2981,
+      "ci95_normal": [
+        5365.3167,
+        5407.2794
+      ],
+      "min_dps": 5309.3711,
+      "max_dps": 5508.8934,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.6621
+    },
+    {
+      "build": "spin_noncrit",
+      "scenario": "moving",
+      "mean_dps": 704.5963,
+      "ci95_normal": [
+        672.0878,
+        737.1047
+      ],
+      "min_dps": 504.8753,
+      "max_dps": 827.0337,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.6499
+    },
+    {
+      "build": "spin_noncrit",
+      "scenario": "pressure",
+      "mean_dps": 667.3372,
+      "ci95_normal": [
+        651.0678,
+        683.6065
+      ],
+      "min_dps": 591.2868,
+      "max_dps": 735.1218,
+      "survival_rate": 0.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.0
+    },
+    {
+      "build": "critical_sniper",
+      "scenario": "boss",
+      "mean_dps": 1794.0835,
+      "ci95_normal": [
+        1710.3761,
+        1877.7909
+      ],
+      "min_dps": 1367.0883,
+      "max_dps": 2187.2139,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.7311
+    },
+    {
+      "build": "critical_sniper",
+      "scenario": "pack",
+      "mean_dps": 2768.1777,
+      "ci95_normal": [
+        2657.3831,
+        2878.9724
+      ],
+      "min_dps": 2253.6528,
+      "max_dps": 3322.2175,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.5844
+    },
+    {
+      "build": "critical_sniper",
+      "scenario": "moving",
+      "mean_dps": 1404.8741,
+      "ci95_normal": [
+        1296.801,
+        1512.9472
+      ],
+      "min_dps": 1004.9414,
+      "max_dps": 1951.8846,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.5721
+    },
+    {
+      "build": "critical_sniper",
+      "scenario": "pressure",
+      "mean_dps": 708.3349,
+      "ci95_normal": [
+        669.6582,
+        747.0116
+      ],
+      "min_dps": 559.6402,
+      "max_dps": 925.7743,
+      "survival_rate": 0.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.0
+    },
+    {
+      "build": "chain_clear",
+      "scenario": "boss",
+      "mean_dps": 716.8571,
+      "ci95_normal": [
+        713.1053,
+        720.609
+      ],
+      "min_dps": 700.1048,
+      "max_dps": 738.4509,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.7311
+    },
+    {
+      "build": "chain_clear",
+      "scenario": "pack",
+      "mean_dps": 4259.0676,
+      "ci95_normal": [
+        4219.2337,
+        4298.9015
+      ],
+      "min_dps": 4059.6926,
+      "max_dps": 4520.5108,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.5844
+    },
+    {
+      "build": "chain_clear",
+      "scenario": "moving",
+      "mean_dps": 2043.6248,
+      "ci95_normal": [
+        2023.5123,
+        2063.7374
+      ],
+      "min_dps": 1951.0546,
+      "max_dps": 2145.6535,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.5721
+    },
+    {
+      "build": "chain_clear",
+      "scenario": "pressure",
+      "mean_dps": 274.1072,
+      "ci95_normal": [
+        270.9055,
+        277.309
+      ],
+      "min_dps": 253.6574,
+      "max_dps": 290.7495,
+      "survival_rate": 0.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.0
+    },
+    {
+      "build": "return_arrow",
+      "scenario": "boss",
+      "mean_dps": 1686.8331,
+      "ci95_normal": [
+        1673.5882,
+        1700.0779
+      ],
+      "min_dps": 1643.9945,
+      "max_dps": 1763.3439,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.7311
+    },
+    {
+      "build": "return_arrow",
+      "scenario": "pack",
+      "mean_dps": 6960.3692,
+      "ci95_normal": [
+        6910.0174,
+        7010.7211
+      ],
+      "min_dps": 6708.0726,
+      "max_dps": 7195.8811,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.5844
+    },
+    {
+      "build": "return_arrow",
+      "scenario": "moving",
+      "mean_dps": 2190.0769,
+      "ci95_normal": [
+        2136.9541,
+        2243.1998
+      ],
+      "min_dps": 1879.3607,
+      "max_dps": 2376.1812,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.5721
+    },
+    {
+      "build": "return_arrow",
+      "scenario": "pressure",
+      "mean_dps": 573.5037,
+      "ci95_normal": [
+        557.1745,
+        589.833
+      ],
+      "min_dps": 478.0678,
+      "max_dps": 643.8122,
+      "survival_rate": 0.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.0
+    },
+    {
+      "build": "elemental_blade",
+      "scenario": "boss",
+      "mean_dps": 1746.1336,
+      "ci95_normal": [
+        1739.3443,
+        1752.9229
+      ],
+      "min_dps": 1705.6444,
+      "max_dps": 1772.9554,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.7736
+    },
+    {
+      "build": "elemental_blade",
+      "scenario": "pack",
+      "mean_dps": 4215.1858,
+      "ci95_normal": [
+        4170.1954,
+        4260.1763
+      ],
+      "min_dps": 4034.6372,
+      "max_dps": 4448.1632,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.6491
+    },
+    {
+      "build": "elemental_blade",
+      "scenario": "moving",
+      "mean_dps": 1023.4199,
+      "ci95_normal": [
+        983.5785,
+        1063.2613
+      ],
+      "min_dps": 827.1188,
+      "max_dps": 1198.5852,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.6349
+    },
+    {
+      "build": "elemental_blade",
+      "scenario": "pressure",
+      "mean_dps": 804.5595,
+      "ci95_normal": [
+        771.428,
+        837.691
+      ],
+      "min_dps": 689.2372,
+      "max_dps": 1047.9806,
+      "survival_rate": 0.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.0
+    },
+    {
+      "build": "echo_caster",
+      "scenario": "boss",
+      "mean_dps": 586.3091,
+      "ci95_normal": [
+        583.0488,
+        589.5694
+      ],
+      "min_dps": 573.9492,
+      "max_dps": 600.379,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.9936
+    },
+    {
+      "build": "echo_caster",
+      "scenario": "pack",
+      "mean_dps": 2388.8802,
+      "ci95_normal": [
+        2368.6615,
+        2409.099
+      ],
+      "min_dps": 2266.6211,
+      "max_dps": 2462.2911,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 1.0
+    },
+    {
+      "build": "echo_caster",
+      "scenario": "moving",
+      "mean_dps": 764.6124,
+      "ci95_normal": [
+        747.8727,
+        781.3521
+      ],
+      "min_dps": 686.3064,
+      "max_dps": 832.4871,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.9925
+    },
+    {
+      "build": "echo_caster",
+      "scenario": "pressure",
+      "mean_dps": 499.9718,
+      "ci95_normal": [
+        488.7715,
+        511.1721
+      ],
+      "min_dps": 451.005,
+      "max_dps": 545.3271,
+      "survival_rate": 0.5416666666666666,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.0618
+    },
+    {
+      "build": "field_caster",
+      "scenario": "boss",
+      "mean_dps": 743.8938,
+      "ci95_normal": [
+        741.3286,
+        746.459
+      ],
+      "min_dps": 733.5124,
+      "max_dps": 759.7742,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.9941
+    },
+    {
+      "build": "field_caster",
+      "scenario": "pack",
+      "mean_dps": 3301.1485,
+      "ci95_normal": [
+        3285.2288,
+        3317.0682
+      ],
+      "min_dps": 3230.3719,
+      "max_dps": 3378.16,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 1.0
+    },
+    {
+      "build": "field_caster",
+      "scenario": "moving",
+      "mean_dps": 384.6175,
+      "ci95_normal": [
+        376.2351,
+        393.0
+      ],
+      "min_dps": 340.9869,
+      "max_dps": 415.193,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.9929
+    },
+    {
+      "build": "field_caster",
+      "scenario": "pressure",
+      "mean_dps": 538.3071,
+      "ci95_normal": [
+        521.6733,
+        554.9409
+      ],
+      "min_dps": 455.0453,
+      "max_dps": 600.1812,
+      "survival_rate": 0.5,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.0232
+    },
+    {
+      "build": "heavy_aftershock",
+      "scenario": "boss",
+      "mean_dps": 2132.0237,
+      "ci95_normal": [
+        2116.6042,
+        2147.4432
+      ],
+      "min_dps": 2080.5643,
+      "max_dps": 2209.493,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.79
+    },
+    {
+      "build": "heavy_aftershock",
+      "scenario": "pack",
+      "mean_dps": 7426.7084,
+      "ci95_normal": [
+        7316.9192,
+        7536.4976
+      ],
+      "min_dps": 6811.2447,
+      "max_dps": 8035.6681,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.6754
+    },
+    {
+      "build": "heavy_aftershock",
+      "scenario": "moving",
+      "mean_dps": 820.4591,
+      "ci95_normal": [
+        769.8384,
+        871.0798
+      ],
+      "min_dps": 597.3641,
+      "max_dps": 1089.7978,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.6659
+    },
+    {
+      "build": "heavy_aftershock",
+      "scenario": "pressure",
+      "mean_dps": 898.5823,
+      "ci95_normal": [
+        873.4371,
+        923.7275
+      ],
+      "min_dps": 742.4763,
+      "max_dps": 994.7332,
+      "survival_rate": 0.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.0
+    },
+    {
+      "build": "bleed_axe",
+      "scenario": "boss",
+      "mean_dps": 3912.0137,
+      "ci95_normal": [
+        3898.4849,
+        3925.5425
+      ],
+      "min_dps": 3873.5311,
+      "max_dps": 4005.0856,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 2352.119,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.7311
+    },
+    {
+      "build": "bleed_axe",
+      "scenario": "pack",
+      "mean_dps": 17640.3681,
+      "ci95_normal": [
+        17491.9169,
+        17788.8193
+      ],
+      "min_dps": 17034.0022,
+      "max_dps": 18352.8809,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 11440.0372,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.5844
+    },
+    {
+      "build": "bleed_axe",
+      "scenario": "moving",
+      "mean_dps": 2616.4605,
+      "ci95_normal": [
+        2454.7775,
+        2778.1435
+      ],
+      "min_dps": 1801.4138,
+      "max_dps": 3369.4241,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 1893.4921,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.5721
+    },
+    {
+      "build": "bleed_axe",
+      "scenario": "pressure",
+      "mean_dps": 1515.471,
+      "ci95_normal": [
+        1488.9996,
+        1541.9423
+      ],
+      "min_dps": 1371.4306,
+      "max_dps": 1584.183,
+      "survival_rate": 0.0,
+      "mean_dot_dps": 994.7957,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.0
+    },
+    {
+      "build": "ignite_caster",
+      "scenario": "boss",
+      "mean_dps": 620.1998,
+      "ci95_normal": [
+        617.5938,
+        622.8058
+      ],
+      "min_dps": 611.5288,
+      "max_dps": 639.8334,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 147.1647,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.9941
+    },
+    {
+      "build": "ignite_caster",
+      "scenario": "pack",
+      "mean_dps": 2679.0579,
+      "ci95_normal": [
+        2664.062,
+        2694.0538
+      ],
+      "min_dps": 2636.1675,
+      "max_dps": 2768.3908,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 1097.1883,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 1.0
+    },
+    {
+      "build": "ignite_caster",
+      "scenario": "moving",
+      "mean_dps": 624.7464,
+      "ci95_normal": [
+        607.6045,
+        641.8884
+      ],
+      "min_dps": 522.2355,
+      "max_dps": 698.1042,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 227.6616,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.9922
+    },
+    {
+      "build": "ignite_caster",
+      "scenario": "pressure",
+      "mean_dps": 519.3688,
+      "ci95_normal": [
+        510.4027,
+        528.335
+      ],
+      "min_dps": 449.8706,
+      "max_dps": 549.748,
+      "survival_rate": 0.6666666666666666,
+      "mean_dot_dps": 132.6676,
+      "mean_triggers": 0,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.0508
+    },
+    {
+      "build": "critical_trigger",
+      "scenario": "boss",
+      "mean_dps": 303.3178,
+      "ci95_normal": [
+        290.7976,
+        315.8381
+      ],
+      "min_dps": 234.273,
+      "max_dps": 359.5598,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 11.25,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.7794
+    },
+    {
+      "build": "critical_trigger",
+      "scenario": "pack",
+      "mean_dps": 876.7936,
+      "ci95_normal": [
+        825.0685,
+        928.5187
+      ],
+      "min_dps": 657.0367,
+      "max_dps": 1080.0516,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 10.25,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.6688
+    },
+    {
+      "build": "critical_trigger",
+      "scenario": "moving",
+      "mean_dps": 225.0906,
+      "ci95_normal": [
+        210.2205,
+        239.9607
+      ],
+      "min_dps": 142.0034,
+      "max_dps": 308.0558,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 10.1667,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.6575
+    },
+    {
+      "build": "critical_trigger",
+      "scenario": "pressure",
+      "mean_dps": 143.7391,
+      "ci95_normal": [
+        134.2462,
+        153.2321
+      ],
+      "min_dps": 106.3532,
+      "max_dps": 199.8031,
+      "survival_rate": 0.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 5.6667,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.0
+    },
+    {
+      "build": "block_trigger",
+      "scenario": "boss",
+      "mean_dps": 397.1745,
+      "ci95_normal": [
+        383.1636,
+        411.1854
+      ],
+      "min_dps": 328.8482,
+      "max_dps": 449.162,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 6.75,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.9952
+    },
+    {
+      "build": "block_trigger",
+      "scenario": "pack",
+      "mean_dps": 1368.3569,
+      "ci95_normal": [
+        1329.9207,
+        1406.793
+      ],
+      "min_dps": 1178.4223,
+      "max_dps": 1508.5304,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 11.6667,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 1.0
+    },
+    {
+      "build": "block_trigger",
+      "scenario": "moving",
+      "mean_dps": 212.2156,
+      "ci95_normal": [
+        196.7253,
+        227.7059
+      ],
+      "min_dps": 126.2175,
+      "max_dps": 314.6992,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 8.0417,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.9947
+    },
+    {
+      "build": "block_trigger",
+      "scenario": "pressure",
+      "mean_dps": 391.6384,
+      "ci95_normal": [
+        376.9753,
+        406.3016
+      ],
+      "min_dps": 330.3773,
+      "max_dps": 462.8376,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 10.1667,
+      "mean_life_spent": 0.0,
+      "mean_hp_end": 0.3137
+    },
+    {
+      "build": "life_burn",
+      "scenario": "boss",
+      "mean_dps": 1511.8309,
+      "ci95_normal": [
+        1504.723,
+        1518.9389
+      ],
+      "min_dps": 1483.8399,
+      "max_dps": 1545.1311,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 6393.92,
+      "mean_hp_end": 0.3502
+    },
+    {
+      "build": "life_burn",
+      "scenario": "pack",
+      "mean_dps": 3727.7258,
+      "ci95_normal": [
+        3693.3837,
+        3762.0679
+      ],
+      "min_dps": 3538.5416,
+      "max_dps": 3887.8506,
+      "survival_rate": 1.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 6393.92,
+      "mean_hp_end": 0.9996
+    },
+    {
+      "build": "life_burn",
+      "scenario": "moving",
+      "mean_dps": 646.5157,
+      "ci95_normal": [
+        607.4209,
+        685.6106
+      ],
+      "min_dps": 454.7042,
+      "max_dps": 860.6251,
+      "survival_rate": 0.7083333333333334,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 5893.2467,
+      "mean_hp_end": 0.0145
+    },
+    {
+      "build": "life_burn",
+      "scenario": "pressure",
+      "mean_dps": 706.4381,
+      "ci95_normal": [
+        678.1598,
+        734.7165
+      ],
+      "min_dps": 586.1198,
+      "max_dps": 856.962,
+      "survival_rate": 0.0,
+      "mean_dot_dps": 0.0,
+      "mean_triggers": 0,
+      "mean_life_spent": 3412.8467,
+      "mean_hp_end": 0.0
+    }
+  ],
+  "changes_for_revision_2": [
+    "Bleed rate 0.60 to 0.18 and direct physical attacks only; persistent rift no bleed.",
+    "Spell growth +12% per level; attack growth remains +2%.",
+    "Critical focus adds +200% increased critical chance.",
+    "Projectile chains cover per projectile, then cap unique targets.",
+    "Leech 2% to 4%, retaining fixed 10%-max-life/second recovery cap."
+  ],
+  "note": "Calibration observations, not a playable balance proof; holdout scenarios were not used for these adjustments."
+}

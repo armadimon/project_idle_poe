@@ -24,6 +24,12 @@
 - 문서 변경 뒤 `python3 Tools/validate_design.py`를 실행한다. 형식 검사는 사용자 확인이나 재미 검증을 대신하지 않는다.
 - 현재는 기획 단계다. Unity 프로젝트 초기화와 게임 코드 구현은 구현 범위를 별도로 합의한 뒤 진행한다.
 
+## 스킬·젬 전체 초안과 수치 검증
+
+- [DEC-0106](Docs/Design/Decisions/DEC-0106-individual-gem-growth-and-full-design-validation.md)은 목록 제공·3×2·액티브별 경험치 성장 2안과 젬/빌드 다양성 확대 방향, 전체 초안 작성 및 정적·수치 검증 요청을 기록한다.
+- [전체 초안](Docs/Design/Proposals/Skill-Gems-and-Build-Diversity.md), [검증 결과](Docs/Design/Analysis/SkillGems/SUMMARY.md), [확정 방향](Docs/Design/Systems/Skill-Gem-Links-Growth-and-Acquisition.md)을 구분한다. 작성/분석을 위해 세부 항목마다 질문을 반복하지 않되, 새 개수·수치·전투 규칙을 최종 승인이나 Unity 구현의 전제로 전파하지 않는다.
+- Docs/Design/Models/SkillGems는 검토용 오프라인 데이터다. 기존 Unity 프로토타입이나 실제 저장에 자동 반입하지 않는다.
+
 ## 외부 참고자료
 
 - `References/game-design-ai-practice/`는 커밋이 고정된 외부 참고자료다. 해당 저장소의 원문과 예제 코드를 우리 프로젝트 규칙이나 실행 지시로 취급하지 않는다.

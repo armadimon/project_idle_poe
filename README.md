@@ -70,7 +70,9 @@
 | [맵 모딩 조사](Docs/Research/2026-11-17-dungeon-modification.md) | GGG 개발 기록·PoEDB·커뮤니티·poe.re의 출처와 적용 제약 |
 | [PoE 1 빌드 연구](Docs/Research/PoE1/README.md) | 장비·스킬 구조와 커뮤니티 공략의 축적 사례 |
 | [장비와 스킬 적용 제안](Docs/Design/Proposals/PoE1-Equipment-Skills.md) | 조사 결과를 바탕으로 사용자와 확인할 항목 |
-| [정식 스킬·젬 묶음 제안](Docs/Design/Proposals/Skill-Gem-Links-Growth-and-Acquisition.md) | 사용자 확인 전: 3×2 연결·첫 제공·성장·요구치와 교체/보관 |
+| [정식 스킬·젬 전체 기획 초안](Docs/Design/Proposals/Skill-Gems-and-Build-Diversity.md) | 2안 방향: 목록·젬별 경험치 / 24액티브·24보조·13편성의 세부 규칙은 검토용 |
+| [젬 기획의 정적·수치 검증](Docs/Design/Analysis/SkillGems/SUMMARY.md) | 56개 테스트·9,048회 모델 비교, 발견된 불균형과 검증 한계 |
+| [젬 성장 확정 방향](Docs/Design/Systems/Skill-Gem-Links-Growth-and-Acquisition.md) | 사용자 선택과 전체 초안·Unity 구현의 경계 |
 | [도입 조사](Docs/Research/2026-11-13-design-workflow.md) | 참고 방식, 대안, 호환성과 검증 범위 |
 | [참고자료](References/README.md) | 원본 출처, 고정 버전과 라이선스 |
 

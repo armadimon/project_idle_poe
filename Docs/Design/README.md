@@ -95,7 +95,9 @@
 - [맵 모딩 조사](../Research/2026-11-17-dungeon-modification.md), [재화별 개수 추첨 조사](../Research/2026-11-18-currency-dependent-dungeon-penalty-counts.md)
 - [종결 장비 경쟁](Decisions/DEC-0008-endgame-gear-competition.md)
 - [종결 장비 경쟁의 평가 기준과 세부 제안](Proposals/Endgame-Competition.md)
-- [정식 스킬·젬의 연결·성장·획득 제안](Proposals/Skill-Gem-Links-Growth-and-Acquisition.md)과 [조사](../Research/2026-11-19-skill-gem-links-growth-and-acquisition.md) · 사용자 확인 전
+- [젬별 성장·다양성 확대 방향 승인](Decisions/DEC-0106-individual-gem-growth-and-full-design-validation.md)과 [확정 범위](Systems/Skill-Gem-Links-Growth-and-Acquisition.md)
+- [스킬·젬·빌드 전체 기획 초안](Proposals/Skill-Gems-and-Build-Diversity.md)과 [PoE 원본 조사](../Research/2026-11-23-poe1-skill-gem-build-layers.md)
+- [정적·수치 검증 요약](Analysis/SkillGems/SUMMARY.md), [실험 표](Analysis/SkillGems/REPORT.md), [초안 데이터](Models/SkillGems/README.md)
 - [장비와 스킬의 PoE 1 기준 결정](Decisions/DEC-0005-poe1-reference.md)
 - [제작의 PoE 2 기준 결정](Decisions/DEC-0009-poe2-crafting-reference.md)
 - [제작 조사](../Research/Crafting/README.md)와 [우선 논의할 적용 제안](Proposals/Crafting-Endgame.md)

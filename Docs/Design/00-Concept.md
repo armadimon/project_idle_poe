@@ -46,6 +46,8 @@
 
 장비·스킬의 작동 구조는 PoE 1, 아이템 제작은 PoE 2를 기준으로 삼는다. PoEDB 계열 데이터와 제작자·커뮤니티 기록을 조사하고 세부 사양은 사용자 확인 뒤 정한다.
 
+정식 젬은 [목록 제공·개별 경험치 성장 2안](Systems/Skill-Gem-Links-Growth-and-Acquisition.md)으로 방향을 확인했다. 사용자 요청으로 [스킬·젬 전체 초안](Proposals/Skill-Gems-and-Build-Diversity.md)과 [정적·수치 검증](Analysis/SkillGems/SUMMARY.md)을 작성했으며, 24/24종·성장량·새 발동/피해 규칙은 검토용이다. 이 요청을 새 수치나 Unity 구현의 승인으로 확대하지 않는다.
+
 ## 사용자 확인을 마친 사항
 
 | 항목 | 확인된 내용 | 근거 |
@@ -91,6 +93,7 @@
 | 전투 조작 | 완전 자동 전투이며 전투 사이에 장비·스킬·도전 대상을 선택 | [DEC-0002](Decisions/DEC-0002-combat-control.md) |
 | 주력 플랫폼 | 모바일 우선 | [DEC-0003](Decisions/DEC-0003-platform.md) |
 | 장비와 스킬의 기준 | PoE 1의 방식 | [DEC-0005](Decisions/DEC-0005-poe1-reference.md) |
+| 정식 젬 성장 방향 | 목록 제공·캐릭터 3×2·액티브별 경험치, 젬/빌드 다양성 확대. 전체 초안과 정적·수치 검증 작성 | [DEC-0106](Decisions/DEC-0106-individual-gem-growth-and-full-design-validation.md) |
 | 아이템 제작의 기준 | PoE 2 | [DEC-0009](Decisions/DEC-0009-poe2-crafting-reference.md) |
 | 경쟁 방향 | 종결 장비를 통해 경쟁 | [DEC-0008](Decisions/DEC-0008-endgame-gear-competition.md) |
 | 경쟁의 중심 평가 기준 | 같은 도전에서 제작한 장비·스킬 조합이 낸 자동 전투 성과 | [DEC-0053](Decisions/DEC-0053-endgame-competition-centered-on-auto-combat-results.md) |

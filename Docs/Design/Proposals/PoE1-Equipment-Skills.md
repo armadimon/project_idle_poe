@@ -2,7 +2,7 @@
 
 사용자가 확인한 방향은 [종결 장비 제작 중심](../Decisions/DEC-0007-endgame-crafting.md)과 [장비·스킬의 PoE 1 방식](../Decisions/DEC-0005-poe1-reference.md)이다. 제작 작업은 [PoE 2](../Decisions/DEC-0009-poe2-crafting-reference.md)를 참조한다. 아래는 [빌드 조사](../../Research/PoE1/README.md)에 따른 후속 제안이며 세부 사양은 사용자 확인 전까지 미정이다.
 
-제작·장비·첫 고유 효과의 승인에 이어 [정식 스킬·젬의 연결·성장·획득 묶음](Skill-Gem-Links-Growth-and-Acquisition.md)을 제안했다. 새 묶음은 사용자 확인 전이다. 아래의 초기 소켓/색상 후보는 이력으로 남기며 정식 채택으로 취급하지 않는다.
+사용자는 [목록 제공·액티브별 경험치 성장 2안](../Decisions/DEC-0106-individual-gem-growth-and-full-design-validation.md)을 선택하고 젬 다양성 확대·원본 조사·전체 기획 및 수치 검증을 요청했다. [최신 전체 초안](Skill-Gems-and-Build-Diversity.md)과 [검증 결과](../Analysis/SkillGems/SUMMARY.md)를 따른다. 아래의 초기 소켓/색상 후보는 검토 이력이며 정식 채택으로 취급하지 않는다.
 
 ## 보존할 상호작용의 후보
 
